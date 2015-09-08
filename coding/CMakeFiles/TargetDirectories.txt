@@ -1,0 +1,10 @@
+/home/rome/h2O/CMakeFiles/examples-http1client.dir
+/home/rome/h2O/CMakeFiles/examples-simple.dir
+/home/rome/h2O/CMakeFiles/examples-socket-client.dir
+/home/rome/h2O/CMakeFiles/examples-websocket.dir
+/home/rome/h2O/CMakeFiles/h2o.dir
+/home/rome/h2O/CMakeFiles/lib-examples.dir
+/home/rome/h2O/CMakeFiles/libh2o.dir
+/home/rome/h2O/CMakeFiles/t-00unit-evloop.t.dir
+/home/rome/h2O/CMakeFiles/t-00unit-libuv.t.dir
+/home/rome/h2O/CMakeFiles/test.dir

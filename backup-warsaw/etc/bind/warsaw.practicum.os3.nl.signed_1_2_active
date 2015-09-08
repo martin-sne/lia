@@ -1,0 +1,746 @@
+; File written on Fri Oct  3 01:17:57 2014
+; dnssec_signzone version 9.10.0-P2
+warsaw.practicum.os3.nl. 600	IN SOA	warsaw.practicum.os3.nl. martin.warsaw.practicum.os3.nl. (
+					2014092312 ; serial
+					900        ; refresh (15 minutes)
+					300        ; retry (5 minutes)
+					3600       ; expire (1 hour)
+					300        ; minimum (5 minutes)
+					)
+			600	RRSIG	SOA 8 4 600 (
+					20141030201730 20140930201730 31884 warsaw.practicum.os3.nl.
+					fAolBqNzr8rgXYl1+1NfSeIJMt24eK1ADdy7
+					ETOOPR3guufUUVZvjf0/xawQoq+lhZGaNG8h
+					cyO6xpfDt857GhET19tOgHsf4xvLTHRI17jy
+					zDk2NhVgwgKo+k3ghGkuKTYWB1c3JsDmlfDi
+					s3hAoVIhXqnGDnt58Dji/eZbCrsKQQ2si0k9
+					oLw6h5I0jEnq5Pp4HQVk1qrt+kSMWOdza7js
+					5+g0mCjlEuCtUIvj19LFsjTPCqDlryTNkki9
+					iEhLllRrgupDATAgmtdxg8mWOW9rz21OPR+4
+					I1IZQYh9L98oF0kBBlSlmqWMntPxhsWAfTvy
+					fms2IxYMxEuyYVAeKA== )
+			600	RRSIG	SOA 8 4 600 (
+					20141101221757 20141002221757 55680 warsaw.practicum.os3.nl.
+					AcjcVeCgexqTkpdT5SpDqnAiyJocJThyYpnT
+					LKkKfuB0HJvD8ZzEbiR5cPuuklrL7jfRL6+F
+					+v0ifTeG+K1H/tcxWpChCHXK2CBqAhRNClTs
+					imMH6I72JR0JzeGewKtGRZ50ByGV7U5T1vqy
+					3a7PsU3isUBa2zGTnT3W0ZCAnS5HWv3RD1LD
+					dttpD9TxZU0qA3gNZ1pvnV5V3xc3vCtkn8V/
+					oOjXKBM5iteu3JLOfQcItaBMJWdnDwEdaj4j
+					qhOgmzSjZ8XKYYfVAOydfSN6ApPlQcabpTSg
+					RG/Hqp5G/bNmx2IqsDEdHYiHPhJl823LJppf
+					2h17AprxA7ZhNYDpjQ== )
+			600	NS	ns1.warsaw.practicum.os3.nl.
+			600	RRSIG	NS 8 4 600 (
+					20141030201730 20140930201730 31884 warsaw.practicum.os3.nl.
+					L9gBQS53e0mDtdGbqAwHCumSwy8jMxIJMH+6
+					LLOvg4b2zXb9CVIDHr5bRmnaQ3o1WuKyGFb2
+					Wjt8UyeOwFOq2683wvqd+twNemRMIJKV2ex5
+					V1vcWTHKSuPvAUiI9JeK9Sb5onshKJ9Nw0aZ
+					o6Rl0HLJ9oJNbxeh26lLgaHes5VX9WFnF3cS
+					rVgvT8Ov2X2KSlR1tTBnhm6wFCnQO4ihFc83
+					Fqj+7mVlG6hw8fqxyYdXIvtSI+nqSM1qlMs1
+					bjtKEnaHeUrvddCYG6pZ4F/mRHQftmUVSeiW
+					P7CL9rNcujxYRYfirfZbmgmc81ryRC/UTtg5
+					4aLfRBPzPpoDagCvMg== )
+			600	RRSIG	NS 8 4 600 (
+					20141101221757 20141002221757 55680 warsaw.practicum.os3.nl.
+					kJtBPMZIn7dbBuz4lxYC8TCa4riX3YSSVNRo
+					YYTh0ROwK9lFORTgrm7Ek7DL+aMM8Ze02ULf
+					FPmJ6iJY5q+CUFnpPu10yNM6yhD5EmFSKq/A
+					qSV9oHGPBBYTDkNIN7mo/iDmZlT3HHEol8Cb
+					qmJweahqzujaAH8hPI8LeNkybbaBve8YIgCQ
+					bk0BgLrnD5oSwXbe+Ko8XyK+s3aVzAKHI3xE
+					gsx40eBHVcElhATrqhd9cVKH28o8uC0xRRYc
+					3r54DHjLS/MF66q6yYk4p5/0RwUVEBDO8eHm
+					gfJoC8ilcqcf+97iU37Lel9VpUFDoa3/bwk1
+					HA85qnCwmPgWuPUd9A== )
+			600	A	145.100.104.62
+			600	RRSIG	A 8 4 600 (
+					20141030201730 20140930201730 31884 warsaw.practicum.os3.nl.
+					noaFAe+2SC/OrOENB//84LL43PCGY6UbNIJV
+					plhxCf/T7SvCO0H/uKjgvfIXT7jLLbHrLKOH
+					2H+fuITjlWkSjKZcnXz3AVIbZ7/6tXuOYKJX
+					KJaCwo7AveqRD0He+KZVvFNouNlcu57kZX5S
+					bgBga4pEG4Zp5fCeskMcwGjmAIL2HAWIBnFV
+					X8tiLPs4KisHeqCJ9xICDXskowyN0NoftwtB
+					VxST0rpOiYH9osCg0DM0noAVcEDivHJK8u0G
+					KlsVZidlSCsEdp9fAbadBXe9yD++Ffs9W4Gu
+					Btw24lJgeRJ0Ev+d4ek7hoXbJPh8crwBNaKQ
+					YdXpsm2oKrTKjvFWhw== )
+			600	RRSIG	A 8 4 600 (
+					20141101221757 20141002221757 55680 warsaw.practicum.os3.nl.
+					ZkOZ+EBrFzGE7Z3LGs6y4DEACY8D1JvcVCcx
+					BcXONJgh7ltSAkPMT1ru3UsRQCD32v2DH2ph
+					MvpQLvVi+BOhgeCqh2aj2SPulYmF1MQgSRXW
+					XT9DsHkLlMbOUxYKMUBnEqssXiygPpwCIpBK
+					fjzOmQ6yStXX3lnnCQkSNB7E9y+/Nv7mltFr
+					Hw/n0dgxTXygWuHsBXFlsUpMWKBN4mEXAAwa
+					1SSCsMACQtvNstFXfnM2DDWnZHZyO7912i3I
+					BNcwjSNdbpKldU5bf8GmiFVUIP1CxPJAtK40
+					aX+/wF9rNltM6q+gUx4mcK9qUeKyWHXn8HBq
+					Uidbm6QDmvQxH5bEPA== )
+			600	MX	10 mx1.warsaw.practicum.os3.nl.
+			600	MX	20 mx2.warsaw.practicum.os3.nl.
+			600	RRSIG	MX 8 4 600 (
+					20141030201730 20140930201730 31884 warsaw.practicum.os3.nl.
+					QlOoXrTApT5T42CmIo1pBh7WHJUEY50JpRmb
+					+1sMOs2qbm8XkqeiiqJh13QUhxHRoOZVCTNS
+					dFp1j3dYVEsvFjxTajxc+bPsOn8d5dOXQGf2
+					c3s3qolSWkrhnxg4k0+04PRn5PLLLTvBjjq0
+					8bzq5Kjc2GTNbZDwrUEKgMjX8MDgtPd4LOMt
+					I+ErfO2Hf8IN0SOp/8mKPzLK/+tEY8ju2DLX
+					/M+XHdKW/qCxQbsoI796yHL0IYH0IHQzL87C
+					rVVWqStT+rwXDzl2QY7ZzqZVUqNlEsmH6ejr
+					4YmeDmGpM6EMqmEDGjzouWEKlPmJSz2X5mxE
+					cARIjDW8I5kKxSrCxQ== )
+			600	RRSIG	MX 8 4 600 (
+					20141101221757 20141002221757 55680 warsaw.practicum.os3.nl.
+					Oo4IhPQHbxSNZmYawZ1oHnqFDUOfNuhVAfQv
+					HhGtUNN3Y3wCKTOZRmWRQj27N4wwZtZGDpDl
+					VngproGenXMjOhLy210OKTzTAzkM3wbwYA6f
+					bq/TYnTJB7worWsx8p8UvnqUO6NrsMYIpi83
+					ICBSTWwYAY7u8RfXeBFolhon1WfJT+Hn9+IW
+					jY3EnmIt7pqY2Ql8/HFNEtfPLNBxaSexIDjB
+					3xoEKnRyusdIis6EnEPuVVu0wiheQLRBW/bQ
+					1D2cjGzUcR5Uw/EHVSwZtcdTdyTwJW1mAqR9
+					xurz+Nq7Xb9vIkBjqne0y9MlLW3yOcMsXR62
+					p0VzCvBkhTho6lkvaw== )
+			300	NSEC	*.warsaw.practicum.os3.nl. A NS SOA MX RRSIG NSEC DNSKEY
+			300	RRSIG	NSEC 8 4 300 (
+					20141030201730 20140930201730 31884 warsaw.practicum.os3.nl.
+					wfFLbYB8l3b5HzgH4dGgjfAlXkR6PjKb3Fed
+					vA2qq9xFKSR5APCo9wEOPrOoaki8grIZPuKO
+					fiDPFsiguSRCmkc4UgT0lR918Ak1Fi3jM5sr
+					+JEnsyqOBX+ND0d96apjIcDSxtqoioZ5pmZn
+					qsE/R6zMqKXQGd+9c4ktUMibHEESG+qgTi7B
+					V8QsBKgV7OHS6QyP8lg0QIDSpmCi+CVYXGQ+
+					d4iHKjrwxHoqvkU3lJrwjU1uuyYprzZlzpLy
+					0R4Ku83Edve42E6DPB7Lz9qyh/UXCRIlHP0o
+					d+qG+nCu+cceoF2bQkNEMrMcCgaSNHcoSo+P
+					fO+1WEGT4AUu9nMEUQ== )
+			300	RRSIG	NSEC 8 4 300 (
+					20141101221757 20141002221757 55680 warsaw.practicum.os3.nl.
+					b+gq1reYOPMhDSN85YueA6E4uCPhBD5zQxzO
+					Z7TodiNjscrWPSIJFooiFgcK3OaupXmmhzu7
+					M/QNFmfJsTcoPOIv/I3llm/xyqNFhk2oXc/W
+					O6OMYGHLzckFI6bI3u6QCQkY4WvZ6TDanO7b
+					2jZgItXVnXL9oJ5+Ix+gkbFq8k8bztHJXF61
+					jUkCKPbuJ/PZ4I3l+7g7swmpae84pb+JhCAq
+					b8EOM0+D4bknYZO2bxioqqK3EbMAwE3+J92i
+					0soZgfncf2Kfp9I7w0QtBaT7d0fuXYuHrdLf
+					PnID/43Rvd9cZMMuIBP8+fWGm7Rj7npbltm1
+					CXe7j2Pdu9zID+mg5g== )
+			300	DNSKEY	256 3 8 (
+					AwEAAc2tSVkQ7QsaguBz6MXsGU282unJUF7B
+					g6YrTX/akggPUL0kW9wNAzBIHqukJLzkNnGl
+					L8TLCLJn4HBFrtBN7n1tuu8E0BPbmIIzuAMd
+					N3RwUf7cwYQ/gNL2q4pdMMLOUBrkTd288wRI
+					S11UhHOKC481dLuFXnqb0mooa0zd9Y9RsrCR
+					6HSG4oNKTqtHVLOStG7q+3dvPk0x35rVErYY
+					JyXZ7b+jiQzVuzCL4Q2KJlOkPSrW4nIWmTpE
+					JK5kNACA0KbG6mPemDckG/saAqlODljNOq9P
+					EVupkM4K7ekKzs0jlDX3VYgCx14Rm/2oyWpO
+					Lp0Zv5+2vWilSvaMSe5QBmM=
+					) ; ZSK; alg = RSASHA256; key id = 31884
+			300	DNSKEY	256 3 8 (
+					AwEAAdzWb+vULI9iHn/gQQBr7aLgxhXpPWvp
+					gpB6aTrPXYNkkHShHQ4NMf2L0T6lRV91xpwH
+					yQUK3KlrOi+pzuneOdP26MQgZ/KHGom3ZeiW
+					ch8PbcH5K1ygTNIlWCy1Js7w/WAue1kzCMbL
+					sB66D8DX4R19JJrbB+gUamOinIYySyrEN0xu
+					YXW2Ek+dsPCfPjzkkLtxrFQqsKPbMhJrfOgR
+					b3mJSKLX7O73kvFpKcC8KKbi9DiXCsHHTXof
+					7vg7ioW3HsgG81Jfi/PMeSL1YaHo2DJGbRaW
+					9qqW5gYRWvesdNzrZ/aiY7RHgNsYRFdkoNFD
+					9eJ+1E+Bdi/rQHC9MoUAng0=
+					) ; ZSK; alg = RSASHA256; key id = 55680
+			300	DNSKEY	257 3 8 (
+					AwEAAc1DA9LgUl6a0kheg6OLhzO91HeCHS2d
+					z+88T6MftFMXvJAveZVeWS+l65/QrTJ4HAPA
+					5NJ/zvGfeDURL5fPdV/UH60p60leTPGb+Hvo
+					xVK+XTHvSMrQQz1G9xRRSqCV6uDnlL6/0lPP
+					nKZL0vqFStbBlu2CB36NaS+JyWa3WXdupib3
+					3DWCMMk0jTicWZdwMsVCgr7tF4sL76d5uO0X
+					HN7llRcYnqvd/F0Nd4jaTxR/uzfTDoGO20Fj
+					ccBeTi73cNRXuFu1DQy3zJxZ96asci4ovv32
+					8u6qDm7z7R2Tfy10f1uXBTLIF/3HU9+21DfE
+					llQQc9351eVr6z8UQsKAF+k=
+					) ; KSK; alg = RSASHA256; key id = 34105
+			300	RRSIG	DNSKEY 8 4 300 (
+					20141101220239 20141002220239 31884 warsaw.practicum.os3.nl.
+					btFIwfMZzuR+5qOzv/ugUfZM9XD7OdYQaXNZ
+					ABmFYdkFDj2+whQ6eG6rcyYj7QssF1zf8Zcg
+					PUjqLJSblN//eYUzTzok0O6Hz84nlL/lI4uM
+					380cOUycwTFUMKiIeAs6EX7BtdkleJ6bL5VJ
+					j0xYaixs7gO5BWDJCJXcmj8Phevt3+XhD7nN
+					ZQeLVB0YE7Se+c9g0JBT5qAy1bTdcEgW5by7
+					GPPpnkjAaba4dMfg0XoINYu7ll0/StSdmgoH
+					ngMzvV8xL7NPXck+1K2z93FoNgZs2llz9QiQ
+					JMah3wSC7cm1UWpRBeebYA0QRlil7Novo6/s
+					jSwnfmDvJPNk3qUSMw== )
+			300	RRSIG	DNSKEY 8 4 300 (
+					20141101220239 20141002220239 34105 warsaw.practicum.os3.nl.
+					h5SYQLJMM+/y1G6ichCDJJcwFTE48CFJ3k2+
+					xUSGU6eb2Qyrj4dwyS7viP/zzOdB835b33i/
+					DxcPAhAQbUwFkekApKgxb36yBSf4B/zghEJN
+					jLVdo/tpgISCKyzmfc490YUHrAR14I4Lj9JL
+					9nbmuzv6fkioMQPhK9f2r4ujNEIGKys3PM0f
+					IbS6jr7QrK2uHCldVcDz8cUdZMlRnCJqqMJL
+					cEVBRkWXHYyrBPfkPz3KEzkMHFeqYmmdn2m4
+					W1DMOXw4knO6elkXMQ72eEzTBOQirJ0HhQ/m
+					FH4FfAzWMecy0jsWov6Wb9GHup9s2aWMj0BH
+					qz9/5p5BYIIvw66HbQ== )
+			300	RRSIG	DNSKEY 8 4 300 (
+					20141101221757 20141002221757 55680 warsaw.practicum.os3.nl.
+					tnsRAZ2/3Hqnqfc6tYupSU3R1AF8iXv+TAJx
+					qOrLVQPllaViF1YypNyLljzZa/1bp5agWuC1
+					QD9AlypaI2eHXLJhIFdHwLy5D+k6xnOx3MWx
+					yAGa9tiGhgcizP76287bHtXpwzxitz9p1f8d
+					0fRIJiUKR/rTd4unzibrgO7DZz/bSL1m41Cx
+					OWJRCEcBltIHxZ73YA8z/q5TI/28s3eRVflG
+					iv7YfMDgCsWM7nCazvHk/wsZuMWiTmEEF4q0
+					KEu5cIWwMoQ3+bCYExynNrqo2OPdw/UFDYR1
+					T7R0KLD09Myp/SA8b/vnz3/7nRUuyZfJiAlJ
+					Bjx97g2jq8srBhY6Yg== )
+ns1.roland.warsaw.practicum.os3.nl. 600	IN A 145.100.104.176
+roland.warsaw.practicum.os3.nl.	600 IN NS ns1.roland.warsaw.practicum.os3.nl.
+			300	NSEC	twain.warsaw.practicum.os3.nl. NS RRSIG NSEC
+			300	RRSIG	NSEC 8 5 300 (
+					20141101221757 20141002221757 55680 warsaw.practicum.os3.nl.
+					zdKvWdxBJchRHKpzlxE+JE8OgHpYXulP5RAH
+					FIHhriX9HP50KdOZFDzclB1jRw4d87Ebtjmh
+					95kiorxqj0Eh36sNpglC80hQGK56DV2i8pf5
+					gxfcp9YAMvbmufWlVnPJXfqNWjIPZ+G3cMd1
+					R63aRgzlJ0vBL4QlEl3nZace0PlsQDJhjjd9
+					GiXK81ttResBJM0LzgdKDm4Zmi9yNK1zww8S
+					xfRPJR30975IzrH2qb+qxABLU0O/mjpYNG3o
+					kd3AUu2lIQwRiS4FP0AcT4narpsUaJbXpvrP
+					v4Szd2o1yTley4ou+bqS/incOKC+j8TqSyQY
+					Quz6Rj53UcTEsSpIwA== )
+mail2.warsaw.practicum.os3.nl. 600 IN CNAME mx2.warsaw.practicum.os3.nl.
+			600	RRSIG	CNAME 8 5 600 (
+					20141030201730 20140930201730 31884 warsaw.practicum.os3.nl.
+					SpONkK5eMZhPRl9qiebLi+iXidNlKvotYo/7
+					xd4vSVSaEr4zacl5HdxndUSY+tVVm9EEDTMf
+					+9YcSQE2dI/LXo/AXNyNe0E7kJT5lkYaVFwp
+					cHwdkt36ys8OWLnd3DmA11uqruDbacrHPQ3/
+					IdNPjLJCdEDr2u36KfN27c93Qso+ivvQoVS/
+					4+Mbx0RYF+9fCY9BiuKIa7KIjsZZsTqPMfVM
+					DSQuJa7ndyOuVknc2FP0NtZnWMsID0Vp7poc
+					g/FT9XU+PDOFGVYzRbncWsFUworjbu7g9cfg
+					tEIWqIuRH9COGMw6U14PFR3fsCPvJLqf/0hi
+					Cw0NxqCbbrPsjuJmzQ== )
+			600	RRSIG	CNAME 8 5 600 (
+					20141101221757 20141002221757 55680 warsaw.practicum.os3.nl.
+					LE1NnLrYznviSaoAh8XSwxd7ZkPa/vJiywMj
+					LufTEiWPGs9dkRXBZT7BVwtU1SHKCRGXsJg+
+					SCLjVaSBZhsxlMQbPQP+t9GTXo491VT43RjE
+					DnjuFH0zAdAOGyZHZihmSHaHf+RXAjkaavhN
+					kBz8r1v6TbbWWCScNXBzwssPPKMEUIn/ZW4S
+					+pyFL//vGDHR6hwx+fXAhAM6TZLKTdwe4nvk
+					BI2rmo3XtgLKUPOjB2uayFTJY6rdlHo/YKDQ
+					1Lu4TfutY/7JiNhMrJGc61YuFasrvuwZbtDa
+					lwBAEf1+rM4CvXWflULNP5HdZRBzuv8dBk+z
+					AQEv+QYa67S6dkWSNg== )
+			300	NSEC	mx1.warsaw.practicum.os3.nl. CNAME RRSIG NSEC
+			300	RRSIG	NSEC 8 5 300 (
+					20141030201730 20140930201730 31884 warsaw.practicum.os3.nl.
+					xL4WeNIIMcRfqe179cK3qOW850PFolUaFkn3
+					YYaNACa3aPewNGhAsJj7m5xPMO8AWpdJ11BL
+					iTFo4ISf8LWY57hJ0zOe994faSAciu9uVs30
+					rxNq4Rs3QabBZF7kKuTB89sPs2Kqu47kg2md
+					aPk5eYiAMaAY+G9frsDPWvajKE4zKb9tcA0I
+					hSzH6GdX/TF71+f3U/AfO+RRiKSsie1TA5yT
+					9q2wBS2+3hm0Fojq/w6hyqChKLdGhTk834o5
+					cvb9P++bppUUDcNqXBVclG4Ns2mIAmHQK5Li
+					hDXKwIq484kJUGOla83v3GXYmWamgWp6UeFG
+					+7AzvBw/d2dNxc0ywQ== )
+			300	RRSIG	NSEC 8 5 300 (
+					20141101221757 20141002221757 55680 warsaw.practicum.os3.nl.
+					tXgToE6bCjDpgRUbHlKb6vGIk5l/dp7zzRCo
+					SFilB0ikB1A+QFlTUwQOuDAbR5fTNfayj0GZ
+					6GuDJi79cNE8lCVSnkFfoUSv9osPV2WxEr6U
+					MAPYdBgsHRt8Zxnco8EkEgy63b4WuTE9wbzD
+					6iJXO6ru/Fz5/IX5C29OASgqZ4JFfqo2mEsd
+					KueY0P1cWN/45WLVct6QImL2aLHCGBJfP61e
+					6cfFvI1rzc+VcGIhpXFErlk/YJO4D/q+MNY7
+					o+ZYIptgJ/S7okHiIWrRmlip74XVZadUgPF7
+					/UnfC5bar300ZxcPu2twqELVRHhZiUbvjC2C
+					+NVS5xYPukC7bPCwag== )
+mail1.warsaw.practicum.os3.nl. 600 IN CNAME mx1.warsaw.practicum.os3.nl.
+			600	RRSIG	CNAME 8 5 600 (
+					20141030201730 20140930201730 31884 warsaw.practicum.os3.nl.
+					FTebTvaRBaDk5bQwYRcskhG5ErKN3pxdFj0A
+					u8KvqNTAZ+na/Tew7kbWD4D9Yz8hNcQhmpYg
+					DHUAd9EHFL/iee/gJ/chicLHS+qeZzDEKKN+
+					lmcKzxeWjG439Y4c1d+DCzyvgeurGnwW99Fm
+					h3hETx2J2nb3z7b2UO/koZC8jZpq5DyMj3+K
+					dof4i7hos2d4RcldpAeqyfVv1JP4PcNgLaoE
+					c7M5013codaMjMJmPLtETsWBNEotFYRDearQ
+					1E5pUPx15fBNzzW04WxqMVb0819AmzbhTJE0
+					IQpU8/we/MeY6mP1tCZxLRZGAqEnJP/CUie3
+					tzq9FtZmKVm/nVKaNA== )
+			600	RRSIG	CNAME 8 5 600 (
+					20141101221757 20141002221757 55680 warsaw.practicum.os3.nl.
+					Xjy/bzJHT+3yKQtaXJAAtfLmuRHqzhr+G9K6
+					ZoSaZoNJP+62NdXdo3YmI7B+XyHVix2vZKSn
+					Rd9nefV20AGFvREfPBwMcLLKqAmxqSKI5Jvj
+					GoKVnumrCVnvzCgVNvWL9dN3bmUvikql83zD
+					n3VANo1KkJqz8tZsk8eTdMMnm7m5udbpMkmS
+					YaIV3QnCsRcm3UaUBUnnSNoC/xeVZjAG0WJc
+					gYCvci6YRAtT1wPqSWAX2M8s8oQHT/U7T5TH
+					kSLhfr4yGLrpp2RnyYQyC1ehzuYi4wEyOo3J
+					fGOCSxpsvqRrY5+C4DieRWYTtt7eNzTyK7fW
+					OU0vOlUusRH6monJ5Q== )
+			300	NSEC	mail2.warsaw.practicum.os3.nl. CNAME RRSIG NSEC
+			300	RRSIG	NSEC 8 5 300 (
+					20141030201730 20140930201730 31884 warsaw.practicum.os3.nl.
+					TeK+28pQtI+fnQZgCjH2OhsU/mU07KTtgb6W
+					Usag6FjflQDw8EseKCYswB7WmyK7Y1H40bgn
+					yDpDX18O6BXBFiBAfavcI9Cz5UDoHf00TfZ3
+					g6I29SjKULRLTMYURGpgvGa3G9kZaxlzXvsA
+					b+GD3A5lNNVXcqoMXOakKp6UWg+IkDx1cH+B
+					ZWfJN7kg/b79ioRADzwi3CpbeOCNG0pA/h9S
+					nzrHe6og8DSp5XjeYNQ1wPLDDE5hjTdWFq1J
+					jT5VFGY3XYH3Wx0gciGL/XJ2G3O/nzhi9Ic+
+					c8RU1Kgq0usj91zxNqhUMbaBTs0BtWGl5VzM
+					ijrqv7/ivTxRN3O5JQ== )
+			300	RRSIG	NSEC 8 5 300 (
+					20141101221757 20141002221757 55680 warsaw.practicum.os3.nl.
+					l1sYUoYhURfk8onxtIcCDqBoe5vsIhM2wqiC
+					voJrpSTrETSPHmRYzZZAAUoQvJweQ8zk/13+
+					z+7zBB1Q6/AStGnKB2ZzXOstFHKh+uSEjo45
+					pVGixDwbUwmqPMCjK8QKzS4Hlw7TXv8EjTf2
+					ls2biwPhYnGZabgIIf/0S3M0jhuHXD/UnOJo
+					igUCZFZZ5nYhVjAMPTM+dQDjFVpJGK/Q0TL4
+					K6Kva8LcfkDjquxkZi8e8Mo0PZecIPgXrR2f
+					+3z/ogwmr+RipzqfQsRk5su4VyxoCjkeaH0B
+					5mPBTbztK0lrpp55aEmMF8HQW4wonfW4hGqM
+					zx9f4B0PghC7A4LMXw== )
+localhost.warsaw.practicum.os3.nl. 600 IN A 127.0.0.1
+			600	RRSIG	A 8 5 600 (
+					20141030201730 20140930201730 31884 warsaw.practicum.os3.nl.
+					myuWKxeNdzM/X+0lxhS7OaVQnh5o5ka2TAXM
+					mOE85pRsXLwgJef+na/YSZuo1BjPgv+KjdKO
+					Dx79e+bHsAGlXFRI9dtUZjGX3HNbEo4v9U6c
+					hlrg3B7rt0cVX0hBJzi30heXo0kGY135xCfQ
+					AlZmdZ2Z4xVzlBkzigM6OuyDNXM9InUfVJF9
+					QlX/6Zo2MN3cUAZEfLc0okF26KK0MZl/1d9Z
+					wC2xRef22GZKvcLKpISRl0RQhAHCZZwYtRZl
+					aHObI6nRdJlBiD4wrSsaNQaXYog4mJQS/+vZ
+					epnK6WQqiI0XHXvB2eTwTYHABYmopldvJPcF
+					gHulYECpOFRuyw96Vg== )
+			600	RRSIG	A 8 5 600 (
+					20141101221757 20141002221757 55680 warsaw.practicum.os3.nl.
+					zo3NrYMMnLIrI0Xph2xoOATDDOBBBUXsaheI
+					LYub/F/olKBh8nu1z7RMHeW4Kn9ra0OV44Fb
+					aikk9Pw+5aaYXvpDPkooTdII68vnSiq59h3h
+					BOcqrXKkiHLN6ipOazWSixEjARw5TN0RZ0lP
+					QBmccXVnUUFrfUzAHUWRxSq30PLW0IJsrqor
+					3QMb1I6dHF5GvN1jDr4lQsJxjMydrmqK+G80
+					K1uf/8fHerX8u9pmaTQEXwTi1cRQjwv/6sin
+					1t0XKHe03t9Is9phBfxymgYBYj1cJgR09Fqd
+					D0n8cvs1j5gmVjl6yChDO2Tk+KhinTcAcxtU
+					mWlA/+N9WGzs0aPuyA== )
+			300	NSEC	mail1.warsaw.practicum.os3.nl. A RRSIG NSEC
+			300	RRSIG	NSEC 8 5 300 (
+					20141030201730 20140930201730 31884 warsaw.practicum.os3.nl.
+					aDl+atthxGyCzKt/dru9s3YPjS9/rR19KWDV
+					kLrRUqktCPQoMUIer9KhkpFsCiEWl8wN1IRg
+					W3WzIsLMMDQe1qBg8kot6OSXPpvbjK+fNm9V
+					S4ORPWkIp5ELGHXm82vhPRKij+QgHFOd/gKe
+					rvLCGw2563p4Ojc8WPcL20l/8yDviq8V4SSR
+					oZ+clnTkRoA3Ynk8EHjfi4xVVz/mZnfOQVCC
+					Qe4SuExihJE8a2EkyRiv97EGkHX4XVSox1SH
+					4/JxnxhqKfJoM5+UbdowrEczRo1IW2Dozfmz
+					Ivb3rPD9Gk++bliN4dvgRXLD2m08WVSKKuCW
+					qSscWO247fI9fjlCrQ== )
+			300	RRSIG	NSEC 8 5 300 (
+					20141101221757 20141002221757 55680 warsaw.practicum.os3.nl.
+					MZ7AQJG5gh3ehLSB7gWkSPUieSEteaPpSdXC
+					PbeQXobW0GJpsTvp2kjvxLH5w8oMQ5suBdmc
+					lwN5mSpVN7JevATH2GgYsLzwVP7PR6ODWzXc
+					mwH5VkYk8ZcWN6M3Fq/FZoRfbQFRL+vl3noh
+					zI0WRk7Oz4QpX7HOOo+A3GPlqfSuc4lRNvpm
+					slXVTGF9PaDVkw0d4cVlSi5fivTBlEn6W/VO
+					Qq4g7Pa/qbwawmVXtrtaXICvg1ggNyCIkyxy
+					nHClPh7wvPYsm7xkrS4yf2BbGCFOxGO/aLGZ
+					ZSgvMtX+XvSYo62dA4j1ELXM1qK9RXYWsddq
+					gB+IiJ8eIYDPxYGBYQ== )
+twain.warsaw.practicum.os3.nl. 600 IN A	145.100.104.59
+			600	RRSIG	A 8 5 600 (
+					20141030201730 20140930201730 31884 warsaw.practicum.os3.nl.
+					QAnFeFefEn+NYi882s56W3UVGIHTSwB2gKZq
+					duDfzbCmR44kwzXe+Up48/jKWH7IU3DfAMFz
+					hD7r+kbf+PWDk3iroYgIbMPcH/Zl9U5VIL5I
+					1zJMo8ccaozMfYM8X53t38eaOSQ6Slz+pMwV
+					1XARER0RRlXUxpPmGN1eWbHvvoQgqe6vNOe3
+					SWkbpwmrRppCmtjiiFqgeJtvzvNGtrPdiEG/
+					3MSBEe3o+SayzrFmllLCSlJL1aiYW+YfnD0Q
+					7CH8rR0c7ticnTsdGlidRScqAGRGzD+tt411
+					Jz1x7o9m/H7k1IvYKQqcg0j7kVRdmDgxeaSY
+					/Om6gZG1C2fEVmztLg== )
+			600	RRSIG	A 8 5 600 (
+					20141101221757 20141002221757 55680 warsaw.practicum.os3.nl.
+					NbmFwnzxMba/GGcS8Gmg7s5Tp2Gu3sKDyGm7
+					Q1+TNcULHS50FHB3Nz9WpXKCIvPeJwusgDT7
+					bEcwhwbwfmXXXmRN8nP60PfI6NtWcn8Ae6JI
+					qEV7Aid6wexlgHHUq46woag/LVj0NNzYnKb6
+					ZD6QV8XpNygvCUIp4gYgrxQI/S46/RlyphfW
+					rUyfnsFgljOCX8fU+eLxpZDu76atBD7s7NM9
+					0pYnUvZDySOpZL5oM4Hf1nwdJp8qq8xWWBfg
+					p+Qf5DjFlkHQXncQLrH1JD5AW6HYdqYI5WSz
+					SILON3ABprfmu5g7lc3MHfK+hADdkX+KmTdk
+					CWHOutrFFu4jrVTAEA== )
+			300	NSEC	warsaw.practicum.os3.nl. A RRSIG NSEC
+			300	RRSIG	NSEC 8 5 300 (
+					20141030201730 20140930201730 31884 warsaw.practicum.os3.nl.
+					uZIFMML1CY1xX7ej0J8CXlCcGQmgMTK7MOZL
+					5XwnOiI3NTFw0dOkjd84wx0uxsfCN261Heyw
+					eGd8kcy/WsdoHoi7rZbxtsGFijGmsFgeNP0Y
+					ZmZmqSefs52+ECMugFWsfi4CgckDJ6gyVb9/
+					DLDWhUCk5D4UoF7wBfGyZV1/rgbicTfU1B3a
+					NL8+/VxbAD76ZAKKqArOwPYZjkCHJrWNfiEf
+					V4QMklY1CRx5w8wW8lP8chE+H/gmvBSlp+vE
+					RwQ7yiEQBo0kzap1wd7LSCtyHBQNoczxTWkk
+					NvGX8jmzOWViVSAIei7SIRxTxJMuV24rgb2U
+					+OUlRIzHxN8LTG0l+Q== )
+			300	RRSIG	NSEC 8 5 300 (
+					20141101221757 20141002221757 55680 warsaw.practicum.os3.nl.
+					QNcKCfGrtLyWeDz+7XV9j5kMisr+umYqmd/g
+					XDmRCY9asPlJMsbrUZKYAE50Zpzc3rOkm7fX
+					FwT6R/RPnItw4X2GLeTxg808Dn7lwKuvup+Z
+					OCbLIBPXGnoEBPnF51tb2GwbK8H/kmQn9sVE
+					QFq4/KmtDHJ/zZYfFPMJlAiZOkqmCGUcF9eX
+					atn0mP6NJ2blzzYgqQNXStUtouaHNSCOl2FJ
+					iVaVcyafnpQCyc7EKWu/+ziQ62Y80iqwRhBx
+					boiEFT/ONKGKr1Zd+jgzrG3NLFLKrjBMEb+d
+					L5p4rOcCMQc5rAK0gGrpWjAdkuGUXyozI6Z/
+					A9MvlmasvHAsYLJlwg== )
+warsaw.practicum.os3.nl.warsaw.practicum.os3.nl. 600 IN	DNAME warsaw.studlab.os3.nl.
+			600	RRSIG	DNAME 8 8 600 (
+					20141030201730 20140930201730 31884 warsaw.practicum.os3.nl.
+					cv8Tzq83RGrO6YCh7IvHGD9fyugzLFWiX2IC
+					o/17dipbjMgvpzqiZ+PkmpGiCjfx0Uk+jX8v
+					30UVKQpFBiHDh100BRUgjTt+CRdF34nnekFo
+					ymVYgggQoobR2LMWqexijj6nuloPQurwiPWB
+					Ky2xRbtsaWY5vJ9dGYDK+/QG7ueidE2AbzX0
+					9dar7qH9V0ROCGoNeNsREo6OuFCtYUEHB5qe
+					HxMjdM6STYKZDo/KeDwkXavaL8ADmj2ytibq
+					Hi3pxrz0z4z7y8xWtfiy2gAiu3pQigkhnSUC
+					GsANNbSaPyzrKNkEVfKVLYYFqYtaIzup0vLO
+					bw6gm/s2UxLt75Zncg== )
+			600	RRSIG	DNAME 8 8 600 (
+					20141101221757 20141002221757 55680 warsaw.practicum.os3.nl.
+					HHTtrJ0UWOcxRv8ejDhD+IKA9Ezzs05efm9u
+					j5eLR/gwdrycuIk+VrOYztQepwJKaAGNDGCo
+					vuIx28EiLs9OSpQFa4UQUYKr65kQ9ElDdEa6
+					2rEJM1j5DKV1WzL14D9I05mFkpgR/3Z0SchD
+					k1A1GWApZ4kh5A+DSCVOamey5FyQhcbM3bJh
+					xkF5rTIpPTKstuflLVvEVuzWcnEO1NU7q19G
+					vtTxMD/QMGEHiBfTZGWPIo3Vt9gdWMx76Tbr
+					0qOqKHjO9/y/Twy4yfwCX9HBnLfkw+Vw7X2P
+					qnuz8odjZkPFIFwT19MR0m4/i56Db2bCnbf7
+					rK/IAJAhsjqU1BHPXQ== )
+			300	NSEC	ns1.warsaw.practicum.os3.nl. DNAME RRSIG NSEC
+			300	RRSIG	NSEC 8 8 300 (
+					20141030201730 20140930201730 31884 warsaw.practicum.os3.nl.
+					a+g74jB82ojnL2ZXJF/9NGAYUABj+NoqlCq9
+					/TNlpa6aA0oGkDoWLHVE/7yxn5ainVZK8iA8
+					o5LkiyAmJudagbGgex4dxcO7eN+qbKUDPlsJ
+					Kkw4bCICUxy/hOfPfZJTC3y/7Hkd7XTEOiqL
+					5OOc7oGWnXCwNmhsXnfEoMDOKz+IcZmVlXxM
+					+IOGxSbtFAcH31vYXxNZ4ja14xwAPdc5DUk+
+					OeYiRlbDk3NkzV698R8hSlZuYMLU946HPPCD
+					BmQEBr5FGn2ykKNVS0GAo3JqlroYHuN+4G3d
+					YbUK3WNyKU5/fsjWhBknyuxNvm8wmLG1HPBL
+					pm8qW0Nq5lbUZi1qRA== )
+			300	RRSIG	NSEC 8 8 300 (
+					20141101221757 20141002221757 55680 warsaw.practicum.os3.nl.
+					y1dm4SeXz8tmmiyyO1ouJxX0eOvF02ruU2qO
+					6Z+6cQS9DkGiQ8RuK1uyz1S4H85nFqFFzqBV
+					LcWOtghNE5mwZfSsUzEVd6qg3lTsTaSCpo5J
+					CVBMj3zMHdEwlDUQAj1ufttG1FIgdPDCpc83
+					+4HGfhom5cY8f7W/XgZqfuQRW6bnTA2csuqp
+					F1DI0rLgQYHFrkKG1LSOjVp7CnjvYN/hr7t4
+					JDkqHPEXE8iKIetodb540cgd1iP2vQNY8V+i
+					TV9hnpjSIfW6ppdrJQIUP1PUP9Pu5LuPge0V
+					uhdOTm/smgmGhiB7RdMmYf7NcR0Umv4Nu8M1
+					NxtBXetPBYfVvoAvRg== )
+*.warsaw.practicum.os3.nl. 600	IN A	145.100.104.62
+			600	RRSIG	A 8 4 600 (
+					20141030201730 20140930201730 31884 warsaw.practicum.os3.nl.
+					y6cEklW9m8zVIaGxa3byNx7kXO8fWytoKPPX
+					QQXPvnmeDK3y9Lga0o9Yvx0J8TZH2H3J7idX
+					fluGygv0+xBF04BnIWNxEEcFQnsbA+geAbkr
+					/XJIgKNvxx3vAiwrcmiYdmkiCXn3i6zd15Zx
+					JEVBu8U09sJscYOeMrSh63znjJaTxoJUdEoF
+					Ev5ESt8KP5WRoMiGsA0aLWJhTCCYdgaMvf4V
+					0pISSeOfBomhspt8UBMkllJ2l4spiMCsAnux
+					FoaDdGQSUBCq9kVZpAvNSCnn5W022PnWGEoh
+					cjDUc93SABQx1/7Alr+TTCqf7PseZZ3nMRDC
+					V5b9PBtuecEhiQdWsA== )
+			600	RRSIG	A 8 4 600 (
+					20141101221757 20141002221757 55680 warsaw.practicum.os3.nl.
+					BDIFpcvnF1oj3kVt//u+m/DIjy0gVAf7SDbi
+					mM80COHxq1G/VgfKXdRdh52t6t5dXS31BKYk
+					34hIaEMNLoVKQ6ZQ6Oq34R0BOdjkAamAs9lq
+					fzSNGbpoF1n3t1uO92q1HpncUqs7iBQ2FDX+
+					wPCjfX8dbWDgd38ginZi2yjPpKI6AQkaqUB9
+					RRMI7gMpP8EDJVCb648D+eAmil8+p5FjTWh8
+					IeekQHcghryALe00Yd3Z5n8Hl8/zcYE7ySkt
+					hrJr7+sMK9OV/hlo+miu+ihi2lftm6RLir2K
+					4OQ94oJ6AnA24cErj41Ddl+5N/zgRfRQy3kD
+					fieKNAhofEgSIQ7tTQ== )
+			600	TXT	"sitefinder"
+			600	RRSIG	TXT 8 4 600 (
+					20141030201730 20140930201730 31884 warsaw.practicum.os3.nl.
+					Vt085Fv02BxAVjMzSnixNrri1/n4B/PI85Un
+					tEZ6PTAih/BpA/JV8nAn5OdLyuTxHiv0p83B
+					JnlKQgQMY3MKyL1imo0sEo2l2Zk6U4Bjid8a
+					OP2Sey0DT+MEWY30aEq1Otce+wkvMyRkprYf
+					FyXOexr3CKWcZJ9Fi4T5JhrXWchwSSR5XgWY
+					ZbB2uBBKzVo2Sducf9oOEEncVX7CtX7b36P7
+					NO2S1+pa8zNeo36J4dt8gLUt5BfUQPgqn0XU
+					fZy0XW5v//XoZ57izDo4ysHWZIiCtUpu7BuH
+					yT62lYQFe7JVdJAPtQgllto1bn57/Fbmqq8j
+					sWkC7D0/LhbqdQngEw== )
+			600	RRSIG	TXT 8 4 600 (
+					20141101221757 20141002221757 55680 warsaw.practicum.os3.nl.
+					vF15CJipAUVQMr9ykizjJZpQrnaZDKUC1rdq
+					0DQsJ66we2IlMyGi7K2xBm44LmFTnJPjkxtp
+					2QOjfDVfRDW2iTNSoGTeOD0KPWtJoyk3T720
+					I6FnwMhbPvly5Rhohotq3sqdYXVe8adhTelU
+					F0yrq3oFIN3PpWzg0U3SpDKuT4hmrCM7ocHv
+					uZs3OGCuyWqPm9wRjktpZuF2AgRqpnR4LVMb
+					afx8cdWUktDSujLJRcl4BdOJqvH4itNjYo0r
+					9fitS4a+/ytZV6fOPjJoixJG8exhopMdqBMu
+					QhUueyq6A1JOf2TPl72QGk7ghJsM68uECXHz
+					s8RyhLLtkjmGRKZDxg== )
+			300	NSEC	localhost.warsaw.practicum.os3.nl. A TXT RRSIG NSEC
+			300	RRSIG	NSEC 8 4 300 (
+					20141030201730 20140930201730 31884 warsaw.practicum.os3.nl.
+					Ayx66JaESdrG/b+l7AXyRcXujgeKAonQzDvq
+					FVRtYCKH8NLRgk062VoWdMuoU+qk/n5CNGpM
+					M5K6SUmm6DTxMYG0dDnc5YTEetONPBJj5Zz7
+					2ObUTLYWxBPTs3k8i7d1HNWIpRlIMn+eDQ2r
+					ojx3+mDmBQEXSdLArrhGRYaCUkm2UBqkaIKa
+					jMbkfLJ2GOI53ivqn0z1ScOQRk2nxJHkDghh
+					X+yrL/I0KFQ1Rlss2rss6auuBf+nrc8sfxu1
+					nMGiQBvEaeP2gB6UL4b/8IzjWAcgT3Fix5jN
+					2xP7lmPHfxE8mt3wIYSg9GQ7oD0F0Dj9n59M
+					ZHT7fk+nnFJLfteFvg== )
+			300	RRSIG	NSEC 8 4 300 (
+					20141101221757 20141002221757 55680 warsaw.practicum.os3.nl.
+					miFe9fC7n3VtppIZ8lRlWCKv5HylLGRm7Q65
+					OyY7YhusGpglrA1ChedM7sSzSTUl301sV50s
+					HboHeB2mXIFevGEFPjj1SXbXPBdiebV0w475
+					D8DQWrppWvEcFSFikhjpIFWoV8NGGawW5X55
+					iazX3FHd6HRGkNKx+iM/FsTKk8StZgwBG1Ld
+					reoXeae3NCbQUpwaaig+moeXp6CdMfmbGwLA
+					JUUMdUq7dB1K96Vo+5AxNcuNy+KGHxL9av0x
+					B21nfsVX1aCGiIASTTx+LjOhlRWwYIgikPl9
+					uEP66pXfYT0lOGb4fhb8IOAaGzTlF6aLfKta
+					2Lkp+/fdWaV4K5HX4A== )
+ns1.warsaw.practicum.os3.nl. 600 IN A	145.100.104.62
+			600	RRSIG	A 8 5 600 (
+					20141030201730 20140930201730 31884 warsaw.practicum.os3.nl.
+					gq82FQlexapm7TtOl02kFocxXJRpHzSU1nfe
+					v6Wevc6A9SOzsGPyi6kch+TTYjJkipeImWvd
+					A1RLCiDUebu9kx/J+UK+5C7IA1L81upZrO/y
+					aFp0H/VGAbxwM8BKVo8m+Xb1DYlCXQ4ltjEl
+					6qPETUwon8Zx8O1HIe8kTmQntVnBRpYbYpuU
+					RLstWPHSqHh5NulLhz1cIANGRAhp/vxQm0M0
+					I3x/hQpTIhDkbLtG9raECPqjI0Nts2Eyacpp
+					6xfp/ca+qlJyb1htLzE+Lb5NrPkPB8ljQixq
+					OFnhY9K66lRTi1j9QSl59RV9OOv6tDRHYMIM
+					rPpm90H9aArn3yg5lA== )
+			600	RRSIG	A 8 5 600 (
+					20141101221757 20141002221757 55680 warsaw.practicum.os3.nl.
+					LkOzh6ybPE009/Ht4f0gns+eS+/Dx19kCuNZ
+					WK4jLN3nrTqxsjHo5rt/QURADkYlJUlFu6CM
+					76TKeBYLohtYFciEkCXpEa/rWLI7Bali1iSX
+					RIREz4lAC+eDgMGHwSJEn7wbVz5UebUvjzlC
+					ASqvDvNMt19fo/6d1M2+IluM4Ou5HXPEOQsW
+					AeoyJ2KY0Y/ix6Yi9vlkP1mU9W90aNnmXhP4
+					SZ+xG7bD/C0loq9iUzpeM+sk8Q7mDhrNkVGu
+					B9VP1KeblABolLwX+LlKakaC+3pNXVDE8Egp
+					fohN9B0ENQHx57lVkXtOoVDE+rMF11eR36HJ
+					Wv8jo2GhpMBLDS9qzw== )
+			300	NSEC	osiris.warsaw.practicum.os3.nl. A RRSIG NSEC
+			300	RRSIG	NSEC 8 5 300 (
+					20141030201730 20140930201730 31884 warsaw.practicum.os3.nl.
+					KmFtPCdA94NxQwOzM1BJdHNGW5bxDHnwtF6l
+					/ivmAOFkj90jA8ut2owHCPBAtvOnx5j0sJzX
+					HW/W4iLtc0YOPMFhRyZodBCPMnHNvxKlZQNU
+					PjU/Qjz+JdXc8zohk7vb8CorETmO5O8LJHNS
+					9YJtQJKIJ7et5WmyiZYlOiGD3pIUBwvEak1+
+					dvr0aQh5NpBz0Cc1yWa7+vx2LVocfixk3bMM
+					cEM2Qgy9hUjBBcrYfVtXSBYTgVh5Y9EXsimP
+					qgMeVFIo7rBvrQhvw3u3mf8IKjBRa6FmxPdt
+					NhD2uFPGRqh28rn82mxaLCenb3e/umtEaAFB
+					b27yEz5yJpsSUUIKrA== )
+			300	RRSIG	NSEC 8 5 300 (
+					20141101221757 20141002221757 55680 warsaw.practicum.os3.nl.
+					DNchNzdfirWBaOpWD9WUso1Zi9dle/Tli8l2
+					/oTae2apOtx5JGLJHSGv7Ite7QK2Mt/XlvRC
+					Habf7ZWOIWa0nJs0T+MJnP50IpgCwt5y4CCf
+					bBfyr4R16ag9W2h4ucbYIFB9HZLxitDekRJS
+					XDxFuQkHF8LlmWsAXdNrrw+PrspZzZZp7nZo
+					qT0/8Hy9lNi6u1l5yc9eDgVM7E+2wi2ym+rn
+					vwCw08S79aIgKnc79bNp0Vbq1LMSgJb0e4jx
+					FqQM7Pj77hqGzSgCGGRlHM9u+jFyAlIb/Dch
+					RED2oMzKkEq4y9c6bid/z5r63W9JdhIyTJyS
+					nfz9+HgfnPUmzS3fRw== )
+osiris.warsaw.practicum.os3.nl.	600 IN A 145.100.104.58
+			600	RRSIG	A 8 5 600 (
+					20141030201730 20140930201730 31884 warsaw.practicum.os3.nl.
+					HVDhYdgVNpCrcG6jy/gM1wr4GJ/RQFE5/hux
+					PVOp0WlDXuekkqPea4HpMFEG+YWaWlIts+1O
+					h0S4pZIvbcXhzcIJesOVKITj7T3WwyDXvq27
+					6JSya0cu66kOvnU3BIk+5VbaCXtq2PIRvyZD
+					vFYaIyYVTgksgp21MydBQE+/8nYtKHAfkI6F
+					aNXyanDsgoy/Y3srzk6OU32IdOLrK5w9wQLM
+					6yHgJUAKABCZE2dI94LQ5DrtNgZ0UevC/8xm
+					oYX9xfLcyA3hbN0RroCrw6KnHD4Z0cVN9KM+
+					BOL8yrVJj/MRczA6QDJ6C/v0akkTGKNgxwXS
+					WuT2uD3bloTUql37xA== )
+			600	RRSIG	A 8 5 600 (
+					20141101221757 20141002221757 55680 warsaw.practicum.os3.nl.
+					FESkdi7Zd/nXdz1fHpHwW3oUO9DVIKt6uZBX
+					d0NQN4gYxM8K8vI8/tZNlJXFZcIZSxvFCkPB
+					DisA1wTZ6Rt/nPktl2bfckUTZhnLbCTjUTc+
+					ToeSmYNBLUPG8ekWDMVziuoY3l9ZNww3BLmH
+					TSUOZ/lS9fHmTPXyI0MgVST+sFF5Az+0kyq8
+					O7hVgvQGwL3ltolP4zLqd0+dYp3EDWSGlwse
+					MhD1EsYkjLxooziLmFqhe+pjWaP+ZmMRid66
+					hjzDSt2zfNrtOmqkErm4jocm2ML9cGf3bNix
+					Iv9Si1NdsCbcJst6pDwpibW3aeMoKFxZiRfJ
+					m+tNL7yR/lpPlw6/kQ== )
+			300	NSEC	roland.warsaw.practicum.os3.nl. A RRSIG NSEC
+			300	RRSIG	NSEC 8 5 300 (
+					20141030201730 20140930201730 31884 warsaw.practicum.os3.nl.
+					ZAjWRwJ63G/iIeD+ixl+fOXtEw1STI5YRty6
+					Qbumi3FAAvnpqXqvju4oN/xvNl0TJBl4qO6A
+					GYd6ilCebjZgfqj+zZF/mtnYsToad2VaNB45
+					tEljnmGuHIYWkyCywf/Wf/jQiLiNI0uOJ+1p
+					tWKlOLw30G17L2214mx9qMytrnNk/gj7HM7N
+					Y/l1VniYPnTDIWvlM1wnOl93oBFCsGFELlA2
+					tqEfDHonENhhGQd3EHAt9cShBtcBiZT9cFDW
+					rB7342gu97arw+28/mLLY7o9Qp/PbLErZbJh
+					e9RAAGKRryMuGhadtRKa6Nw8H6+JR5DtsYYY
+					dnTtjTr4tG85L133yw== )
+			300	RRSIG	NSEC 8 5 300 (
+					20141101221757 20141002221757 55680 warsaw.practicum.os3.nl.
+					Kq4jYcJLcO7/Ogh12zR4ATlFVnQfV1coZhL9
+					orhcW1e3CYaByi7rJ/aL1XYHMUpbGt5kXfta
+					+lOG+aAC6dHiBuhsdfwyv4jClZRhmzJOeK97
+					HE8T61q+eViXWWrRTy1kKfrQvogsbeKoCAJP
+					/qcRjylEugOG3bgVBvxfdrLjFKpMrF7EEPJT
+					8k1Rlsi+DUzO8yqS5KCMuP4LG2785i+wDN0X
+					0oj0L1FpHlQMV0lcJotqgb53k5nyYq09xTO2
+					NiLcZf330BYWCVUvQMXT6aLxWRkDKLg9QNtr
+					Qas5Lsa855FTDiHmrXg8JEFLil2fkZS796hC
+					6UVKXLSbHx9FM/yNMg== )
+mx1.warsaw.practicum.os3.nl. 600 IN A	145.100.104.61
+			600	RRSIG	A 8 5 600 (
+					20141030201730 20140930201730 31884 warsaw.practicum.os3.nl.
+					oteGOz0e5jbsgYErvlQXq+uXPikNPBm4bLf7
+					T1ScJr18T4KbbsKSiE3whQzXpHXoT/Xs2GL6
+					OjvJT79BftBii1NDzVOG3dpuqOGTIDYoanjy
+					qSsjVj3xOzf4aGinQwY/LUN8Ka5tkfsXtJ7G
+					ZarZjh35YfGRwRuTDGkk3AjQgL0E0JWmS/n5
+					/K0ZgPNu3yJgQo8rGRakCAgBKxWsqrPpjBtB
+					cDTHqQWWQ47m7jLC74Fhg5opLMfRCTfDoNWk
+					NGKRdZWBnlUc4rhrJC9d8DhmfpOOYeWoieMj
+					Rvb3UUM14gwUEetq6vHxK75KROMpz2cHhrlx
+					xWCppPvPXLTmR6m6YQ== )
+			600	RRSIG	A 8 5 600 (
+					20141101221757 20141002221757 55680 warsaw.practicum.os3.nl.
+					z0HFZFXOq9fxfe54sTDat69oUHK+OsQ7qYY7
+					KCeKYUGkOvknQaeOOIZOC8/JYYjIuP86ba2G
+					Rpey1avRX7WcTcLMVoopeY5yEe6E/DTeAOl6
+					Y/J/4HEQzMoN0fvR/ObCBG10lI9xOonAeIoT
+					CbnvR2zllFU2VxSvZ6fNB4HXDz8XnzRE5Zxu
+					dYLh3p3JdyHYiootdZz6M+OOKEu2d1oBYTEH
+					MersVQSJINNQXn9xqnsdIHbn6kT0k8tzAaIg
+					OtEJ7t3O1mzPFJAusuK9E0xfPJopCUOct7uS
+					WEA9WCXbT3vOoV4Y6FeyKHhOZTNRWjB5n5/z
+					jRU3UBTGAFfYef4V6Q== )
+			300	NSEC	mx2.warsaw.practicum.os3.nl. A RRSIG NSEC
+			300	RRSIG	NSEC 8 5 300 (
+					20141030201730 20140930201730 31884 warsaw.practicum.os3.nl.
+					zW5fT8kWmqPxe4jXctZIrhSSSRRcvVOBOR52
+					kEUjI7EhpIi3Z7lFA6BcYIGyY4IWYU+HWPxg
+					UpuOhUo/U9g4SvYlK7eii3LvK95l02FiP1VJ
+					7sWBXaGFzyWwD5SlunN2Tv1faj4fMIgkKuWo
+					qhsT585kPD/g/HAT1Nn2jYlQMXGrGfAq7wml
+					TAVr7FkHOY+v53JmtEVBua4Cy9uQ22yBthEJ
+					LsSBUUcAb5fxhFRMqRkDRuD3bqrWI0UyTgMm
+					yRruXF8OT8TWXRoMP2jtgCX1hv4KrUYOVuYt
+					EeQYTO13uole1g2jmMGUhUbhokm08Y9yMwJj
+					yA/tkhsN08I1Pc4xHQ== )
+			300	RRSIG	NSEC 8 5 300 (
+					20141101221757 20141002221757 55680 warsaw.practicum.os3.nl.
+					BFTt7mf3UOZBgHmKHgDD/pbAvbjiuUeCr8e/
+					XAgXILK2yLVRVC3wM6ckBEPHn0IvV04vbVcy
+					5zWtX+vD1EqZOAW5h+V69W18ODyemGFoOaMo
+					e4OZPw2DfAyIK7JYvMZqjTPFPEK+Q13pJEbr
+					j3jBUlpNiIZFP916CDlIO6DWBughqrRW6NsH
+					nojQHDERIDMTZVI9aPXh6YGh1SmFO5hEj0qP
+					7UZzhIWzhqWIoCVGb3T9J/U4Mct/lHedCH8U
+					zVxOoDlOVa1JZgpq7XHpYHkzOkLZ3cl+xNZP
+					t2vU7CxLf5iWNKGCMDuKog3eWVwK5P69Y1AA
+					pxQBIZvSZnHA09HnFA== )
+mx2.warsaw.practicum.os3.nl. 600 IN A	145.100.104.60
+			600	RRSIG	A 8 5 600 (
+					20141030201730 20140930201730 31884 warsaw.practicum.os3.nl.
+					jf4KlHkzBlbRwaYo656BdTJkMVjfvhJxDh7i
+					l3tTHmJBhYJN/IZZ1c+Igvfq6e9Z1w+OhyhY
+					Dwx5Ta0F6gzaoNuZaNpiD6RF9k2HlmWhuv46
+					cGVpjd5xKec6nfjL8ysBu5f8RjeK8l174kfz
+					tZXe8XGB1tnsBykVyBrlnHsyTfISZsRZFF+l
+					2RuXg9jfud7BAj+PpLMn850D51NUjoTOIug0
+					W+RETyunJQKBaqgguKihx3L7XMk1KvvQhLp3
+					y/4FxdfQrmkPHpMmp51x6bkv0eGNcrF51z78
+					sdFrEL9jmht8SljYELGBBuHKgjhBwKy/OUJs
+					2QkA4tSobqDbuRTrxg== )
+			600	RRSIG	A 8 5 600 (
+					20141101221757 20141002221757 55680 warsaw.practicum.os3.nl.
+					sXpzLNfebzuqq1R53tcNxYVhJqsAsL+VesEd
+					p6d3JcNcZ9J5EnFzD7nnZLjKmPT5324Tz71T
+					QxHzlZf2lVQpOkx+LfPtW5jscT5L3/ju9QqJ
+					CMf+3sjIZW/B90UYPy8E5KX8+hJ2mLBFWYhM
+					qy+AxseO0ULT4LivRr/limMWahbezkSFyVNc
+					7t5Lh0xtIB79SPUb7pPIMXdTpdsmGeRjk+Ig
+					eUjpmLjC3k7YyJoA+bxDp/sq4JQhfyzY8kfZ
+					5tTFkpyhINBVzJtSEd76F0AxcZB0njt7fvhC
+					hMb6u9PYMp6N/wwPsRVWyBi0eGuEBrl8iRZD
+					IGYukJdT+4efKxBC1Q== )
+			300	NSEC	warsaw.practicum.os3.nl.warsaw.practicum.os3.nl. A RRSIG NSEC
+			300	RRSIG	NSEC 8 5 300 (
+					20141030201730 20140930201730 31884 warsaw.practicum.os3.nl.
+					CTKRTO8xS1DBSTAYNns3IewJVAPGy9lt8dsO
+					RkTeogVTpLJtHOHZU6iHZSmPn67lQFPZpWZQ
+					xbLzLnMSJIT3pnsg+HfhL/hpL84yL6XkPygy
+					cGviogbnLrHD5dwFVGavhE955r/fVRZgwM2m
+					ZjjDfvLyJMBqRiiZR1Ab+iS0cO0hQGh6YKS6
+					hGw2RZ2nED1OE6hudsrMbS0w+DlWo3YYKivW
+					euNC237tO8zVd4iHAKbwTmLFcGAki3/WRkKn
+					CElSxe5Bsf43zNWtzxYETvu48EQyDTKcYM1z
+					tHp0SmBCyZnY4vj7+a6hsiyOHGwjWLmx/Rnk
+					0XA/zFPbwhchYUoOKA== )
+			300	RRSIG	NSEC 8 5 300 (
+					20141101221757 20141002221757 55680 warsaw.practicum.os3.nl.
+					AqmcttlqdrEQG/Bf8jjjKoypvrN74ZVi/Dst
+					M1MH5RSa22Uqe4aJjwIOjqP7wRKxrBEt2k2q
+					4fhJvv8/VNdcHUcS08t+bSoXbeeYbdw8jCWQ
+					D9zJjvUU9g1Xc45e8hvOcG/1VHgvcLI2it4E
+					H59jso8WR9XY852OUtmYu9+y5PZmPqCcv8Cj
+					ZKnRMXarorsLMJD3kXcLLL280/NH0PEz19m/
+					rhZp9kGr3HASoQzZtYkl4ft12S2r2y8XRyU5
+					X1zm4V0VuS4HAVMuNP0mqwP47PT5MbvOVXeO
+					vgGxdf2dLTal/Og8TeKOuE9f9Eqf3/q/dP4z
+					SND1RIPPjvFvnQAnkg== )

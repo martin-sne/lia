@@ -1,0 +1,1 @@
+/usr/bin/cc  -O2 -g -Wall -Wno-unused-function  -DH2O_ROOT="\"/usr/local\"" -D_GNU_SOURCE    CMakeFiles/examples-socket-client.dir/examples/libh2o/socket-client.c.o  -o examples-socket-client -rdynamic libh2o.a /usr/local/lib/libssl.a /usr/local/lib/libcrypto.a -luv -ldl 

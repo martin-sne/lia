@@ -1,0 +1,18 @@
+### Active Check Result File ###
+file_time=1423140248
+
+### Nagios Service Check Result ###
+# Time: Thu Feb  5 13:44:08 2015
+host_name=warsaw.practicum.os3.nl
+service_description=Zone-ServFail
+check_type=0
+check_options=0
+scheduled_check=1
+reschedule_check=1
+latency=0.108000
+start_time=1423140248.108370
+finish_time=1423140248.122999
+early_timeout=0
+exited_ok=1
+return_code=3
+output=External command error: Error in packet\nReason: (noSuchName) There is no such variable name in this MIB.\nFailed object: ARPA2-Experimental-DNSSEC-MIBv1::dnssecZoneGlobalServFail."warsaw.practicum.os3.nl"\n\n

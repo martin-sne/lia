@@ -1,0 +1,23 @@
+\subsection{HTTP Server and Clients}
+\label{subsec:server_client}
+HTTP clients that conduct measurements from long distances are deployed using Amazon t2.micro instances. T2 instances provide a baseline level of CPU performance that is comparable to 2 vCPUs with the ability to burst above the baseline level \cite{amazon-ts}. For local tests within the OS3 network, XEN VM are used. Each client got at least 2 vCPUs and 2 Gigabyte RAM assigned. The clients are located in different geographical areas, resulting in different RTT times between clients and server. On each client h2load was compiled and the wrapper script uploaded. Table \ref{table:locations} shows all clients and their corresponding average round trip times to the server.
+
+\begin{table}[h]
+	\centering
+\begin{tabular}{ | c | c | }
+
+\hline
+\textbf{Location} & \textbf{RTT in ms}\\ \hline \hline
+Tokyo/Japan &  280\\ \hline
+North Carolina/US &  150\\ \hline 
+Frankfurt am Main/Germany &  7\\ \hline
+Amsterdam/Netherlands &  0.3\\
+
+\hline
+\end{tabular}
+\caption{RTT (in ms) per location}
+\label{table:locations}
+\end{table}
+
+The server that provides access for the HTTP clients is not virtualized. It has 8 Intel Xeon CPUs (1,87GHz) and 8GB RAM installed. The webserver has a public IPv4 address and is connected to the public internet via a 1 Gbit Ethernet interface. As HTTP/2 server nghttpd \cite{nghttp} is used which listens on TCP port 8881. For HTTP/1.1 requests Apache2 \cite{apache} in combination with nghttpx \cite{nghttpx} is used. Nghttpx is a reverse proxy and accepts HTTP/2, SPDY and HTTP/1.1 over SSL/TLS on TCP port 8443 via its frontend. The protocol to the backend is HTTP/1.1. The usage of an reverse proxy enables us to use our measurement tools without modification, although native HTTP/1.1 requests instead of using a reverse proxy would probably result in more accurate measurements. Since our time was very limited, we decided us to go for the reverse proxy option.
+

@@ -1,0 +1,58 @@
+include "/usr/local/etc/bind/rndc.key";
+
+controls {
+        inet 127.0.0.1 allow { localhost; } keys { "rndc-key"; };
+};
+
+
+logging{
+
+  category queries { query.log; };  
+  category default { simple_log; };
+
+  channel simple_log {
+    	file "/var/log/named/bind.log" versions 3 size 5m;
+    	severity debug 3;
+    	print-time yes;
+    	print-severity yes;
+    	print-category yes;
+  };
+  channel query.log {
+    	file "/var/log/named/query.log";
+    	// Set the severity to dynamic to see all the debug messages.
+    	severity debug 3;
+	print-time yes;
+        print-severity yes;
+        print-category yes;
+    };
+};
+
+
+// Define a access list to limit recursion later
+acl localnet {
+	127.0.0.1/32;
+	145.100.104.62/32;
+};
+// Working directory and limit recursion
+options {
+	directory "/usr/local/etc/bind";
+	allow-recursion {
+		localnet;
+	};
+};
+// Caching only DNS server
+zone "." {
+	type hint;
+	file "named.cache";
+};
+// Provide a reverse mapping for the loopback address 127.0.0.1
+zone "0.0.127.in-addr.arpa" {
+	type master;
+	file "named.local";
+	notify no;
+};
+
+zone "warsaw.practicum.os3.nl" {
+             type master;
+             file "/usr/local/etc/bind/zone.file";
+        };

@@ -1,0 +1,94 @@
+\documentclass{article}
+\usepackage{multicol}
+\usepackage{graphicx,amsmath,listings,hyperref,color,appendix,geometry}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{mathtools}
+
+
+
+\begin{document} 
+\begin{figure}[!bh]
+ 	\begin{center}
+ 	 
+ 		\huge \title{Impacts of the HTTP/2 protocol for large scale web environments}
+		\author{Martin Leucht, James Gratchoff \\
+		Master SNE \\ University of Amsterdam} 
+		\includegraphics{images/uva.jpeg}
+	\maketitle 
+		\label{sec:uva}
+	\end{center}
+\end{figure}
+\pagenumbering{gobble}
+\setlength{\columnsep}{2cm}
+\def\columnseprulecolor{\color{blue}}
+ 
+\newpage
+\tableofcontents
+
+\pagenumbering{arabic}
+\newpage
+\input{sections/introduction.tex}
+\newpage
+\input{sections/rq.tex}
+\input{sections/scope.tex}
+\newpage
+\input{sections/related.tex}
+\newpage
+\input{sections/approach_and_method.tex}
+\input{sections/approach_and_method/measurements.tex}
+%%\input{sections/approach_and_method/topology.tex}
+\input{sections/approach_and_method/client_server.tex}
+\newpage
+\input{sections/results.tex}
+\input{sections/results/header.tex}
+\input{sections/results/rtt.tex}
+\input{sections/results/server_util.tex}
+\newpage
+\input{sections/conclusions.tex}
+\newpage
+\input{sections/furtherwork.tex}
+\newpage
+\begin{thebibliography}
+\\
+\bibitem{RFC2616}
+RFC2616, Fielding, R., Gettys, J., Mogul, J., Frystyk, H., Masinter, L., Leach, P., and T. Berners-Lee, "Hypertext Transfer Protocol -- HTTP/1.1", RFC 2616, June 1999, Available at: http://www.rfc-editor.org/info/rfc2616 .[Accessed 26 Mar. 2015].
+\bibitem{RFC723x}
+RFC7230 Fielding, R., Ed., and J. Reschke, Ed., "Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing", RFC 7230, June 2014, Available at:http://www.rfc-editor.org/info/rfc7230  [Accessed 26 Mar. 2015]. \\
+RFC7231 Fielding, R., Ed., and J. Reschke, Ed., "Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content", RFC 7231, June 2014, Available at: http://www.rfc-editor.org/info/rfc7231 [Accessed 26 Mar. 2015]. \\
+RFC7232 Fielding, R., Ed., and J. Reschke, Ed., "Hypertext Transfer Protocol (HTTP/1.1): Conditional Requests", RFC 7232, June 2014, Available at: http://www.rfc-editor.org/info/rfc7232 [Accessed 26 Mar. 2015]. \\ 
+RFC7233 Fielding, R., Ed., Lafon, Y., Ed., and J. Reschke, Ed., "Hypertext Transfer Protocol (HTTP/1.1): Range Requests", RFC 7233, June 2014, Available at: http://www.rfc-editor.org/info/rfc7233 [Accessed 26 Mar. 2015]. \\
+RFC7234 Fielding, R., Ed., Nottingham, M., Ed., and J. Reschke, Ed., "Hypertext Transfer Protocol (HTTP/1.1): Caching", RFC 7234, June 2014, Available at: http://www.rfc-editor.org/info/rfc7234 [Accessed 26 Mar. 2015]. \\
+RFC7235 Fielding, R., Ed., and J. Reschke, Ed., "Hypertext Transfer Protocol (HTTP/1.1): Authentication", RFC 7235, June 2014, Available at: http://www.rfc-editor.org/info/rfc7235 [Accessed 26 Mar. 2015].
+\bibitem{http2}
+Hypertext Transfer Protocol version 2 (draft-ietf-httpbis-http2-17) (2015). M. Belshe, Twist R. Peon [online] IETF, Available at:
+https://datatracker.ietf.org/doc/draft-ietf-httpbis-http2/?include\_text=1 [Accessed 26 Mar. 2015].
+ \bibitem{hpack}
+HPACK - Header Compression for HTTP/2 draft-ietf-httpbis-header-compression-07 (2015). R. Peon,  H. Ruellan [online] IETF, Available at: http://tools.ietf.org/html/draft-ietf-httpbis-header-compression-07 [Accessed 26 Mar. 2015].
+\bibitem{google2x}
+A 2x Faster Web. (2009). [online] Chromium Blog. Available at: http://blog.chromium.org/2009/11/2x-faster-web.html [Accessed 20 Feb. 2015].
+\bibitem{servy}
+Servy, H. (2015). Evaluating the Performance of SPDY-enabled Web Servers. [online] Neotys.com. Available at: http://www.neotys.com/blog/performance-of-spdy-enabled-web-servers/ [Accessed 20 Feb. 2015].
+\bibitem{podiatry}
+Podiatry, G. (2015). Guy's Pod » Blog Archive » Not as SPDY as You Thought. [online] Guypo.com. Available at: http://www.guypo.com/not-as-spdy-as-you-thought/ [Accessed 20 Feb. 2015].
+\bibitem{wang}
+Wang et al. (2014). How Speedy is SPDY?, 11th USENIX Symposium on Networked Systems Design and Implementation (NSDI ’14). [online] usenix.org. Available at:
+https://www.usenix.org/system/files/conference/nsdi14/nsdi14-paper-wang\_xiao\_sophia.pdf [Accessed 20 Feb. 2015].
+\bibitem{amazon} Amazon Elastic Compute Cloud (Amazon EC2) (2015). Available at: http://aws.amazon.com/ec2/ [Accessed 20 Feb. 2015].
+\bibitem{mozilla} Firefox Beta Notes (2015). Available at: https://www.mozilla.org/en-US/firefox/36.0beta/releasenotes/ [Accessed 20 Feb. 2015].
+\bibitem{http2-imp}  HTTP/2 client/server implemenations (2015). Available at: https://github.com/http2/http2-spec/wiki/Implementations [Accessed 20 Feb. 2015].
+\bibitem{h2c-14} Hypertext Transfer Protocol version 2 draft-ietf-httpbis-http2-14 (2014). Available at: https://tools.ietf.org/html/draft-ietf-httpbis-http2-14 [Accessed 4. March 2015]
+\bibitem{nghttp} HTTP/2 experimental server (2015). Available at: https://nghttp2.org/documentation/nghttpd.1.html [Accessed 4. March 2015]
+\bibitem{apache2} The Apache HTTP Server Project (2015). Available at: http://httpd.apache.org/ [Accessed 4. March 2015]
+\bibitem{h2load} Benchmarking tool for HTTP/2 and SPDY server (2015). Available at: https://nghttp2.org/documentation/h2load.1.html [Accessed 4. March 2015]
+\bibitem{ab} Apache HTTP server benchmarking tool (2015). Available at http://httpd.apache.org/docs/2.2/programs/ab.html [Accessed 4. March 2015]
+\bibitem{httparchive} Httparchive.org, (2015). HTTP Archive - Trends. [online] Available at: http://httparchive.org/trends.php [Accessed 11 Mar. 2015].
+\bibitem{amazon-ts} amazon.com, (2015). Amazon - T2 Instances. [online] Available at: http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/t2-instances.html [Accessed 11 Mar. 2015].
+\bibitem{nghttpx} nghttp2.org, nghttpx HTTP/1.1 HTTP/2 reverse proxy. [online] Available at: https://nghttp2.org/documentation/nghttpx.1.html [Accessed 28 Mar. 2015].
+\bibitem{apache} Apache Web Server (2015). Available at: http://httpd.apache.org/  [Accessed 11 Mar. 2015].
+\end{thebibliography}
+
+
+
+\end{document}

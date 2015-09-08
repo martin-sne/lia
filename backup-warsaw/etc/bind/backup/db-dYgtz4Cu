@@ -1,0 +1,16 @@
+$ORIGIN roland.warsaw.practicum.os3.nl.
+$TTL 600
+@ 		IN 	SOA 	roland.warsaw.practicum.os3.nl. roland.zegers.os3.nl. (
+              			2014092601     ; serial
+              			900             ; refresh
+              			300             ; retry
+              			3600            ; expire
+              			300             ; min TTL
+              		)
+;
+;	
+        	IN 	NS      ns1.roland.warsaw.practicum.os3.nl.
+ns1            	IN      A       145.100.104.176
+server1        	IN      A       145.100.104.179
+server2        	IN      A       145.100.104.178
+osiris		IN	A	145.100.104.180

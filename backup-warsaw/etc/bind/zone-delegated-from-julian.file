@@ -1,0 +1,15 @@
+$ORIGIN martin.derby.practicum.os3.nl.
+$TTL 600
+@               IN      SOA     martin.derby.practicum.os3.nl. martin.leucht.os3.nl. (
+                                2014142135     ; serial
+                                900             ; refresh
+                                300             ; retry
+                                3600            ; expire
+                                300             ; min TTL
+                        )
+;
+;       
+                IN      NS      ns1.martin.derby.practicum.os3.nl.
+ns1             IN      A       145.100.104.62
+dell            IN      A       145.100.104.55
+sun             IN      A       145.100.104.55

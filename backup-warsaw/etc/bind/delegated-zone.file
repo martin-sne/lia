@@ -1,0 +1,17 @@
+$ORIGIN martin.wakefield.practicum.os3.nl.
+$TTL 600
+@ 		IN 	SOA 	martin.wakefield.practicum.os3.nl. martin.leucht.os3.nl. (
+              			2014142137     ; serial
+              			900             ; refresh
+              			300             ; retry
+              			3600            ; expire
+              			300             ; min TTL
+              		)
+;
+;	
+        	IN 	NS      ns1.martin.wakefield.practicum.os3.nl.
+ns1            	IN      A       145.100.104.62
+twain        	IN      A       145.100.104.61
+taz        	IN      A       145.100.104.60
+web		IN	A	145.100.104.59
+web2            IN      A       145.100.104.58

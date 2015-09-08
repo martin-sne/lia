@@ -1,0 +1,253 @@
+; File written on Tue Jan 27 19:43:29 2015
+; dnssec_signzone version 9.10.0-P2
+paris.derby.practicum.os3.nl. 600 IN SOA paris.derby.practicum.os3.nl. martin.paris.derby.practicum.os3.nl. (
+					2015011300 ; serial
+					900        ; refresh (15 minutes)
+					300        ; retry (5 minutes)
+					3600       ; expire (1 hour)
+					300        ; minimum (5 minutes)
+					)
+			600	RRSIG	SOA 8 5 600 (
+					20150127195010 20150127174329 58128 paris.derby.practicum.os3.nl.
+					KIaDXxKNJZoijA6xaiPnO8eN37PC1S/DNgip
+					lcQ4OJr+upseq7TtbfClsiLyc3CDqhRYYhlD
+					Xy38MmDUOoHue7Tp2bCXOGe+29zEL7k0qSLp
+					XwNjd0KcWdP2tHiw3rauell/CS/dA4oT1wfH
+					bQ6v08SHh1ktEy5hbSPG5FoJJACJFjC5+B9D
+					Dx1JBxQimgU+mndyYeyM7e3DPtxwN79L7PVj
+					cjQAvJMhPERIVKiPMgyfpvGhqCqc/OHHnosd
+					RiOaB274Jz1jnQqTKkhbsWVI+0hv2tpzKeTn
+					b5/F9F2qbK4hmwO+RmUEu9nUcszIIdi3DAm/
+					iQ4dXBN3JU1KhkhuqA== )
+			600	NS	ns1.warsaw.practicum.os3.nl.
+			600	RRSIG	NS 8 5 600 (
+					20150127195010 20150127174329 58128 paris.derby.practicum.os3.nl.
+					E/QbFzNHHyLtDRiE4eE6qTq5KnM3EsSXy2eK
+					haah1XJwIa0wcgFgponQOBsha8D33OTckYeL
+					M4KMQau25+b6KeCVqPqNx1D+wvPIO1KJMS7b
+					J4riDiUbPgjaNaJ+pL7LV6QEI0mQmM0ByeKG
+					6bKc9K5WMx6toMnfEs7Rz8xhRkcNo6R6pw/G
+					LXBOa8vIS+XnjDjZfmPnrqkDqZx1hE3uEX3E
+					nBByeY+SQdTX1Cp4K635r2W/hDuZdrZ4iJ3n
+					H8XX3NCqaLA3Q1P1xg2YNwDRoleiuOcyUhl/
+					ZURXFg3KisBtKZy0B8nLPX/WT3zJ96XvE2UZ
+					KxbVwetYnzOMiMh8vQ== )
+			600	A	145.100.104.62
+			600	RRSIG	A 8 5 600 (
+					20150127195010 20150127174329 58128 paris.derby.practicum.os3.nl.
+					Z+UiCV9r2vq3DjYP4awOdd9zKG9Y8Nxd6O43
+					rHjOlOHuoDGCnXLtsPXwV2Oqqol1tm1fNHZI
+					ZS4fwG8gv4agvWsy1lLzvi2vezv8Lon3kq0w
+					ivM1urw1D/z8rOrTUp82poxMa00NRgHXH/pc
+					obr0+ChjmXE0/I3K4NKJI16I6evmJ/V5d0Te
+					g01s1AgZ+7YhhrOG9Rmg5MtQcqeI75+kYEY2
+					U49/nXTejZSIaXnCmMigFaKoduq6nm0m8fLT
+					jCbwmyMTTyJ1A1gLzwSe4gC2r0dV024VUmNi
+					J35bGrcEIzDdEdHTy8Kl6EcGwQXT753lEjdr
+					rr6DTiMgAr+K+NhBug== )
+			600	MX	10 mx1.paris.derby.practicum.os3.nl.
+			600	MX	20 mx2.paris.derby.practicum.os3.nl.
+			600	RRSIG	MX 8 5 600 (
+					20150127195010 20150127174329 58128 paris.derby.practicum.os3.nl.
+					iRwN84H5CIeIcnYZbrGcMp7ME5huQ4AULruR
+					XCt653yIKGg6d3KXD8T2moMbj7W1yBf/wOk0
+					iCxdw+taAqg7uyhcghcYr0Q+fHlwfEzdkomc
+					titdYxtv1HHqjzQSjWsgASz0VpZVZlhNEB7b
+					9jRYeYSGYOlSDuqXXLQrWGNFw46ivGGh6CuS
+					O58yff2Ek4OUoBuBWnEGFccWBJ2wO0/V/x7e
+					64TDTOp1011nl7MXwTmHUqYVBDKeq+8z74mC
+					LCXhaYnKeHiGVy9TZdwWc9vVGtY/Kj5CU5cL
+					seIVIC6gmRA8C6yVql05hN29yWrc8D8O+ixc
+					nGaLCO1A8gFeFH/+xw== )
+			300	NSEC	localhost.paris.derby.practicum.os3.nl. A NS SOA MX RRSIG NSEC DNSKEY
+			300	RRSIG	NSEC 8 5 300 (
+					20150127195010 20150127174329 58128 paris.derby.practicum.os3.nl.
+					YZNaFFC6EMLkKVaUH3wtn6nAoGJhyDfqlprP
+					F8CbNNxQ9i1uQ0Pgl56oJlzKQWRuncbXnfWM
+					fjpbBBOGZjunGGyZXOH4EVVtFiuWctb1OMDG
+					IzaXjLht8s9NI+lvkBLI6SyDEbLOfbYIhblu
+					2x4OSRTykS54mUMEQpei+x+Ysj7t6SNlYMy7
+					pckrJYGHypmytthu1vwLkQH+YyrIq+Czu6EE
+					MJJLhyqUx587SG3mg5VlpFeD72ATDmwtuaEd
+					EjDOH6kTdwYSOUbM9PI06/YOZnmuiVvXOxUc
+					bumRXBEgRy90myjsBX3Q1W0OXuwtAWLHTdPp
+					Yiqz4rZMni8pDUTPxg== )
+			600	DNSKEY	256 3 8 (
+					AwEAAZsAvF/lRSBKedFo/UUfXVaIxIoM1tnw
+					ZEt/FeuYqR1oGOAQBy566bNE3FUFTnt+T8+H
+					628jphLMkYDFp+OtQzXMzqzQ/jeisJ9Jguzd
+					nTEfSY0aoE8RSHE5uxvsCSmdIzCgPVJMBPrc
+					ju3hItsMGz3VCgPh229jXXLK4adnfH8JtA+n
+					Rn5DtN9L6TUgSajRDnG6XTyUenTFhEjVwByp
+					JXPitUGkTHS9xsMqivTNvV2jEGYSqIASwpu8
+					uzVt6rTENK4XxV1ioJwQLyFFtY4SRcGnQ/Nq
+					nA5RZ2IEZIF0LXTpZBWIdEG2F7jM0VJLOA93
+					lH0BYzZ6SRTUf95A3w0vrgc=
+					) ; ZSK; alg = RSASHA256; key id = 58128
+			600	DNSKEY	257 3 8 (
+					AwEAAcltnHx1IVNp0By4NAcOk6nYvZDpeCWb
+					i51yqXP7uvgHWAljmYXZCATZPo5EsXNpFyGW
+					wOKLecwrW8e4No7JU1bbXzFTwq1hCcF6SzY2
+					W0Q1WUNZJaI+70xQ8ndkAl+Fh5AcH28arzhI
+					OOWV747mf11k5yTG8uclFKlccvIBcIfK87/7
+					Ju5iq/WEAB2ivpJONubJv2NxOZUkNZF0j8qV
+					yirlMu1v4Hwk+czUpUaDMZNgyVAhYfKbyR6Q
+					zhjoq9YJ2Yovb4sCSj+VLClza1zwWA1LI81w
+					EqClgZkFm0sQevckvwf9M8MXbk/Y81lKrSR7
+					F9CU3MXkUg5f1AW/Ken8C3c=
+					) ; KSK; alg = RSASHA256; key id = 5716
+			600	RRSIG	DNSKEY 8 5 600 (
+					20150127195010 20150127174329 5716 paris.derby.practicum.os3.nl.
+					ht6FXX4C2DYDXqo6lmExtr39jQV+PEqaSF7q
+					bp0AkB9c+/6uYsHV8ljrMWgpWfTVjDEF6Sih
+					ZNZTcD2OoqsBLv5R/N17No7D8opcSWsMIR1r
+					d7/faY6UQNN6LcGSwvBPfa02Vq8ZN4+2dWM/
+					ZucDmYFIgN0yaW7hLNIz759EipV9N860TbNB
+					n2+oO2YmtWZ55ApODQK0wrvnKzzqiTpvFPjU
+					99+l9XgO4ToQqE5g862oGTXzFSN+XXnhHHQY
+					QSMShyeOp4LEa2YVTcCS3BrNkr1NTLnY44o0
+					X86dUKmdzavSyxhJcbDH30qT8D3zqbuIExnD
+					R4FNX94TqKFNXkQXrA== )
+			600	RRSIG	DNSKEY 8 5 600 (
+					20150127195010 20150127174329 58128 paris.derby.practicum.os3.nl.
+					QeCVdEcX5ALNAZzObPixKxpz+V1gjU1ncQXm
+					4kpFckHHNagHfrya/GNcUu89Z3zUU+3dwKiY
+					rxlv821Z1xc2J4OIQdBAO+cJwzUTxKC3N382
+					P9eMb0kEW4sVxWkYFlXkPrTzHHYCpYVATmcZ
+					GqHB+hNKCY/zAu7/ttvXnSpqy5GxepBSsW7y
+					imkAt8XiAND8xbYONjez38rrBoY9S2pJknYB
+					jxC9syNKlS5gZnHLU2YldCxYEbaET2i3fEnz
+					L7ppMrLNad0q4M1p7pITt0QC2b809O5bvhrj
+					KaZUKQjbkhC1Zfgl25rC1hb5iF0Gfko078mk
+					iVILeCdsw4iQImcefw== )
+mx2.paris.derby.practicum.os3.nl. 600 IN A 145.100.104.60
+			600	IN A	145.100.104.62
+			600	RRSIG	A 8 6 600 (
+					20150127195010 20150127174329 58128 paris.derby.practicum.os3.nl.
+					TKJaFDL6+lYwT7NMZc4Y+LvcqTK/deAGCtj4
+					iV/kzPhDji8W/jnPd8RQIW4bu4+W6l3SuQwe
+					4wCT/IrY3hYkWd0sxyE9iq+rBWhjvk9Y4BYZ
+					Ocl0+9FtNeCLoI/OS+WRici1aIVUyUdgDRa0
+					ZalXTonSZdXB8pGWUpm6Crr37iE/OcmjiCbT
+					9tKHzlwAEbfvJfBnv4nAY3YUwtNnl9lONghw
+					T0I1AADeXpcN5K3Rpp/Hq6Nur7xpoXDInHRG
+					n2nkhn0HlzMFZCjXRuofkmPj1RLZtM1dNuXr
+					HYsFTRjh8oX6Eub1gOrxG98iFMzLJVCpZhNU
+					ByCDVvUCusiPSXTvQw== )
+			300	NSEC	ns1.paris.derby.practicum.os3.nl. A RRSIG NSEC
+			300	RRSIG	NSEC 8 6 300 (
+					20150127195010 20150127174329 58128 paris.derby.practicum.os3.nl.
+					Qd97KgFRAI1b0uAG5UgZWOd81QieglD1EDXI
+					yWIGT3+Zp138aqfgHCzUZbV4AuvJ/MSyRyb8
+					6rnbVmJW3GG76OC9DqZwYzjLNdeiLgq4SB2W
+					pFF387tcyM9Fnl3zNu6xSRYJOANMeMZN+nE6
+					bguShXiMq0Nk1TZOhgUHWc6rMij8zrPdzDJl
+					FSX6aFeOiR73oM0OZTW1ddOTermi8t8pVbdj
+					ooDo57lwhrxEqArruPrw23OYQ4Dd6YFG3Q7o
+					vwLsat/f85ZNedYGoxc3a4s6LlVS5N31C2lz
+					ZztSvEFqjn9TkSxlhPEZPnIAfh61EtMCQHr+
+					zJDbaaXMaPVQwTNn0w== )
+localhost.paris.derby.practicum.os3.nl.	600 IN A 127.0.0.1
+			600	RRSIG	A 8 6 600 (
+					20150127195010 20150127174329 58128 paris.derby.practicum.os3.nl.
+					JOoq3mDydT/vDxXaNwJrYEctoXIqA/NEHYZJ
+					yq9vdRziX7+xajMnYnl8Z0H5wMVK1OnKvPGn
+					I3cgTfEFirIEyD5joKObg/zfEPzMKMl6xuuM
+					jEvy8ce3IrSDUF7XSu8Mtl489xuOEwuhvjwg
+					sz78sI0GaLNgTg6aa9Cn9S5rNrZwT6PerWNV
+					BJDvri+eGiKRgbGJA3gcoThtftiRtre/MJo1
+					PdMsKad1pBnn8o7Vb9jEHCzmODiK76MFXvuN
+					Z/ysdVtCDWUOM2wm72UAVowXvk+RmYn9sbwm
+					xrMlq59QaQzpya3fNd4B8Oq1gQhQ60oHoyNU
+					XViKbYc48gm6YEraIw== )
+			300	NSEC	mx2.paris.derby.practicum.os3.nl. A RRSIG NSEC
+			300	RRSIG	NSEC 8 6 300 (
+					20150127195010 20150127174329 58128 paris.derby.practicum.os3.nl.
+					gB/7SrI8TC3sn2vfaIACh5QWtAPLWKWBHXWs
+					Q2GGCbNl4Ft7fRHJb9oXr0bwFJshmxkKCeWw
+					CYPt1wazqObdQr0qTH11QPB+00HPe7ZIsIr8
+					nWRyu3MFghhOgpe5Uv4xR6ImLL24EHlSVm6p
+					JxzstndtrOvDd5QBVoY4tZoWtN1S9SMX1DbP
+					qLkID+42sVjiZ+2OcdUuLGGbo+k3ykPsdFzn
+					Hl2TzL/+CZTe09dkyeDjaDlPJhFGHOaok6Xx
+					SLafyGgC+6ezS8UgSnYUdNmHTv/S9U4RcEm9
+					Y55pwZudHV/wB4vIZLasrIDSMws6kK/rYlib
+					MX9Iw/8byVWh7f1Bqw== )
+ns1.paris.derby.practicum.os3.nl. 600 IN A 145.100.104.62
+			600	RRSIG	A 8 6 600 (
+					20150127195010 20150127174329 58128 paris.derby.practicum.os3.nl.
+					bwtmzI0jjyH6k5OAjb/qqXdwQChM5b9cRHuK
+					G6ilpUuqrb+dLq2FPBMWmOB3bpenTma9eU0s
+					BF9/i+OYyNCsYXDeywSLdinhHIPmbeZ9ns6A
+					joGf6lmsw46dBUEw77KSww9CYUyt86GTwPSg
+					iIzsfU1g95oPOVfnJiB2JobZtiPhBnFhLV4t
+					gHepTLpCSw2aSG0nkIHd98FNJ8EDrHNuLG2Z
+					9v9Dusm34UcuVgitCo+j7WKb/XzWVIKlDrJC
+					b7WSWuRFxBwfGLD7P0dGM/oA1xH/L4w8eOvH
+					rraGbLF7tbVZZDIoyNgTaKhN/2R02ZnTxBEp
+					75gVom1h1Z7GfzAeBA== )
+			300	NSEC	www.paris.derby.practicum.os3.nl. A RRSIG NSEC
+			300	RRSIG	NSEC 8 6 300 (
+					20150127195010 20150127174329 58128 paris.derby.practicum.os3.nl.
+					gDPTJUlB+UU+2bPlJ1FwMOEnw0x9R46Wcdq8
+					OO8vZ+dqdS6YiEuVIk8zVDrDzeO5+OlUmdgL
+					ABJJDAXofMfOhyJLeOxlNRWVrE4cCDpXyNIP
+					McHR1EJecv1oJx0p4Lw92mAvsgKuHYCS2fHI
+					GtdYmgvzMIhB8wXBH8DC0OIvEp054cDJJj0d
+					q4/GCvVCiuzSsBLXsBUfdanKzkLbVq0Odr6C
+					05IgwzteYMIviLtHj5VllWGKpDEsCtl7CvF+
+					QloJg88CsgQRVaTmyp4cUQnscpoYK414U+Rv
+					23O1V6TbdVbYTVZCMSH0KsmKksI7M8UlK9K6
+					oHPeG3BXgJysthOcFw== )
+www.paris.derby.practicum.os3.nl. 600 IN A 145.100.104.59
+			600	RRSIG	A 8 6 600 (
+					20150127195010 20150127174329 58128 paris.derby.practicum.os3.nl.
+					dWiS8iC02JWSIcYig6OqxLCsfxslWmPcknkG
+					JBjWbZ9qYf903HoZuge3tsG3+5g1WUASWBjs
+					hpQSxuLQZOEnQ5WK9xWWh3sjLLOqtnJVcUwf
+					iqmNwewdU5lKsc6TaMR68fT0n/mjU6AgM8s3
+					7C3dV+PMZYc17kgfKD/+uNixFpRDH0YKIaRs
+					qHQD6rCUnfSmkwwaJL/YK0Hapa1w1+i1GMS9
+					Y+zmW2dEN0B+HBp12g6d6/YGqrxQWkgKlMH/
+					6/MscjnPc0kk0hAH0fxmIEbwikJiRcwDURi+
+					Zo+gzPAOUfmJsgLMZ6XPZdqfLYai78Ac9pNk
+					0JtwDwkS+u6ow9x7xg== )
+			300	NSEC	www2.paris.derby.practicum.os3.nl. A RRSIG NSEC
+			300	RRSIG	NSEC 8 6 300 (
+					20150127195010 20150127174329 58128 paris.derby.practicum.os3.nl.
+					J+fVHViitwBx7qqa5N5vJ58K5oUV1yH8ZVH1
+					nqqepUasso/iG0t/7vUJt2/CH/vPF4zkapyp
+					rWLrYUoYIu2gkIXI5inyA73JpAlv4A7J1QHc
+					SNgtrekJLux6EBthU+kyBmieiXhbjfjcK6N1
+					JR0EZyPuM1yDe/by6A37bm/pxHfnxHq6YOUV
+					HSOX5hWxDbpJJGgJ1K4vBtj8Ma912iZx2CZg
+					YEcNxdpMtdHHqR9iy6UThgg35S0SdFupc0Mr
+					QmRtwDKREJJcAXCQXxfFfkqyKUEpTvJoymjH
+					/RyRrhhY23lARz3xu3/+TCO7rpinmbQdgS4W
+					jSXfwhaG2cLHNxE3GA== )
+www2.paris.derby.practicum.os3.nl. 600 IN A 145.100.104.58
+			600	RRSIG	A 8 6 600 (
+					20150127195010 20150127174329 58128 paris.derby.practicum.os3.nl.
+					UQe32YxtgQ59eZPp6Tearq49gdVvegOhO0qg
+					3Foxbmolat/upc0WC8mdsA45xGrQD9kKVwY4
+					HngC7a0uWsYRu7OVO30E72v9OTiRoCY3w+ZG
+					C8FAWoz84ro1Vco/IlsxL+V0h8e+nSyXE+IE
+					D50FNN/nYg7ZU1SW1pDfBfjaPOkpAPHaHmc7
+					j9HNW7fY8FTBLYAwzV+X44MGWATg1ARLUtAy
+					73wOLAZ4A3nWS1aXtmjDx8JwnVTbd+7fkYpq
+					tF1mt6rItYLwikLxsAJOlQqDtX73hcj74XBs
+					Duc+fBbX/VJYnM8mhj7/2rKgAj0cSsW3ddQS
+					OqFQ7F9wqrwVHsGBCw== )
+			300	NSEC	paris.derby.practicum.os3.nl. A RRSIG NSEC
+			300	RRSIG	NSEC 8 6 300 (
+					20150127195010 20150127174329 58128 paris.derby.practicum.os3.nl.
+					eUJV9Ir/ZFBma2mhYwAR3mnNyLygewntvjWy
+					dz4WO9jaiQHzWEUdfvVC9N9xCr3DGnSarHM0
+					uU6iDla19xQI8mzDEbOfkfW0i7LIGQ9DjXNU
+					UMjT5R2fl8Jzh4iTCZK6hdVt4fHxwQVsovlA
+					6wqVYNdQsePc3yozOrRb+5KQlxg+2VdNNL/E
+					ba/eXJNKF1C00VO1F2EAg7rU3h35dRkPlr0k
+					VMN93BL8Ao9bLGxdK2D6ULcznegVC3mNNXvj
+					WUOg0dmf1MEV7JAZrGS/3xGfnNtPZxxGKWA3
+					0Fd7ovtO9RTr+k447u/t6VI1JEGzEblJSuct
+					sL0fQio+ThEwVjusMA== )

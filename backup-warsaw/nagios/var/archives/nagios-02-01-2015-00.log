@@ -1,0 +1,35 @@
+[1422658800] LOG ROTATION: DAILY
+[1422658800] LOG VERSION: 2.0
+[1422658800] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1422658800] CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.31, 0.37, 0.23
+[1422658800] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 4 users currently logged in
+[1422658800] CURRENT SERVICE STATE: localhost;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 453 bytes in 0.001 second response time
+[1422658800] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;(null)
+[1422658800] CURRENT SERVICE STATE: localhost;Root Partition;OK;HARD;1;(null)
+[1422658800] CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;(null)
+[1422658800] CURRENT SERVICE STATE: localhost;Swap Usage;OK;HARD;1;(null)
+[1422658800] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;(null)
+[1422659747] Auto-save of retention data completed successfully.
+[1422663347] Auto-save of retention data completed successfully.
+[1422666947] Auto-save of retention data completed successfully.
+[1422670547] Auto-save of retention data completed successfully.
+[1422674147] Auto-save of retention data completed successfully.
+[1422677747] Auto-save of retention data completed successfully.
+[1422681347] Auto-save of retention data completed successfully.
+[1422684947] Auto-save of retention data completed successfully.
+[1422688547] Auto-save of retention data completed successfully.
+[1422692147] Auto-save of retention data completed successfully.
+[1422695747] Auto-save of retention data completed successfully.
+[1422699347] Auto-save of retention data completed successfully.
+[1422702947] Auto-save of retention data completed successfully.
+[1422706547] Auto-save of retention data completed successfully.
+[1422710147] Auto-save of retention data completed successfully.
+[1422713747] Auto-save of retention data completed successfully.
+[1422717347] Auto-save of retention data completed successfully.
+[1422720947] Auto-save of retention data completed successfully.
+[1422724547] Auto-save of retention data completed successfully.
+[1422728147] Auto-save of retention data completed successfully.
+[1422731747] Auto-save of retention data completed successfully.
+[1422735347] Auto-save of retention data completed successfully.
+[1422738947] Auto-save of retention data completed successfully.
+[1422742547] Auto-save of retention data completed successfully.

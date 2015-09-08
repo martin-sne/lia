@@ -1,0 +1,209 @@
++++ Statistics Dump +++ (1411422825)
+++ Incoming Requests ++
+++ Incoming Queries ++
+++ Outgoing Queries ++
+[View: default]
+[View: _bind]
+++ Name Server Statistics ++
+++ Zone Maintenance Statistics ++
+++ Resolver Statistics ++
+[Common]
+[View: default]
+                  31 bucket size
+[View: _bind]
+                  31 bucket size
+++ Cache Statistics ++
+[View: default]
+                   0 cache hits
+                   0 cache misses
+                   0 cache hits (from query)
+                   0 cache misses (from query)
+                   0 cache records deleted due to memory exhaustion
+                   0 cache records deleted due to TTL expiration
+                   0 cache database nodes
+                  64 cache database hash buckets
+              287392 cache tree memory total
+               29616 cache tree memory in use
+               29616 cache tree highest memory in use
+              262144 cache heap memory total
+                1024 cache heap memory in use
+                1024 cache heap highest memory in use
+[View: _bind (Cache: _bind)]
+                   0 cache hits
+                   0 cache misses
+                   0 cache hits (from query)
+                   0 cache misses (from query)
+                   0 cache records deleted due to memory exhaustion
+                   0 cache records deleted due to TTL expiration
+                   0 cache database nodes
+                  64 cache database hash buckets
+              287392 cache tree memory total
+               29608 cache tree memory in use
+               29608 cache tree highest memory in use
+              262144 cache heap memory total
+                1024 cache heap memory in use
+                1024 cache heap highest memory in use
+++ Cache DB RRsets ++
+[View: default]
+[View: _bind (Cache: _bind)]
+++ ADB stats ++
+[View: default]
+                1021 Address hash table size
+                1021 Name hash table size
+[View: _bind]
+                1021 Address hash table size
+                1021 Name hash table size
+++ Socket I/O Statistics ++
+                   8 UDP/IPv4 sockets opened
+                   4 UDP/IPv6 sockets opened
+                   3 TCP/IPv4 sockets opened
+                   1 TCP/IPv6 sockets opened
+                   1 Raw sockets opened
+                   4 TCP/IPv4 sockets closed
+                   5 TCP/IPv4 connections accepted
+                   8 UDP/IPv4 sockets active
+                   4 UDP/IPv6 sockets active
+                   8 TCP/IPv4 sockets active
+                   1 TCP/IPv6 sockets active
+                   1 Raw sockets active
+++ Per Zone Query Statistics ++
+--- Statistics Dump --- (1411422825)
++++ Statistics Dump +++ (1411422858)
+++ Incoming Requests ++
+++ Incoming Queries ++
+++ Outgoing Queries ++
+[View: default]
+[View: _bind]
+++ Name Server Statistics ++
+++ Zone Maintenance Statistics ++
+++ Resolver Statistics ++
+[Common]
+[View: default]
+                  31 bucket size
+[View: _bind]
+                  31 bucket size
+++ Cache Statistics ++
+[View: default]
+                   0 cache hits
+                   0 cache misses
+                   0 cache hits (from query)
+                   0 cache misses (from query)
+                   0 cache records deleted due to memory exhaustion
+                   0 cache records deleted due to TTL expiration
+                   0 cache database nodes
+                  64 cache database hash buckets
+              287392 cache tree memory total
+               29616 cache tree memory in use
+               29616 cache tree highest memory in use
+              262144 cache heap memory total
+                1024 cache heap memory in use
+                1024 cache heap highest memory in use
+[View: _bind (Cache: _bind)]
+                   0 cache hits
+                   0 cache misses
+                   0 cache hits (from query)
+                   0 cache misses (from query)
+                   0 cache records deleted due to memory exhaustion
+                   0 cache records deleted due to TTL expiration
+                   0 cache database nodes
+                  64 cache database hash buckets
+              287392 cache tree memory total
+               29608 cache tree memory in use
+               29608 cache tree highest memory in use
+              262144 cache heap memory total
+                1024 cache heap memory in use
+                1024 cache heap highest memory in use
+++ Cache DB RRsets ++
+[View: default]
+[View: _bind (Cache: _bind)]
+++ ADB stats ++
+[View: default]
+                1021 Address hash table size
+                1021 Name hash table size
+[View: _bind]
+                1021 Address hash table size
+                1021 Name hash table size
+++ Socket I/O Statistics ++
+                   8 UDP/IPv4 sockets opened
+                   4 UDP/IPv6 sockets opened
+                   3 TCP/IPv4 sockets opened
+                   1 TCP/IPv6 sockets opened
+                   1 Raw sockets opened
+                   1 TCP/IPv4 connections accepted
+                   8 UDP/IPv4 sockets active
+                   4 UDP/IPv6 sockets active
+                   4 TCP/IPv4 sockets active
+                   1 TCP/IPv6 sockets active
+                   1 Raw sockets active
+++ Per Zone Query Statistics ++
+--- Statistics Dump --- (1411422858)
++++ Statistics Dump +++ (1411422885)
+++ Incoming Requests ++
+++ Incoming Queries ++
+++ Outgoing Queries ++
+[View: default]
+[View: _bind]
+++ Name Server Statistics ++
+++ Zone Maintenance Statistics ++
+++ Resolver Statistics ++
+[Common]
+[View: default]
+                  31 bucket size
+[View: _bind]
+                  31 bucket size
+++ Cache Statistics ++
+[View: default]
+                   0 cache hits
+                   0 cache misses
+                   0 cache hits (from query)
+                   0 cache misses (from query)
+                   0 cache records deleted due to memory exhaustion
+                   0 cache records deleted due to TTL expiration
+                   0 cache database nodes
+                  64 cache database hash buckets
+              287392 cache tree memory total
+               29616 cache tree memory in use
+               29616 cache tree highest memory in use
+              262144 cache heap memory total
+                1024 cache heap memory in use
+                1024 cache heap highest memory in use
+[View: _bind (Cache: _bind)]
+                   0 cache hits
+                   0 cache misses
+                   0 cache hits (from query)
+                   0 cache misses (from query)
+                   0 cache records deleted due to memory exhaustion
+                   0 cache records deleted due to TTL expiration
+                   0 cache database nodes
+                  64 cache database hash buckets
+              287392 cache tree memory total
+               29608 cache tree memory in use
+               29608 cache tree highest memory in use
+              262144 cache heap memory total
+                1024 cache heap memory in use
+                1024 cache heap highest memory in use
+++ Cache DB RRsets ++
+[View: default]
+[View: _bind (Cache: _bind)]
+++ ADB stats ++
+[View: default]
+                1021 Address hash table size
+                1021 Name hash table size
+[View: _bind]
+                1021 Address hash table size
+                1021 Name hash table size
+++ Socket I/O Statistics ++
+                   8 UDP/IPv4 sockets opened
+                   4 UDP/IPv6 sockets opened
+                   3 TCP/IPv4 sockets opened
+                   1 TCP/IPv6 sockets opened
+                   1 Raw sockets opened
+                   1 TCP/IPv4 sockets closed
+                   2 TCP/IPv4 connections accepted
+                   8 UDP/IPv4 sockets active
+                   4 UDP/IPv6 sockets active
+                   5 TCP/IPv4 sockets active
+                   1 TCP/IPv6 sockets active
+                   1 Raw sockets active
+++ Per Zone Query Statistics ++
+--- Statistics Dump --- (1411422885)

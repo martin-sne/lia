@@ -1,0 +1,11 @@
+$TTL 86400
+@ IN SOA warsaw.studlab.os3.nl. martin.leucht.os3.nl (
+        1       ; serial
+        360000  ; refresh every 100 hours
+        3600    ; retry after 1 hour
+        3600000 ; expire after 1000 hours
+        3600    ; negative cache is 1 hour
+)
+                IN NS warsaw.studlab.os3.nl.
+0               IN PTR loopback.
+1               IN PTR localhost.

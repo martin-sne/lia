@@ -1,0 +1,1 @@
+/usr/bin/cc  -O2 -g -Wall -Wno-unused-function  -DH2O_ROOT="\"/usr/local\"" -D_GNU_SOURCE    CMakeFiles/examples-websocket.dir/lib/websocket.c.o CMakeFiles/examples-websocket.dir/examples/libh2o/websocket.c.o  -o examples-websocket -rdynamic libh2o.a /usr/local/lib/libssl.a /usr/local/lib/libcrypto.a -luv -lwslay -lnettle -ldl 

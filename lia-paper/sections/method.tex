@@ -1,0 +1,4 @@
+\section{Method}
+\label{method}
+For our research we will setup three AWS Amazon  micro instances (Europe/Asia/North America) that will act as HTTP clients (HTTP/1.1 and HTTP/2). The server itself, that will serve HTTP/1.1 and HTTP/2 requests is located in the OS3 lab and is one of our student server. The server will provide three different web  pages that have different sizes (small/medium/large). As a server software for testing HTTP/2 (h2c-14 \cite{h2c-14}) requests we will use nghttp \cite{nghttp}. For HTTP/1.1 requests we will use Apache2 \cite{apache2}. In order to benchmark HTTP/2 we will use h2load \cite{h2load} and for HTTP/1.1 Apache Benchmark (ab \cite{ab}). Despite the will not to use different benchmarks tools to minimize the repercussions on the results, we decided to use these tools because both provide similar output (data/header size ratio, requests per second, mean time for each request, etc) and are capable to simulate concurrent sessions. 
+

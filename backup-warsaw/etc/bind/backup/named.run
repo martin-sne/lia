@@ -1,0 +1,1854 @@
+22-Sep-2014 20:43:38.707 starting BIND 9.10.0-P2 -d2
+22-Sep-2014 20:43:38.707 built with '--prefix=/usr/local' '--sysconfdir=/usr/local/etc/bind' '--with-openssl' '--localstatedir=/var/run'
+22-Sep-2014 20:43:38.707 ----------------------------------------------------
+22-Sep-2014 20:43:38.707 BIND 9 is maintained by Internet Systems Consortium,
+22-Sep-2014 20:43:38.707 Inc. (ISC), a non-profit 501(c)(3) public-benefit 
+22-Sep-2014 20:43:38.707 corporation.  Support and training for BIND 9 are 
+22-Sep-2014 20:43:38.707 available at https://www.isc.org/support
+22-Sep-2014 20:43:38.707 ----------------------------------------------------
+22-Sep-2014 20:43:38.707 adjusted limit on open files from 4096 to 1048576
+22-Sep-2014 20:43:38.707 found 8 CPUs, using 8 worker threads
+22-Sep-2014 20:43:38.707 using 4 UDP listeners per interface
+22-Sep-2014 20:43:38.708 using up to 4096 sockets
+22-Sep-2014 20:43:38.708 Registering DLZ_dlopen driver
+22-Sep-2014 20:43:38.708 Registering SDLZ driver 'dlopen'
+22-Sep-2014 20:43:38.708 Registering DLZ driver 'dlopen'
+22-Sep-2014 20:43:38.712 decrement_reference: delete from rbt: 0x7f470a892148 .
+22-Sep-2014 20:43:38.715 loading configuration from '/usr/local/etc/bind/named.conf'
+22-Sep-2014 20:43:38.715 reading built-in trusted keys from file '/usr/local/etc/bind/bind.keys'
+22-Sep-2014 20:43:38.715 using default UDP/IPv4 port range: [1024, 65535]
+22-Sep-2014 20:43:38.716 using default UDP/IPv6 port range: [1024, 65535]
+22-Sep-2014 20:43:38.717 listening on IPv6 interfaces, port 53
+22-Sep-2014 20:43:38.718 listening on IPv4 interface lo, 127.0.0.1#53
+22-Sep-2014 20:43:38.719 listening on IPv4 interface em1, 145.100.104.62#53
+22-Sep-2014 20:43:38.720 generating session key for dynamic DNS
+22-Sep-2014 20:43:38.720 sizing zone task pool based on 2 zones
+22-Sep-2014 20:43:38.720 decrement_reference: delete from rbt: 0x7f470460a078 .
+22-Sep-2014 20:43:38.720 zone_settimer: zone 0.0.127.in-addr.arpa/IN: enter
+22-Sep-2014 20:43:38.723 set up managed keys zone for view _default, file 'managed-keys.bind'
+22-Sep-2014 20:43:38.723 automatic empty zone: 10.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.723 automatic empty zone: 16.172.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.723 automatic empty zone: 17.172.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.723 automatic empty zone: 18.172.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.723 automatic empty zone: 19.172.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.723 automatic empty zone: 20.172.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.724 automatic empty zone: 21.172.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.724 automatic empty zone: 22.172.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.724 automatic empty zone: 23.172.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.724 automatic empty zone: 24.172.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.724 automatic empty zone: 25.172.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.724 automatic empty zone: 26.172.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.724 automatic empty zone: 27.172.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.724 automatic empty zone: 28.172.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.724 automatic empty zone: 29.172.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.724 automatic empty zone: 30.172.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.724 automatic empty zone: 31.172.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.724 automatic empty zone: 168.192.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.724 automatic empty zone: 64.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.724 automatic empty zone: 65.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.724 automatic empty zone: 66.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.724 automatic empty zone: 67.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.724 automatic empty zone: 68.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.724 automatic empty zone: 69.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.725 automatic empty zone: 70.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.725 automatic empty zone: 71.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.725 automatic empty zone: 72.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.725 automatic empty zone: 73.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.725 automatic empty zone: 74.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.725 automatic empty zone: 75.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.725 automatic empty zone: 76.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.725 automatic empty zone: 77.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.725 automatic empty zone: 78.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.725 automatic empty zone: 79.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.725 automatic empty zone: 80.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.725 automatic empty zone: 81.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.725 automatic empty zone: 82.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.725 automatic empty zone: 83.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.725 automatic empty zone: 84.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.725 automatic empty zone: 85.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.725 automatic empty zone: 86.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.726 automatic empty zone: 87.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.726 automatic empty zone: 88.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.726 automatic empty zone: 89.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.726 automatic empty zone: 90.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.726 automatic empty zone: 91.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.726 automatic empty zone: 92.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.726 automatic empty zone: 93.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.726 automatic empty zone: 94.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.726 automatic empty zone: 95.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.726 automatic empty zone: 96.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.726 automatic empty zone: 97.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.726 automatic empty zone: 98.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.726 automatic empty zone: 99.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.726 automatic empty zone: 100.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.726 automatic empty zone: 101.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.726 automatic empty zone: 102.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.726 automatic empty zone: 103.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.726 automatic empty zone: 104.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.727 automatic empty zone: 105.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.727 automatic empty zone: 106.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.727 automatic empty zone: 107.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.727 automatic empty zone: 108.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.727 automatic empty zone: 109.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.727 automatic empty zone: 110.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.727 automatic empty zone: 111.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.727 automatic empty zone: 112.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.727 automatic empty zone: 113.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.727 automatic empty zone: 114.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.727 automatic empty zone: 115.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.727 automatic empty zone: 116.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.727 automatic empty zone: 117.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.727 automatic empty zone: 118.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.727 automatic empty zone: 119.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.727 automatic empty zone: 120.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.727 automatic empty zone: 121.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.728 automatic empty zone: 122.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.728 automatic empty zone: 123.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.728 automatic empty zone: 124.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.728 automatic empty zone: 125.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.728 automatic empty zone: 126.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.728 automatic empty zone: 127.100.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.728 automatic empty zone: 0.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.728 automatic empty zone: 127.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.728 automatic empty zone: 254.169.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.728 automatic empty zone: 2.0.192.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.728 automatic empty zone: 100.51.198.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.728 automatic empty zone: 113.0.203.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.728 automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+22-Sep-2014 20:43:38.728 automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+22-Sep-2014 20:43:38.728 automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+22-Sep-2014 20:43:38.728 automatic empty zone: D.F.IP6.ARPA
+22-Sep-2014 20:43:38.729 automatic empty zone: 8.E.F.IP6.ARPA
+22-Sep-2014 20:43:38.729 automatic empty zone: 9.E.F.IP6.ARPA
+22-Sep-2014 20:43:38.729 automatic empty zone: A.E.F.IP6.ARPA
+22-Sep-2014 20:43:38.729 automatic empty zone: B.E.F.IP6.ARPA
+22-Sep-2014 20:43:38.729 automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+22-Sep-2014 20:43:38.729 zone_settimer: zone version.bind/CH: enter
+22-Sep-2014 20:43:38.729 zone_settimer: zone hostname.bind/CH: enter
+22-Sep-2014 20:43:38.729 zone_settimer: zone authors.bind/CH: enter
+22-Sep-2014 20:43:38.729 zone_settimer: zone id.server/CH: enter
+22-Sep-2014 20:43:38.732 configuring command channel from '/usr/local/etc/bind/rndc.key'
+22-Sep-2014 20:43:38.732 couldn't add command channel 127.0.0.1#953: file not found
+22-Sep-2014 20:43:38.732 configuring command channel from '/usr/local/etc/bind/rndc.key'
+22-Sep-2014 20:43:38.732 couldn't add command channel ::1#953: file not found
+22-Sep-2014 20:43:38.732 configuring logging: file not found
+22-Sep-2014 20:43:38.732 load_configuration: file not found
+22-Sep-2014 20:43:38.732 loading configuration: file not found
+22-Sep-2014 20:43:38.732 exiting (due to fatal error)
+22-Sep-2014 21:34:52.090 starting BIND 9.10.0-P2 -d 2
+22-Sep-2014 21:34:52.090 built with '--prefix=/usr/local' '--sysconfdir=/usr/local/etc/bind' '--with-openssl' '--localstatedir=/var/run'
+22-Sep-2014 21:34:52.090 ----------------------------------------------------
+22-Sep-2014 21:34:52.090 BIND 9 is maintained by Internet Systems Consortium,
+22-Sep-2014 21:34:52.090 Inc. (ISC), a non-profit 501(c)(3) public-benefit 
+22-Sep-2014 21:34:52.090 corporation.  Support and training for BIND 9 are 
+22-Sep-2014 21:34:52.090 available at https://www.isc.org/support
+22-Sep-2014 21:34:52.090 ----------------------------------------------------
+22-Sep-2014 21:34:52.090 adjusted limit on open files from 4096 to 1048576
+22-Sep-2014 21:34:52.090 found 8 CPUs, using 8 worker threads
+22-Sep-2014 21:34:52.090 using 4 UDP listeners per interface
+22-Sep-2014 21:34:52.090 using up to 4096 sockets
+22-Sep-2014 21:34:52.090 Registering DLZ_dlopen driver
+22-Sep-2014 21:34:52.090 Registering SDLZ driver 'dlopen'
+22-Sep-2014 21:34:52.090 Registering DLZ driver 'dlopen'
+22-Sep-2014 21:34:52.095 decrement_reference: delete from rbt: 0x7fe41bfd0148 .
+22-Sep-2014 21:34:52.097 loading configuration from '/usr/local/etc/bind/named.conf'
+22-Sep-2014 21:34:52.097 reading built-in trusted keys from file '/usr/local/etc/bind/bind.keys'
+22-Sep-2014 21:34:52.098 using default UDP/IPv4 port range: [1024, 65535]
+22-Sep-2014 21:34:52.098 using default UDP/IPv6 port range: [1024, 65535]
+22-Sep-2014 21:34:52.099 listening on IPv6 interfaces, port 53
+22-Sep-2014 21:34:52.100 binding TCP socket: address in use
+22-Sep-2014 21:34:52.100 listening on IPv4 interface lo, 127.0.0.1#53
+22-Sep-2014 21:34:52.101 binding TCP socket: address in use
+22-Sep-2014 21:34:52.101 listening on IPv4 interface em1, 145.100.104.62#53
+22-Sep-2014 21:34:52.102 binding TCP socket: address in use
+22-Sep-2014 21:34:52.102 generating session key for dynamic DNS
+22-Sep-2014 21:34:52.102 sizing zone task pool based on 2 zones
+22-Sep-2014 21:34:52.102 decrement_reference: delete from rbt: 0x7fe415e4e078 .
+22-Sep-2014 21:34:52.103 zone_settimer: zone 0.0.127.in-addr.arpa/IN: enter
+22-Sep-2014 21:34:52.105 set up managed keys zone for view _default, file 'managed-keys.bind'
+22-Sep-2014 21:34:52.105 automatic empty zone: 10.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.105 automatic empty zone: 16.172.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.105 automatic empty zone: 17.172.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.105 automatic empty zone: 18.172.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.105 automatic empty zone: 19.172.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.106 automatic empty zone: 20.172.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.106 automatic empty zone: 21.172.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.106 automatic empty zone: 22.172.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.106 automatic empty zone: 23.172.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.106 automatic empty zone: 24.172.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.106 automatic empty zone: 25.172.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.106 automatic empty zone: 26.172.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.106 automatic empty zone: 27.172.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.106 automatic empty zone: 28.172.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.106 automatic empty zone: 29.172.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.106 automatic empty zone: 30.172.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.106 automatic empty zone: 31.172.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.106 automatic empty zone: 168.192.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.106 automatic empty zone: 64.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.106 automatic empty zone: 65.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.106 automatic empty zone: 66.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.106 automatic empty zone: 67.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.106 automatic empty zone: 68.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.106 automatic empty zone: 69.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.107 automatic empty zone: 70.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.107 automatic empty zone: 71.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.107 automatic empty zone: 72.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.107 automatic empty zone: 73.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.107 automatic empty zone: 74.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.107 automatic empty zone: 75.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.107 automatic empty zone: 76.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.107 automatic empty zone: 77.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.107 automatic empty zone: 78.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.107 automatic empty zone: 79.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.107 automatic empty zone: 80.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.107 automatic empty zone: 81.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.107 automatic empty zone: 82.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.107 automatic empty zone: 83.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.107 automatic empty zone: 84.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.107 automatic empty zone: 85.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.107 automatic empty zone: 86.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.107 automatic empty zone: 87.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.108 automatic empty zone: 88.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.108 automatic empty zone: 89.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.108 automatic empty zone: 90.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.108 automatic empty zone: 91.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.108 automatic empty zone: 92.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.108 automatic empty zone: 93.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.108 automatic empty zone: 94.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.108 automatic empty zone: 95.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.108 automatic empty zone: 96.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.108 automatic empty zone: 97.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.109 automatic empty zone: 98.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.109 automatic empty zone: 99.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.109 automatic empty zone: 100.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.109 automatic empty zone: 101.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.109 automatic empty zone: 102.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.109 automatic empty zone: 103.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.109 automatic empty zone: 104.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.109 automatic empty zone: 105.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.109 automatic empty zone: 106.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.109 automatic empty zone: 107.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.109 automatic empty zone: 108.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.109 automatic empty zone: 109.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.109 automatic empty zone: 110.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.109 automatic empty zone: 111.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.109 automatic empty zone: 112.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.109 automatic empty zone: 113.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.109 automatic empty zone: 114.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.110 automatic empty zone: 115.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.110 automatic empty zone: 116.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.110 automatic empty zone: 117.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.110 automatic empty zone: 118.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.110 automatic empty zone: 119.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.110 automatic empty zone: 120.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.110 automatic empty zone: 121.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.110 automatic empty zone: 122.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.110 automatic empty zone: 123.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.110 automatic empty zone: 124.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.110 automatic empty zone: 125.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.110 automatic empty zone: 126.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.110 automatic empty zone: 127.100.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.110 automatic empty zone: 0.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.110 automatic empty zone: 127.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.110 automatic empty zone: 254.169.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.111 automatic empty zone: 2.0.192.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.111 automatic empty zone: 100.51.198.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.111 automatic empty zone: 113.0.203.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.111 automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+22-Sep-2014 21:34:52.111 automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+22-Sep-2014 21:34:52.111 automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+22-Sep-2014 21:34:52.111 automatic empty zone: D.F.IP6.ARPA
+22-Sep-2014 21:34:52.111 automatic empty zone: 8.E.F.IP6.ARPA
+22-Sep-2014 21:34:52.111 automatic empty zone: 9.E.F.IP6.ARPA
+22-Sep-2014 21:34:52.111 automatic empty zone: A.E.F.IP6.ARPA
+22-Sep-2014 21:34:52.111 automatic empty zone: B.E.F.IP6.ARPA
+22-Sep-2014 21:34:52.111 automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+22-Sep-2014 21:34:52.111 zone_settimer: zone version.bind/CH: enter
+22-Sep-2014 21:34:52.111 zone_settimer: zone hostname.bind/CH: enter
+22-Sep-2014 21:34:52.111 zone_settimer: zone authors.bind/CH: enter
+22-Sep-2014 21:34:52.111 zone_settimer: zone id.server/CH: enter
+22-Sep-2014 21:34:52.114 configuring command channel from '/usr/local/etc/bind/rndc.key'
+22-Sep-2014 21:34:52.114 couldn't add command channel 127.0.0.1#953: file not found
+22-Sep-2014 21:34:52.114 configuring command channel from '/usr/local/etc/bind/rndc.key'
+22-Sep-2014 21:34:52.114 couldn't add command channel ::1#953: file not found
+22-Sep-2014 21:39:48.025 starting BIND 9.10.0-P2 -d 2
+22-Sep-2014 21:39:48.026 built with '--prefix=/usr/local' '--sysconfdir=/usr/local/etc/bind' '--with-openssl' '--localstatedir=/var/run'
+22-Sep-2014 21:39:48.026 ----------------------------------------------------
+22-Sep-2014 21:39:48.026 BIND 9 is maintained by Internet Systems Consortium,
+22-Sep-2014 21:39:48.026 Inc. (ISC), a non-profit 501(c)(3) public-benefit 
+22-Sep-2014 21:39:48.026 corporation.  Support and training for BIND 9 are 
+22-Sep-2014 21:39:48.026 available at https://www.isc.org/support
+22-Sep-2014 21:39:48.026 ----------------------------------------------------
+22-Sep-2014 21:39:48.026 adjusted limit on open files from 4096 to 1048576
+22-Sep-2014 21:39:48.026 found 8 CPUs, using 8 worker threads
+22-Sep-2014 21:39:48.026 using 4 UDP listeners per interface
+22-Sep-2014 21:39:48.026 using up to 4096 sockets
+22-Sep-2014 21:39:48.026 Registering DLZ_dlopen driver
+22-Sep-2014 21:39:48.026 Registering SDLZ driver 'dlopen'
+22-Sep-2014 21:39:48.026 Registering DLZ driver 'dlopen'
+22-Sep-2014 21:39:48.030 decrement_reference: delete from rbt: 0x7f1840e18148 .
+22-Sep-2014 21:39:48.033 loading configuration from '/usr/local/etc/bind/named.conf'
+22-Sep-2014 21:39:48.033 reading built-in trusted keys from file '/usr/local/etc/bind/bind.keys'
+22-Sep-2014 21:39:48.034 using default UDP/IPv4 port range: [1024, 65535]
+22-Sep-2014 21:39:48.034 using default UDP/IPv6 port range: [1024, 65535]
+22-Sep-2014 21:39:48.035 listening on IPv6 interfaces, port 53
+22-Sep-2014 21:39:48.036 binding TCP socket: address in use
+22-Sep-2014 21:39:48.036 listening on IPv4 interface lo, 127.0.0.1#53
+22-Sep-2014 21:39:48.037 binding TCP socket: address in use
+22-Sep-2014 21:39:48.037 listening on IPv4 interface em1, 145.100.104.62#53
+22-Sep-2014 21:39:48.037 binding TCP socket: address in use
+22-Sep-2014 21:39:48.038 generating session key for dynamic DNS
+22-Sep-2014 21:39:48.038 sizing zone task pool based on 2 zones
+22-Sep-2014 21:39:48.038 decrement_reference: delete from rbt: 0x7f183ac96078 .
+22-Sep-2014 21:39:48.039 zone_settimer: zone 0.0.127.in-addr.arpa/IN: enter
+22-Sep-2014 21:39:48.041 set up managed keys zone for view _default, file 'managed-keys.bind'
+22-Sep-2014 21:39:48.041 automatic empty zone: 10.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.041 automatic empty zone: 16.172.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.041 automatic empty zone: 17.172.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.041 automatic empty zone: 18.172.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.041 automatic empty zone: 19.172.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.041 automatic empty zone: 20.172.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.042 automatic empty zone: 21.172.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.042 automatic empty zone: 22.172.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.042 automatic empty zone: 23.172.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.042 automatic empty zone: 24.172.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.042 automatic empty zone: 25.172.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.042 automatic empty zone: 26.172.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.042 automatic empty zone: 27.172.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.042 automatic empty zone: 28.172.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.042 automatic empty zone: 29.172.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.042 automatic empty zone: 30.172.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.042 automatic empty zone: 31.172.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.042 automatic empty zone: 168.192.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.042 automatic empty zone: 64.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.042 automatic empty zone: 65.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.042 automatic empty zone: 66.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.042 automatic empty zone: 67.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.042 automatic empty zone: 68.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.043 automatic empty zone: 69.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.043 automatic empty zone: 70.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.043 automatic empty zone: 71.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.043 automatic empty zone: 72.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.043 automatic empty zone: 73.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.043 automatic empty zone: 74.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.043 automatic empty zone: 75.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.043 automatic empty zone: 76.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.043 automatic empty zone: 77.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.043 automatic empty zone: 78.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.043 automatic empty zone: 79.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.043 automatic empty zone: 80.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.043 automatic empty zone: 81.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.043 automatic empty zone: 82.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.043 automatic empty zone: 83.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.043 automatic empty zone: 84.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.043 automatic empty zone: 85.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.044 automatic empty zone: 86.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.044 automatic empty zone: 87.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.044 automatic empty zone: 88.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.044 automatic empty zone: 89.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.044 automatic empty zone: 90.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.044 automatic empty zone: 91.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.044 automatic empty zone: 92.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.044 automatic empty zone: 93.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.044 automatic empty zone: 94.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.044 automatic empty zone: 95.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.044 automatic empty zone: 96.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.044 automatic empty zone: 97.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.044 automatic empty zone: 98.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.044 automatic empty zone: 99.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.044 automatic empty zone: 100.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.044 automatic empty zone: 101.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.044 automatic empty zone: 102.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.044 automatic empty zone: 103.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.045 automatic empty zone: 104.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.045 automatic empty zone: 105.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.045 automatic empty zone: 106.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.045 automatic empty zone: 107.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.045 automatic empty zone: 108.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.045 automatic empty zone: 109.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.045 automatic empty zone: 110.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.045 automatic empty zone: 111.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.045 automatic empty zone: 112.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.045 automatic empty zone: 113.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.045 automatic empty zone: 114.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.045 automatic empty zone: 115.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.045 automatic empty zone: 116.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.045 automatic empty zone: 117.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.045 automatic empty zone: 118.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.045 automatic empty zone: 119.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.045 automatic empty zone: 120.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.046 automatic empty zone: 121.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.046 automatic empty zone: 122.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.046 automatic empty zone: 123.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.046 automatic empty zone: 124.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.046 automatic empty zone: 125.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.046 automatic empty zone: 126.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.046 automatic empty zone: 127.100.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.046 automatic empty zone: 0.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.046 automatic empty zone: 127.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.046 automatic empty zone: 254.169.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.046 automatic empty zone: 2.0.192.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.046 automatic empty zone: 100.51.198.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.046 automatic empty zone: 113.0.203.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.046 automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+22-Sep-2014 21:39:48.046 automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+22-Sep-2014 21:39:48.046 automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+22-Sep-2014 21:39:48.046 automatic empty zone: D.F.IP6.ARPA
+22-Sep-2014 21:39:48.047 automatic empty zone: 8.E.F.IP6.ARPA
+22-Sep-2014 21:39:48.047 automatic empty zone: 9.E.F.IP6.ARPA
+22-Sep-2014 21:39:48.047 automatic empty zone: A.E.F.IP6.ARPA
+22-Sep-2014 21:39:48.047 automatic empty zone: B.E.F.IP6.ARPA
+22-Sep-2014 21:39:48.047 automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+22-Sep-2014 21:39:48.047 zone_settimer: zone version.bind/CH: enter
+22-Sep-2014 21:39:48.047 zone_settimer: zone hostname.bind/CH: enter
+22-Sep-2014 21:39:48.047 zone_settimer: zone authors.bind/CH: enter
+22-Sep-2014 21:39:48.047 zone_settimer: zone id.server/CH: enter
+22-Sep-2014 21:39:48.050 configuring command channel from '/usr/local/etc/bind/rndc.key'
+22-Sep-2014 21:39:48.050 couldn't add command channel 127.0.0.1#953: file not found
+22-Sep-2014 21:39:48.050 configuring command channel from '/usr/local/etc/bind/rndc.key'
+22-Sep-2014 21:39:48.050 couldn't add command channel ::1#953: file not found
+22-Sep-2014 21:40:54.060 starting BIND 9.10.0-P2 -d 2
+22-Sep-2014 21:40:54.061 built with '--prefix=/usr/local' '--sysconfdir=/usr/local/etc/bind' '--with-openssl' '--localstatedir=/var/run'
+22-Sep-2014 21:40:54.061 ----------------------------------------------------
+22-Sep-2014 21:40:54.061 BIND 9 is maintained by Internet Systems Consortium,
+22-Sep-2014 21:40:54.061 Inc. (ISC), a non-profit 501(c)(3) public-benefit 
+22-Sep-2014 21:40:54.061 corporation.  Support and training for BIND 9 are 
+22-Sep-2014 21:40:54.061 available at https://www.isc.org/support
+22-Sep-2014 21:40:54.061 ----------------------------------------------------
+22-Sep-2014 21:40:54.061 adjusted limit on open files from 4096 to 1048576
+22-Sep-2014 21:40:54.061 found 8 CPUs, using 8 worker threads
+22-Sep-2014 21:40:54.061 using 4 UDP listeners per interface
+22-Sep-2014 21:40:54.061 using up to 4096 sockets
+22-Sep-2014 21:40:54.061 Registering DLZ_dlopen driver
+22-Sep-2014 21:40:54.061 Registering SDLZ driver 'dlopen'
+22-Sep-2014 21:40:54.061 Registering DLZ driver 'dlopen'
+22-Sep-2014 21:40:54.066 decrement_reference: delete from rbt: 0x7f5543fe4148 .
+22-Sep-2014 21:40:54.068 loading configuration from '/usr/local/etc/bind/named.conf'
+22-Sep-2014 21:40:54.068 reading built-in trusted keys from file '/usr/local/etc/bind/bind.keys'
+22-Sep-2014 21:40:54.069 using default UDP/IPv4 port range: [1024, 65535]
+22-Sep-2014 21:40:54.069 using default UDP/IPv6 port range: [1024, 65535]
+22-Sep-2014 21:40:54.070 listening on IPv6 interfaces, port 53
+22-Sep-2014 21:40:54.071 binding TCP socket: address in use
+22-Sep-2014 21:40:54.071 listening on IPv4 interface lo, 127.0.0.1#53
+22-Sep-2014 21:40:54.072 binding TCP socket: address in use
+22-Sep-2014 21:40:54.072 listening on IPv4 interface em1, 145.100.104.62#53
+22-Sep-2014 21:40:54.072 binding TCP socket: address in use
+22-Sep-2014 21:40:54.073 generating session key for dynamic DNS
+22-Sep-2014 21:40:54.073 sizing zone task pool based on 2 zones
+22-Sep-2014 21:40:54.073 decrement_reference: delete from rbt: 0x7f553de62078 .
+22-Sep-2014 21:40:54.073 zone_settimer: zone 0.0.127.in-addr.arpa/IN: enter
+22-Sep-2014 21:40:54.076 set up managed keys zone for view _default, file 'managed-keys.bind'
+22-Sep-2014 21:40:54.076 automatic empty zone: 10.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.076 automatic empty zone: 16.172.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.076 automatic empty zone: 17.172.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.076 automatic empty zone: 18.172.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.076 automatic empty zone: 19.172.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.076 automatic empty zone: 20.172.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.076 automatic empty zone: 21.172.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.076 automatic empty zone: 22.172.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.076 automatic empty zone: 23.172.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.076 automatic empty zone: 24.172.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.076 automatic empty zone: 25.172.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.076 automatic empty zone: 26.172.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.076 automatic empty zone: 27.172.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.076 automatic empty zone: 28.172.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.076 automatic empty zone: 29.172.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.077 automatic empty zone: 30.172.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.077 automatic empty zone: 31.172.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.077 automatic empty zone: 168.192.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.077 automatic empty zone: 64.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.077 automatic empty zone: 65.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.077 automatic empty zone: 66.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.077 automatic empty zone: 67.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.077 automatic empty zone: 68.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.077 automatic empty zone: 69.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.077 automatic empty zone: 70.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.077 automatic empty zone: 71.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.077 automatic empty zone: 72.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.077 automatic empty zone: 73.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.077 automatic empty zone: 74.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.077 automatic empty zone: 75.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.077 automatic empty zone: 76.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.077 automatic empty zone: 77.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.077 automatic empty zone: 78.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.077 automatic empty zone: 79.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.077 automatic empty zone: 80.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.077 automatic empty zone: 81.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.077 automatic empty zone: 82.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.077 automatic empty zone: 83.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.077 automatic empty zone: 84.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.077 automatic empty zone: 85.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.077 automatic empty zone: 86.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.078 automatic empty zone: 87.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.078 automatic empty zone: 88.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.078 automatic empty zone: 89.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.078 automatic empty zone: 90.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.078 automatic empty zone: 91.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.078 automatic empty zone: 92.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.078 automatic empty zone: 93.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.078 automatic empty zone: 94.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.078 automatic empty zone: 95.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.078 automatic empty zone: 96.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.078 automatic empty zone: 97.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.078 automatic empty zone: 98.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.078 automatic empty zone: 99.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.078 automatic empty zone: 100.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.078 automatic empty zone: 101.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.078 automatic empty zone: 102.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.078 automatic empty zone: 103.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.078 automatic empty zone: 104.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.078 automatic empty zone: 105.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.078 automatic empty zone: 106.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.078 automatic empty zone: 107.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.078 automatic empty zone: 108.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.078 automatic empty zone: 109.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.078 automatic empty zone: 110.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.078 automatic empty zone: 111.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.078 automatic empty zone: 112.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.079 automatic empty zone: 113.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.079 automatic empty zone: 114.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.079 automatic empty zone: 115.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.079 automatic empty zone: 116.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.079 automatic empty zone: 117.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.079 automatic empty zone: 118.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.079 automatic empty zone: 119.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.079 automatic empty zone: 120.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.079 automatic empty zone: 121.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.079 automatic empty zone: 122.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.079 automatic empty zone: 123.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.079 automatic empty zone: 124.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.079 automatic empty zone: 125.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.079 automatic empty zone: 126.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.079 automatic empty zone: 127.100.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.079 automatic empty zone: 0.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.079 automatic empty zone: 127.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.079 automatic empty zone: 254.169.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.079 automatic empty zone: 2.0.192.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.079 automatic empty zone: 100.51.198.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.079 automatic empty zone: 113.0.203.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.079 automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+22-Sep-2014 21:40:54.079 automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+22-Sep-2014 21:40:54.080 automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+22-Sep-2014 21:40:54.080 automatic empty zone: D.F.IP6.ARPA
+22-Sep-2014 21:40:54.080 automatic empty zone: 8.E.F.IP6.ARPA
+22-Sep-2014 21:40:54.080 automatic empty zone: 9.E.F.IP6.ARPA
+22-Sep-2014 21:40:54.080 automatic empty zone: A.E.F.IP6.ARPA
+22-Sep-2014 21:40:54.080 automatic empty zone: B.E.F.IP6.ARPA
+22-Sep-2014 21:40:54.080 automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+22-Sep-2014 21:40:54.080 zone_settimer: zone version.bind/CH: enter
+22-Sep-2014 21:40:54.080 zone_settimer: zone hostname.bind/CH: enter
+22-Sep-2014 21:40:54.080 zone_settimer: zone authors.bind/CH: enter
+22-Sep-2014 21:40:54.080 zone_settimer: zone id.server/CH: enter
+22-Sep-2014 21:40:54.082 configuring command channel from '/usr/local/etc/bind/rndc.key'
+22-Sep-2014 21:40:54.083 couldn't add command channel 127.0.0.1#953: file not found
+22-Sep-2014 21:40:54.083 configuring command channel from '/usr/local/etc/bind/rndc.key'
+22-Sep-2014 21:40:54.083 couldn't add command channel ::1#953: file not found
+22-Sep-2014 21:43:31.266 starting BIND 9.10.0-P2 -d 2
+22-Sep-2014 21:43:31.266 built with '--prefix=/usr/local' '--sysconfdir=/usr/local/etc/bind' '--with-openssl' '--localstatedir=/var/run'
+22-Sep-2014 21:43:31.266 ----------------------------------------------------
+22-Sep-2014 21:43:31.266 BIND 9 is maintained by Internet Systems Consortium,
+22-Sep-2014 21:43:31.266 Inc. (ISC), a non-profit 501(c)(3) public-benefit 
+22-Sep-2014 21:43:31.266 corporation.  Support and training for BIND 9 are 
+22-Sep-2014 21:43:31.266 available at https://www.isc.org/support
+22-Sep-2014 21:43:31.266 ----------------------------------------------------
+22-Sep-2014 21:43:31.266 adjusted limit on open files from 4096 to 1048576
+22-Sep-2014 21:43:31.266 found 8 CPUs, using 8 worker threads
+22-Sep-2014 21:43:31.266 using 4 UDP listeners per interface
+22-Sep-2014 21:43:31.267 using up to 4096 sockets
+22-Sep-2014 21:43:31.267 Registering DLZ_dlopen driver
+22-Sep-2014 21:43:31.267 Registering SDLZ driver 'dlopen'
+22-Sep-2014 21:43:31.267 Registering DLZ driver 'dlopen'
+22-Sep-2014 21:43:31.271 decrement_reference: delete from rbt: 0x7f0d03edd148 .
+22-Sep-2014 21:43:31.273 loading configuration from '/usr/local/etc/bind/named.conf'
+22-Sep-2014 21:43:31.274 reading built-in trusted keys from file '/usr/local/etc/bind/bind.keys'
+22-Sep-2014 21:43:31.274 using default UDP/IPv4 port range: [1024, 65535]
+22-Sep-2014 21:43:31.274 using default UDP/IPv6 port range: [1024, 65535]
+22-Sep-2014 21:43:31.275 listening on IPv6 interfaces, port 53
+22-Sep-2014 21:43:31.277 listening on IPv4 interface lo, 127.0.0.1#53
+22-Sep-2014 21:43:31.277 listening on IPv4 interface em1, 145.100.104.62#53
+22-Sep-2014 21:43:31.278 generating session key for dynamic DNS
+22-Sep-2014 21:43:31.279 sizing zone task pool based on 2 zones
+22-Sep-2014 21:43:31.279 decrement_reference: delete from rbt: 0x7f0cfdd5b078 .
+22-Sep-2014 21:43:31.279 zone_settimer: zone 0.0.127.in-addr.arpa/IN: enter
+22-Sep-2014 21:43:31.282 set up managed keys zone for view _default, file 'managed-keys.bind'
+22-Sep-2014 21:43:31.282 automatic empty zone: 10.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.282 automatic empty zone: 16.172.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.282 automatic empty zone: 17.172.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.282 automatic empty zone: 18.172.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.282 automatic empty zone: 19.172.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.282 automatic empty zone: 20.172.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.282 automatic empty zone: 21.172.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.282 automatic empty zone: 22.172.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.282 automatic empty zone: 23.172.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.282 automatic empty zone: 24.172.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.282 automatic empty zone: 25.172.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.283 automatic empty zone: 26.172.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.283 automatic empty zone: 27.172.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.283 automatic empty zone: 28.172.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.283 automatic empty zone: 29.172.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.283 automatic empty zone: 30.172.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.283 automatic empty zone: 31.172.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.283 automatic empty zone: 168.192.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.283 automatic empty zone: 64.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.283 automatic empty zone: 65.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.283 automatic empty zone: 66.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.283 automatic empty zone: 67.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.283 automatic empty zone: 68.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.283 automatic empty zone: 69.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.283 automatic empty zone: 70.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.283 automatic empty zone: 71.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.283 automatic empty zone: 72.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.283 automatic empty zone: 73.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.283 automatic empty zone: 74.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.284 automatic empty zone: 75.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.284 automatic empty zone: 76.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.284 automatic empty zone: 77.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.284 automatic empty zone: 78.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.284 automatic empty zone: 79.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.284 automatic empty zone: 80.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.284 automatic empty zone: 81.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.284 automatic empty zone: 82.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.284 automatic empty zone: 83.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.284 automatic empty zone: 84.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.284 automatic empty zone: 85.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.284 automatic empty zone: 86.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.284 automatic empty zone: 87.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.284 automatic empty zone: 88.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.284 automatic empty zone: 89.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.284 automatic empty zone: 90.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.284 automatic empty zone: 91.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.285 automatic empty zone: 92.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.285 automatic empty zone: 93.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.285 automatic empty zone: 94.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.285 automatic empty zone: 95.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.285 automatic empty zone: 96.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.285 automatic empty zone: 97.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.285 automatic empty zone: 98.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.285 automatic empty zone: 99.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.285 automatic empty zone: 100.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.285 automatic empty zone: 101.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.285 automatic empty zone: 102.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.285 automatic empty zone: 103.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.285 automatic empty zone: 104.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.285 automatic empty zone: 105.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.285 automatic empty zone: 106.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.285 automatic empty zone: 107.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.285 automatic empty zone: 108.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.285 automatic empty zone: 109.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.286 automatic empty zone: 110.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.286 automatic empty zone: 111.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.286 automatic empty zone: 112.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.286 automatic empty zone: 113.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.286 automatic empty zone: 114.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.286 automatic empty zone: 115.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.286 automatic empty zone: 116.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.286 automatic empty zone: 117.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.286 automatic empty zone: 118.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.286 automatic empty zone: 119.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.286 automatic empty zone: 120.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.286 automatic empty zone: 121.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.286 automatic empty zone: 122.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.286 automatic empty zone: 123.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.286 automatic empty zone: 124.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.286 automatic empty zone: 125.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.286 automatic empty zone: 126.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.287 automatic empty zone: 127.100.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.287 automatic empty zone: 0.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.287 automatic empty zone: 127.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.287 automatic empty zone: 254.169.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.287 automatic empty zone: 2.0.192.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.287 automatic empty zone: 100.51.198.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.287 automatic empty zone: 113.0.203.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.287 automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+22-Sep-2014 21:43:31.287 automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+22-Sep-2014 21:43:31.287 automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+22-Sep-2014 21:43:31.287 automatic empty zone: D.F.IP6.ARPA
+22-Sep-2014 21:43:31.287 automatic empty zone: 8.E.F.IP6.ARPA
+22-Sep-2014 21:43:31.287 automatic empty zone: 9.E.F.IP6.ARPA
+22-Sep-2014 21:43:31.287 automatic empty zone: A.E.F.IP6.ARPA
+22-Sep-2014 21:43:31.287 automatic empty zone: B.E.F.IP6.ARPA
+22-Sep-2014 21:43:31.287 automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+22-Sep-2014 21:43:31.288 zone_settimer: zone version.bind/CH: enter
+22-Sep-2014 21:43:31.288 zone_settimer: zone hostname.bind/CH: enter
+22-Sep-2014 21:43:31.288 zone_settimer: zone authors.bind/CH: enter
+22-Sep-2014 21:43:31.288 zone_settimer: zone id.server/CH: enter
+22-Sep-2014 21:43:31.290 configuring command channel from '/usr/local/etc/bind/rndc.key'
+22-Sep-2014 21:43:31.290 couldn't add command channel 127.0.0.1#953: file not found
+22-Sep-2014 21:43:31.290 configuring command channel from '/usr/local/etc/bind/rndc.key'
+22-Sep-2014 21:43:31.290 couldn't add command channel ::1#953: file not found
+22-Sep-2014 21:54:40.776 starting BIND 9.10.0-P2 -d 2
+22-Sep-2014 21:54:40.776 built with '--prefix=/usr/local' '--sysconfdir=/usr/local/etc/bind' '--with-openssl' '--localstatedir=/var/run'
+22-Sep-2014 21:54:40.776 ----------------------------------------------------
+22-Sep-2014 21:54:40.776 BIND 9 is maintained by Internet Systems Consortium,
+22-Sep-2014 21:54:40.776 Inc. (ISC), a non-profit 501(c)(3) public-benefit 
+22-Sep-2014 21:54:40.776 corporation.  Support and training for BIND 9 are 
+22-Sep-2014 21:54:40.776 available at https://www.isc.org/support
+22-Sep-2014 21:54:40.776 ----------------------------------------------------
+22-Sep-2014 21:54:40.776 adjusted limit on open files from 4096 to 1048576
+22-Sep-2014 21:54:40.776 found 8 CPUs, using 8 worker threads
+22-Sep-2014 21:54:40.776 using 4 UDP listeners per interface
+22-Sep-2014 21:54:40.776 using up to 4096 sockets
+22-Sep-2014 21:54:40.776 Registering DLZ_dlopen driver
+22-Sep-2014 21:54:40.777 Registering SDLZ driver 'dlopen'
+22-Sep-2014 21:54:40.777 Registering DLZ driver 'dlopen'
+22-Sep-2014 21:54:40.781 decrement_reference: delete from rbt: 0x7f0c4c2ab148 .
+22-Sep-2014 21:54:40.783 loading configuration from '/usr/local/etc/bind/named.conf'
+22-Sep-2014 21:54:40.784 reading built-in trusted keys from file '/usr/local/etc/bind/bind.keys'
+22-Sep-2014 21:54:40.784 using default UDP/IPv4 port range: [1024, 65535]
+22-Sep-2014 21:54:40.784 using default UDP/IPv6 port range: [1024, 65535]
+22-Sep-2014 21:54:40.785 listening on IPv6 interfaces, port 53
+22-Sep-2014 21:54:40.786 listening on IPv4 interface lo, 127.0.0.1#53
+22-Sep-2014 21:54:40.787 listening on IPv4 interface em1, 145.100.104.62#53
+22-Sep-2014 21:54:40.788 generating session key for dynamic DNS
+22-Sep-2014 21:54:40.788 sizing zone task pool based on 2 zones
+22-Sep-2014 21:54:40.789 decrement_reference: delete from rbt: 0x7f0c46129078 .
+22-Sep-2014 21:54:40.789 zone_settimer: zone 0.0.127.in-addr.arpa/IN: enter
+22-Sep-2014 21:54:40.792 set up managed keys zone for view _default, file 'managed-keys.bind'
+22-Sep-2014 21:54:40.792 automatic empty zone: 10.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.792 automatic empty zone: 16.172.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.792 automatic empty zone: 17.172.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.792 automatic empty zone: 18.172.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.792 automatic empty zone: 19.172.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.792 automatic empty zone: 20.172.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.792 automatic empty zone: 21.172.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.792 automatic empty zone: 22.172.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.792 automatic empty zone: 23.172.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.792 automatic empty zone: 24.172.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.792 automatic empty zone: 25.172.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.792 automatic empty zone: 26.172.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.793 automatic empty zone: 27.172.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.793 automatic empty zone: 28.172.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.793 automatic empty zone: 29.172.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.793 automatic empty zone: 30.172.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.793 automatic empty zone: 31.172.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.793 automatic empty zone: 168.192.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.793 automatic empty zone: 64.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.793 automatic empty zone: 65.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.793 automatic empty zone: 66.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.793 automatic empty zone: 67.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.793 automatic empty zone: 68.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.793 automatic empty zone: 69.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.793 automatic empty zone: 70.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.793 automatic empty zone: 71.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.793 automatic empty zone: 72.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.793 automatic empty zone: 73.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.793 automatic empty zone: 74.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.793 automatic empty zone: 75.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.794 automatic empty zone: 76.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.794 automatic empty zone: 77.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.794 automatic empty zone: 78.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.794 automatic empty zone: 79.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.794 automatic empty zone: 80.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.794 automatic empty zone: 81.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.794 automatic empty zone: 82.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.794 automatic empty zone: 83.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.794 automatic empty zone: 84.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.794 automatic empty zone: 85.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.794 automatic empty zone: 86.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.794 automatic empty zone: 87.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.794 automatic empty zone: 88.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.794 automatic empty zone: 89.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.794 automatic empty zone: 90.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.794 automatic empty zone: 91.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.794 automatic empty zone: 92.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.794 automatic empty zone: 93.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.795 automatic empty zone: 94.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.795 automatic empty zone: 95.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.795 automatic empty zone: 96.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.795 automatic empty zone: 97.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.795 automatic empty zone: 98.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.795 automatic empty zone: 99.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.795 automatic empty zone: 100.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.795 automatic empty zone: 101.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.795 automatic empty zone: 102.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.795 automatic empty zone: 103.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.795 automatic empty zone: 104.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.795 automatic empty zone: 105.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.795 automatic empty zone: 106.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.795 automatic empty zone: 107.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.795 automatic empty zone: 108.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.795 automatic empty zone: 109.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.795 automatic empty zone: 110.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.796 automatic empty zone: 111.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.796 automatic empty zone: 112.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.796 automatic empty zone: 113.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.796 automatic empty zone: 114.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.796 automatic empty zone: 115.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.796 automatic empty zone: 116.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.796 automatic empty zone: 117.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.796 automatic empty zone: 118.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.796 automatic empty zone: 119.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.796 automatic empty zone: 120.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.796 automatic empty zone: 121.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.796 automatic empty zone: 122.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.796 automatic empty zone: 123.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.796 automatic empty zone: 124.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.796 automatic empty zone: 125.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.796 automatic empty zone: 126.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.796 automatic empty zone: 127.100.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.797 automatic empty zone: 0.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.797 automatic empty zone: 127.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.797 automatic empty zone: 254.169.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.797 automatic empty zone: 2.0.192.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.797 automatic empty zone: 100.51.198.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.797 automatic empty zone: 113.0.203.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.797 automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+22-Sep-2014 21:54:40.797 automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+22-Sep-2014 21:54:40.797 automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+22-Sep-2014 21:54:40.797 automatic empty zone: D.F.IP6.ARPA
+22-Sep-2014 21:54:40.797 automatic empty zone: 8.E.F.IP6.ARPA
+22-Sep-2014 21:54:40.797 automatic empty zone: 9.E.F.IP6.ARPA
+22-Sep-2014 21:54:40.797 automatic empty zone: A.E.F.IP6.ARPA
+22-Sep-2014 21:54:40.797 automatic empty zone: B.E.F.IP6.ARPA
+22-Sep-2014 21:54:40.797 automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+22-Sep-2014 21:54:40.798 zone_settimer: zone version.bind/CH: enter
+22-Sep-2014 21:54:40.798 zone_settimer: zone hostname.bind/CH: enter
+22-Sep-2014 21:54:40.798 zone_settimer: zone authors.bind/CH: enter
+22-Sep-2014 21:54:40.798 zone_settimer: zone id.server/CH: enter
+22-Sep-2014 21:54:40.800 configuring command channel from '/usr/local/etc/bind/rndc.key'
+22-Sep-2014 21:54:40.800 couldn't add command channel 127.0.0.1#953: file not found
+22-Sep-2014 21:54:40.800 configuring command channel from '/usr/local/etc/bind/rndc.key'
+22-Sep-2014 21:54:40.800 couldn't add command channel ::1#953: file not found
+22-Sep-2014 23:27:22.511 starting BIND 9.10.0-P2 -d 2
+22-Sep-2014 23:27:22.511 built with '--prefix=/usr/local' '--sysconfdir=/usr/local/etc/bind' '--with-openssl' '--localstatedir=/var/run'
+22-Sep-2014 23:27:22.511 ----------------------------------------------------
+22-Sep-2014 23:27:22.511 BIND 9 is maintained by Internet Systems Consortium,
+22-Sep-2014 23:27:22.511 Inc. (ISC), a non-profit 501(c)(3) public-benefit 
+22-Sep-2014 23:27:22.511 corporation.  Support and training for BIND 9 are 
+22-Sep-2014 23:27:22.511 available at https://www.isc.org/support
+22-Sep-2014 23:27:22.511 ----------------------------------------------------
+22-Sep-2014 23:27:22.511 adjusted limit on open files from 4096 to 1048576
+22-Sep-2014 23:27:22.511 found 8 CPUs, using 8 worker threads
+22-Sep-2014 23:27:22.511 using 4 UDP listeners per interface
+22-Sep-2014 23:27:22.511 using up to 4096 sockets
+22-Sep-2014 23:27:22.512 Registering DLZ_dlopen driver
+22-Sep-2014 23:27:22.512 Registering SDLZ driver 'dlopen'
+22-Sep-2014 23:27:22.512 Registering DLZ driver 'dlopen'
+22-Sep-2014 23:27:22.516 decrement_reference: delete from rbt: 0x7f01aa1c2148 .
+22-Sep-2014 23:27:22.518 loading configuration from '/usr/local/etc/bind/named.conf'
+22-Sep-2014 23:27:22.519 reading built-in trusted keys from file '/usr/local/etc/bind/bind.keys'
+22-Sep-2014 23:27:22.519 using default UDP/IPv4 port range: [1024, 65535]
+22-Sep-2014 23:27:22.519 using default UDP/IPv6 port range: [1024, 65535]
+22-Sep-2014 23:27:22.520 listening on IPv6 interfaces, port 53
+22-Sep-2014 23:27:22.521 listening on IPv4 interface lo, 127.0.0.1#53
+22-Sep-2014 23:27:22.522 listening on IPv4 interface em1, 145.100.104.62#53
+22-Sep-2014 23:27:22.523 generating session key for dynamic DNS
+22-Sep-2014 23:27:22.523 sizing zone task pool based on 2 zones
+22-Sep-2014 23:27:22.524 decrement_reference: delete from rbt: 0x7f01a4081078 .
+22-Sep-2014 23:27:22.524 zone_settimer: zone 0.0.127.in-addr.arpa/IN: enter
+22-Sep-2014 23:27:22.527 set up managed keys zone for view _default, file 'managed-keys.bind'
+22-Sep-2014 23:27:22.527 automatic empty zone: 10.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.527 automatic empty zone: 16.172.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.527 automatic empty zone: 17.172.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.527 automatic empty zone: 18.172.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.527 automatic empty zone: 19.172.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.527 automatic empty zone: 20.172.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.527 automatic empty zone: 21.172.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.527 automatic empty zone: 22.172.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.527 automatic empty zone: 23.172.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.527 automatic empty zone: 24.172.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.527 automatic empty zone: 25.172.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.527 automatic empty zone: 26.172.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.527 automatic empty zone: 27.172.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.527 automatic empty zone: 28.172.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.527 automatic empty zone: 29.172.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.527 automatic empty zone: 30.172.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.527 automatic empty zone: 31.172.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.527 automatic empty zone: 168.192.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.527 automatic empty zone: 64.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.527 automatic empty zone: 65.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.527 automatic empty zone: 66.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.528 automatic empty zone: 67.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.528 automatic empty zone: 68.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.528 automatic empty zone: 69.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.528 automatic empty zone: 70.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.528 automatic empty zone: 71.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.528 automatic empty zone: 72.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.528 automatic empty zone: 73.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.528 automatic empty zone: 74.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.528 automatic empty zone: 75.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.528 automatic empty zone: 76.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.528 automatic empty zone: 77.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.528 automatic empty zone: 78.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.528 automatic empty zone: 79.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.528 automatic empty zone: 80.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.528 automatic empty zone: 81.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.528 automatic empty zone: 82.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.528 automatic empty zone: 83.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.528 automatic empty zone: 84.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.528 automatic empty zone: 85.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.528 automatic empty zone: 86.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.528 automatic empty zone: 87.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.528 automatic empty zone: 88.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.528 automatic empty zone: 89.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.528 automatic empty zone: 90.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.528 automatic empty zone: 91.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.529 automatic empty zone: 92.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.529 automatic empty zone: 93.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.529 automatic empty zone: 94.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.529 automatic empty zone: 95.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.529 automatic empty zone: 96.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.529 automatic empty zone: 97.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.529 automatic empty zone: 98.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.529 automatic empty zone: 99.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.529 automatic empty zone: 100.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.529 automatic empty zone: 101.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.529 automatic empty zone: 102.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.529 automatic empty zone: 103.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.529 automatic empty zone: 104.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.529 automatic empty zone: 105.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.529 automatic empty zone: 106.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.529 automatic empty zone: 107.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.529 automatic empty zone: 108.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.529 automatic empty zone: 109.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.529 automatic empty zone: 110.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.529 automatic empty zone: 111.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.529 automatic empty zone: 112.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.529 automatic empty zone: 113.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.529 automatic empty zone: 114.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.529 automatic empty zone: 115.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.529 automatic empty zone: 116.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.529 automatic empty zone: 117.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.530 automatic empty zone: 118.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.530 automatic empty zone: 119.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.530 automatic empty zone: 120.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.530 automatic empty zone: 121.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.530 automatic empty zone: 122.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.530 automatic empty zone: 123.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.530 automatic empty zone: 124.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.530 automatic empty zone: 125.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.530 automatic empty zone: 126.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.530 automatic empty zone: 127.100.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.530 automatic empty zone: 0.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.530 automatic empty zone: 127.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.530 automatic empty zone: 254.169.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.530 automatic empty zone: 2.0.192.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.530 automatic empty zone: 100.51.198.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.530 automatic empty zone: 113.0.203.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.530 automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+22-Sep-2014 23:27:22.530 automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+22-Sep-2014 23:27:22.530 automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+22-Sep-2014 23:27:22.530 automatic empty zone: D.F.IP6.ARPA
+22-Sep-2014 23:27:22.530 automatic empty zone: 8.E.F.IP6.ARPA
+22-Sep-2014 23:27:22.530 automatic empty zone: 9.E.F.IP6.ARPA
+22-Sep-2014 23:27:22.530 automatic empty zone: A.E.F.IP6.ARPA
+22-Sep-2014 23:27:22.530 automatic empty zone: B.E.F.IP6.ARPA
+22-Sep-2014 23:27:22.531 automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+22-Sep-2014 23:27:22.531 zone_settimer: zone version.bind/CH: enter
+22-Sep-2014 23:27:22.531 zone_settimer: zone hostname.bind/CH: enter
+22-Sep-2014 23:27:22.531 zone_settimer: zone authors.bind/CH: enter
+22-Sep-2014 23:27:22.531 zone_settimer: zone id.server/CH: enter
+22-Sep-2014 23:27:22.533 command channel listening on 127.0.0.1#953
+22-Sep-2014 23:31:02.850 starting BIND 9.10.0-P2 -d 2
+22-Sep-2014 23:31:02.851 built with '--prefix=/usr/local' '--sysconfdir=/usr/local/etc/bind' '--with-openssl' '--localstatedir=/var/run'
+22-Sep-2014 23:31:02.851 ----------------------------------------------------
+22-Sep-2014 23:31:02.851 BIND 9 is maintained by Internet Systems Consortium,
+22-Sep-2014 23:31:02.851 Inc. (ISC), a non-profit 501(c)(3) public-benefit 
+22-Sep-2014 23:31:02.851 corporation.  Support and training for BIND 9 are 
+22-Sep-2014 23:31:02.851 available at https://www.isc.org/support
+22-Sep-2014 23:31:02.851 ----------------------------------------------------
+22-Sep-2014 23:31:02.851 adjusted limit on open files from 4096 to 1048576
+22-Sep-2014 23:31:02.851 found 8 CPUs, using 8 worker threads
+22-Sep-2014 23:31:02.851 using 4 UDP listeners per interface
+22-Sep-2014 23:31:02.851 using up to 4096 sockets
+22-Sep-2014 23:31:02.851 Registering DLZ_dlopen driver
+22-Sep-2014 23:31:02.851 Registering SDLZ driver 'dlopen'
+22-Sep-2014 23:31:02.851 Registering DLZ driver 'dlopen'
+22-Sep-2014 23:31:02.856 decrement_reference: delete from rbt: 0x7fe5f7d12148 .
+22-Sep-2014 23:31:02.858 loading configuration from '/usr/local/etc/bind/named.conf'
+22-Sep-2014 23:31:02.858 reading built-in trusted keys from file '/usr/local/etc/bind/bind.keys'
+22-Sep-2014 23:31:02.859 using default UDP/IPv4 port range: [1024, 65535]
+22-Sep-2014 23:31:02.859 using default UDP/IPv6 port range: [1024, 65535]
+22-Sep-2014 23:31:02.860 listening on IPv6 interfaces, port 53
+22-Sep-2014 23:31:02.861 listening on IPv4 interface lo, 127.0.0.1#53
+22-Sep-2014 23:31:02.862 listening on IPv4 interface em1, 145.100.104.62#53
+22-Sep-2014 23:31:02.863 generating session key for dynamic DNS
+22-Sep-2014 23:31:02.863 sizing zone task pool based on 2 zones
+22-Sep-2014 23:31:02.864 decrement_reference: delete from rbt: 0x7fe5f1bd1078 .
+22-Sep-2014 23:31:02.864 zone_settimer: zone 0.0.127.in-addr.arpa/IN: enter
+22-Sep-2014 23:31:02.866 set up managed keys zone for view _default, file 'managed-keys.bind'
+22-Sep-2014 23:31:02.867 automatic empty zone: 10.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.867 automatic empty zone: 16.172.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.867 automatic empty zone: 17.172.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.867 automatic empty zone: 18.172.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.867 automatic empty zone: 19.172.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.867 automatic empty zone: 20.172.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.867 automatic empty zone: 21.172.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.867 automatic empty zone: 22.172.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.867 automatic empty zone: 23.172.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.867 automatic empty zone: 24.172.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.867 automatic empty zone: 25.172.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.867 automatic empty zone: 26.172.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.867 automatic empty zone: 27.172.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.867 automatic empty zone: 28.172.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.867 automatic empty zone: 29.172.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.867 automatic empty zone: 30.172.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.868 automatic empty zone: 31.172.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.868 automatic empty zone: 168.192.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.868 automatic empty zone: 64.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.868 automatic empty zone: 65.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.868 automatic empty zone: 66.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.868 automatic empty zone: 67.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.868 automatic empty zone: 68.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.868 automatic empty zone: 69.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.868 automatic empty zone: 70.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.868 automatic empty zone: 71.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.868 automatic empty zone: 72.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.868 automatic empty zone: 73.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.868 automatic empty zone: 74.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.868 automatic empty zone: 75.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.868 automatic empty zone: 76.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.868 automatic empty zone: 77.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.868 automatic empty zone: 78.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.869 automatic empty zone: 79.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.869 automatic empty zone: 80.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.869 automatic empty zone: 81.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.869 automatic empty zone: 82.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.869 automatic empty zone: 83.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.869 automatic empty zone: 84.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.869 automatic empty zone: 85.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.869 automatic empty zone: 86.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.869 automatic empty zone: 87.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.869 automatic empty zone: 88.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.869 automatic empty zone: 89.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.869 automatic empty zone: 90.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.869 automatic empty zone: 91.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.869 automatic empty zone: 92.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.869 automatic empty zone: 93.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.869 automatic empty zone: 94.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.869 automatic empty zone: 95.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.869 automatic empty zone: 96.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.870 automatic empty zone: 97.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.870 automatic empty zone: 98.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.870 automatic empty zone: 99.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.870 automatic empty zone: 100.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.870 automatic empty zone: 101.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.870 automatic empty zone: 102.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.870 automatic empty zone: 103.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.870 automatic empty zone: 104.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.870 automatic empty zone: 105.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.870 automatic empty zone: 106.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.870 automatic empty zone: 107.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.870 automatic empty zone: 108.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.870 automatic empty zone: 109.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.870 automatic empty zone: 110.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.870 automatic empty zone: 111.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.870 automatic empty zone: 112.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.870 automatic empty zone: 113.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.871 automatic empty zone: 114.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.871 automatic empty zone: 115.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.871 automatic empty zone: 116.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.871 automatic empty zone: 117.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.871 automatic empty zone: 118.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.871 automatic empty zone: 119.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.871 automatic empty zone: 120.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.871 automatic empty zone: 121.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.871 automatic empty zone: 122.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.871 automatic empty zone: 123.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.871 automatic empty zone: 124.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.871 automatic empty zone: 125.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.871 automatic empty zone: 126.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.871 automatic empty zone: 127.100.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.871 automatic empty zone: 0.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.871 automatic empty zone: 127.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.872 automatic empty zone: 254.169.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.872 automatic empty zone: 2.0.192.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.872 automatic empty zone: 100.51.198.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.872 automatic empty zone: 113.0.203.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.872 automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+22-Sep-2014 23:31:02.872 automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+22-Sep-2014 23:31:02.872 automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+22-Sep-2014 23:31:02.872 automatic empty zone: D.F.IP6.ARPA
+22-Sep-2014 23:31:02.872 automatic empty zone: 8.E.F.IP6.ARPA
+22-Sep-2014 23:31:02.872 automatic empty zone: 9.E.F.IP6.ARPA
+22-Sep-2014 23:31:02.872 automatic empty zone: A.E.F.IP6.ARPA
+22-Sep-2014 23:31:02.872 automatic empty zone: B.E.F.IP6.ARPA
+22-Sep-2014 23:31:02.872 automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+22-Sep-2014 23:31:02.872 zone_settimer: zone version.bind/CH: enter
+22-Sep-2014 23:31:02.872 zone_settimer: zone hostname.bind/CH: enter
+22-Sep-2014 23:31:02.872 zone_settimer: zone authors.bind/CH: enter
+22-Sep-2014 23:31:02.872 zone_settimer: zone id.server/CH: enter
+22-Sep-2014 23:31:02.875 command channel listening on 127.0.0.1#953
+22-Sep-2014 23:53:02.836 starting BIND 9.10.0-P2 -d 2
+22-Sep-2014 23:53:02.837 built with '--prefix=/usr/local' '--sysconfdir=/usr/local/etc/bind' '--with-openssl' '--localstatedir=/var/run'
+22-Sep-2014 23:53:02.837 ----------------------------------------------------
+22-Sep-2014 23:53:02.837 BIND 9 is maintained by Internet Systems Consortium,
+22-Sep-2014 23:53:02.837 Inc. (ISC), a non-profit 501(c)(3) public-benefit 
+22-Sep-2014 23:53:02.837 corporation.  Support and training for BIND 9 are 
+22-Sep-2014 23:53:02.837 available at https://www.isc.org/support
+22-Sep-2014 23:53:02.837 ----------------------------------------------------
+22-Sep-2014 23:53:02.837 adjusted limit on open files from 4096 to 1048576
+22-Sep-2014 23:53:02.837 found 8 CPUs, using 8 worker threads
+22-Sep-2014 23:53:02.837 using 4 UDP listeners per interface
+22-Sep-2014 23:53:02.837 using up to 4096 sockets
+22-Sep-2014 23:53:02.837 Registering DLZ_dlopen driver
+22-Sep-2014 23:53:02.837 Registering SDLZ driver 'dlopen'
+22-Sep-2014 23:53:02.837 Registering DLZ driver 'dlopen'
+22-Sep-2014 23:53:02.842 decrement_reference: delete from rbt: 0x7f3efb1ca148 .
+22-Sep-2014 23:53:02.844 loading configuration from '/usr/local/etc/bind/named.conf'
+22-Sep-2014 23:53:02.844 reading built-in trusted keys from file '/usr/local/etc/bind/bind.keys'
+22-Sep-2014 23:53:02.845 using default UDP/IPv4 port range: [1024, 65535]
+22-Sep-2014 23:53:02.845 using default UDP/IPv6 port range: [1024, 65535]
+22-Sep-2014 23:53:02.846 listening on IPv6 interfaces, port 53
+22-Sep-2014 23:53:02.847 listening on IPv4 interface lo, 127.0.0.1#53
+22-Sep-2014 23:53:02.848 listening on IPv4 interface em1, 145.100.104.62#53
+22-Sep-2014 23:53:02.849 generating session key for dynamic DNS
+22-Sep-2014 23:53:02.849 sizing zone task pool based on 2 zones
+22-Sep-2014 23:53:02.850 decrement_reference: delete from rbt: 0x7f3ef5089078 .
+22-Sep-2014 23:53:02.850 zone_settimer: zone 0.0.127.in-addr.arpa/IN: enter
+22-Sep-2014 23:53:02.852 set up managed keys zone for view _default, file 'managed-keys.bind'
+22-Sep-2014 23:53:02.852 automatic empty zone: 10.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.853 automatic empty zone: 16.172.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.853 automatic empty zone: 17.172.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.853 automatic empty zone: 18.172.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.853 automatic empty zone: 19.172.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.853 automatic empty zone: 20.172.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.853 automatic empty zone: 21.172.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.853 automatic empty zone: 22.172.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.853 automatic empty zone: 23.172.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.853 automatic empty zone: 24.172.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.853 automatic empty zone: 25.172.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.853 automatic empty zone: 26.172.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.853 automatic empty zone: 27.172.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.853 automatic empty zone: 28.172.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.853 automatic empty zone: 29.172.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.853 automatic empty zone: 30.172.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.853 automatic empty zone: 31.172.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.853 automatic empty zone: 168.192.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.853 automatic empty zone: 64.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.853 automatic empty zone: 65.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.853 automatic empty zone: 66.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.853 automatic empty zone: 67.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.853 automatic empty zone: 68.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.853 automatic empty zone: 69.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.853 automatic empty zone: 70.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.853 automatic empty zone: 71.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.853 automatic empty zone: 72.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.854 automatic empty zone: 73.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.854 automatic empty zone: 74.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.854 automatic empty zone: 75.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.854 automatic empty zone: 76.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.854 automatic empty zone: 77.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.854 automatic empty zone: 78.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.854 automatic empty zone: 79.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.854 automatic empty zone: 80.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.854 automatic empty zone: 81.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.854 automatic empty zone: 82.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.854 automatic empty zone: 83.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.854 automatic empty zone: 84.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.854 automatic empty zone: 85.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.854 automatic empty zone: 86.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.854 automatic empty zone: 87.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.854 automatic empty zone: 88.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.854 automatic empty zone: 89.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.854 automatic empty zone: 90.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.854 automatic empty zone: 91.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.854 automatic empty zone: 92.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.854 automatic empty zone: 93.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.854 automatic empty zone: 94.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.854 automatic empty zone: 95.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.854 automatic empty zone: 96.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.854 automatic empty zone: 97.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.854 automatic empty zone: 98.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.855 automatic empty zone: 99.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.855 automatic empty zone: 100.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.855 automatic empty zone: 101.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.855 automatic empty zone: 102.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.855 automatic empty zone: 103.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.855 automatic empty zone: 104.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.855 automatic empty zone: 105.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.855 automatic empty zone: 106.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.855 automatic empty zone: 107.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.855 automatic empty zone: 108.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.855 automatic empty zone: 109.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.855 automatic empty zone: 110.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.855 automatic empty zone: 111.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.855 automatic empty zone: 112.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.855 automatic empty zone: 113.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.855 automatic empty zone: 114.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.855 automatic empty zone: 115.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.855 automatic empty zone: 116.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.855 automatic empty zone: 117.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.855 automatic empty zone: 118.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.855 automatic empty zone: 119.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.855 automatic empty zone: 120.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.855 automatic empty zone: 121.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.855 automatic empty zone: 122.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.855 automatic empty zone: 123.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.855 automatic empty zone: 124.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.856 automatic empty zone: 125.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.856 automatic empty zone: 126.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.856 automatic empty zone: 127.100.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.856 automatic empty zone: 0.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.856 automatic empty zone: 127.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.856 automatic empty zone: 254.169.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.856 automatic empty zone: 2.0.192.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.856 automatic empty zone: 100.51.198.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.856 automatic empty zone: 113.0.203.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.856 automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+22-Sep-2014 23:53:02.856 automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+22-Sep-2014 23:53:02.856 automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+22-Sep-2014 23:53:02.856 automatic empty zone: D.F.IP6.ARPA
+22-Sep-2014 23:53:02.856 automatic empty zone: 8.E.F.IP6.ARPA
+22-Sep-2014 23:53:02.856 automatic empty zone: 9.E.F.IP6.ARPA
+22-Sep-2014 23:53:02.856 automatic empty zone: A.E.F.IP6.ARPA
+22-Sep-2014 23:53:02.856 automatic empty zone: B.E.F.IP6.ARPA
+22-Sep-2014 23:53:02.856 automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+22-Sep-2014 23:53:02.856 zone_settimer: zone version.bind/CH: enter
+22-Sep-2014 23:53:02.856 zone_settimer: zone hostname.bind/CH: enter
+22-Sep-2014 23:53:02.856 zone_settimer: zone authors.bind/CH: enter
+22-Sep-2014 23:53:02.856 zone_settimer: zone id.server/CH: enter
+22-Sep-2014 23:53:02.859 command channel listening on 127.0.0.1#953
+22-Sep-2014 23:54:05.083 starting BIND 9.10.0-P2 -d 2
+22-Sep-2014 23:54:05.083 built with '--prefix=/usr/local' '--sysconfdir=/usr/local/etc/bind' '--with-openssl' '--localstatedir=/var/run'
+22-Sep-2014 23:54:05.083 ----------------------------------------------------
+22-Sep-2014 23:54:05.083 BIND 9 is maintained by Internet Systems Consortium,
+22-Sep-2014 23:54:05.083 Inc. (ISC), a non-profit 501(c)(3) public-benefit 
+22-Sep-2014 23:54:05.083 corporation.  Support and training for BIND 9 are 
+22-Sep-2014 23:54:05.083 available at https://www.isc.org/support
+22-Sep-2014 23:54:05.084 ----------------------------------------------------
+22-Sep-2014 23:54:05.084 adjusted limit on open files from 4096 to 1048576
+22-Sep-2014 23:54:05.084 found 8 CPUs, using 8 worker threads
+22-Sep-2014 23:54:05.084 using 4 UDP listeners per interface
+22-Sep-2014 23:54:05.084 using up to 4096 sockets
+22-Sep-2014 23:54:05.084 Registering DLZ_dlopen driver
+22-Sep-2014 23:54:05.084 Registering SDLZ driver 'dlopen'
+22-Sep-2014 23:54:05.084 Registering DLZ driver 'dlopen'
+22-Sep-2014 23:54:05.088 decrement_reference: delete from rbt: 0x7fe899426148 .
+22-Sep-2014 23:54:05.091 loading configuration from '/usr/local/etc/bind/named.conf'
+22-Sep-2014 23:54:05.091 reading built-in trusted keys from file '/usr/local/etc/bind/bind.keys'
+22-Sep-2014 23:54:05.092 using default UDP/IPv4 port range: [1024, 65535]
+22-Sep-2014 23:54:05.092 using default UDP/IPv6 port range: [1024, 65535]
+22-Sep-2014 23:54:05.093 listening on IPv6 interfaces, port 53
+22-Sep-2014 23:54:05.094 listening on IPv4 interface lo, 127.0.0.1#53
+22-Sep-2014 23:54:05.095 listening on IPv4 interface em1, 145.100.104.62#53
+22-Sep-2014 23:54:05.096 generating session key for dynamic DNS
+22-Sep-2014 23:54:05.096 sizing zone task pool based on 2 zones
+22-Sep-2014 23:54:05.097 decrement_reference: delete from rbt: 0x7fe8932e5078 .
+22-Sep-2014 23:54:05.097 zone_settimer: zone 0.0.127.in-addr.arpa/IN: enter
+22-Sep-2014 23:54:05.099 set up managed keys zone for view _default, file 'managed-keys.bind'
+22-Sep-2014 23:54:05.099 automatic empty zone: 10.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.099 automatic empty zone: 16.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.100 automatic empty zone: 17.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.100 automatic empty zone: 18.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.100 automatic empty zone: 19.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.100 automatic empty zone: 20.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.100 automatic empty zone: 21.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.100 automatic empty zone: 22.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.100 automatic empty zone: 23.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.100 automatic empty zone: 24.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.101 automatic empty zone: 25.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.101 automatic empty zone: 26.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.101 automatic empty zone: 27.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.101 automatic empty zone: 28.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.101 automatic empty zone: 29.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.101 automatic empty zone: 30.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.101 automatic empty zone: 31.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.101 automatic empty zone: 168.192.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.101 automatic empty zone: 64.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.101 automatic empty zone: 65.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.101 automatic empty zone: 66.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.101 automatic empty zone: 67.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.101 automatic empty zone: 68.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.101 automatic empty zone: 69.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.101 automatic empty zone: 70.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.101 automatic empty zone: 71.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.101 automatic empty zone: 72.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.102 automatic empty zone: 73.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.102 automatic empty zone: 74.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.102 automatic empty zone: 75.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.102 automatic empty zone: 76.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.102 automatic empty zone: 77.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.102 automatic empty zone: 78.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.102 automatic empty zone: 79.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.102 automatic empty zone: 80.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.102 automatic empty zone: 81.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.102 automatic empty zone: 82.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.102 automatic empty zone: 83.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.102 automatic empty zone: 84.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.102 automatic empty zone: 85.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.102 automatic empty zone: 86.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.102 automatic empty zone: 87.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.102 automatic empty zone: 88.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.102 automatic empty zone: 89.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.102 automatic empty zone: 90.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.103 automatic empty zone: 91.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.103 automatic empty zone: 92.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.103 automatic empty zone: 93.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.103 automatic empty zone: 94.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.103 automatic empty zone: 95.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.103 automatic empty zone: 96.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.103 automatic empty zone: 97.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.103 automatic empty zone: 98.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.103 automatic empty zone: 99.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.103 automatic empty zone: 100.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.103 automatic empty zone: 101.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.103 automatic empty zone: 102.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.103 automatic empty zone: 103.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.103 automatic empty zone: 104.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.103 automatic empty zone: 105.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.103 automatic empty zone: 106.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.103 automatic empty zone: 107.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.104 automatic empty zone: 108.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.104 automatic empty zone: 109.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.104 automatic empty zone: 110.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.104 automatic empty zone: 111.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.104 automatic empty zone: 112.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.104 automatic empty zone: 113.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.104 automatic empty zone: 114.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.104 automatic empty zone: 115.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.104 automatic empty zone: 116.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.104 automatic empty zone: 117.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.104 automatic empty zone: 118.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.104 automatic empty zone: 119.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.104 automatic empty zone: 120.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.104 automatic empty zone: 121.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.104 automatic empty zone: 122.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.104 automatic empty zone: 123.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.104 automatic empty zone: 124.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.105 automatic empty zone: 125.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.105 automatic empty zone: 126.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.105 automatic empty zone: 127.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.105 automatic empty zone: 0.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.105 automatic empty zone: 127.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.105 automatic empty zone: 254.169.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.105 automatic empty zone: 2.0.192.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.105 automatic empty zone: 100.51.198.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.105 automatic empty zone: 113.0.203.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.105 automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+22-Sep-2014 23:54:05.105 automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+22-Sep-2014 23:54:05.105 automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+22-Sep-2014 23:54:05.105 automatic empty zone: D.F.IP6.ARPA
+22-Sep-2014 23:54:05.105 automatic empty zone: 8.E.F.IP6.ARPA
+22-Sep-2014 23:54:05.105 automatic empty zone: 9.E.F.IP6.ARPA
+22-Sep-2014 23:54:05.105 automatic empty zone: A.E.F.IP6.ARPA
+22-Sep-2014 23:54:05.105 automatic empty zone: B.E.F.IP6.ARPA
+22-Sep-2014 23:54:05.106 automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+22-Sep-2014 23:54:05.106 zone_settimer: zone version.bind/CH: enter
+22-Sep-2014 23:54:05.106 zone_settimer: zone hostname.bind/CH: enter
+22-Sep-2014 23:54:05.106 zone_settimer: zone authors.bind/CH: enter
+22-Sep-2014 23:54:05.106 zone_settimer: zone id.server/CH: enter
+22-Sep-2014 23:54:05.108 command channel listening on 127.0.0.1#953
+22-Sep-2014 23:54:13.859 starting BIND 9.10.0-P2 -d 2
+22-Sep-2014 23:54:13.859 built with '--prefix=/usr/local' '--sysconfdir=/usr/local/etc/bind' '--with-openssl' '--localstatedir=/var/run'
+22-Sep-2014 23:54:13.859 ----------------------------------------------------
+22-Sep-2014 23:54:13.859 BIND 9 is maintained by Internet Systems Consortium,
+22-Sep-2014 23:54:13.859 Inc. (ISC), a non-profit 501(c)(3) public-benefit 
+22-Sep-2014 23:54:13.859 corporation.  Support and training for BIND 9 are 
+22-Sep-2014 23:54:13.859 available at https://www.isc.org/support
+22-Sep-2014 23:54:13.859 ----------------------------------------------------
+22-Sep-2014 23:54:13.859 adjusted limit on open files from 4096 to 1048576
+22-Sep-2014 23:54:13.859 found 8 CPUs, using 8 worker threads
+22-Sep-2014 23:54:13.859 using 4 UDP listeners per interface
+22-Sep-2014 23:54:13.860 using up to 4096 sockets
+22-Sep-2014 23:54:13.860 Registering DLZ_dlopen driver
+22-Sep-2014 23:54:13.860 Registering SDLZ driver 'dlopen'
+22-Sep-2014 23:54:13.860 Registering DLZ driver 'dlopen'
+22-Sep-2014 23:54:13.864 decrement_reference: delete from rbt: 0x7f6e52c09148 .
+22-Sep-2014 23:54:13.867 loading configuration from '/usr/local/etc/bind/named.conf'
+22-Sep-2014 23:54:13.867 reading built-in trusted keys from file '/usr/local/etc/bind/bind.keys'
+22-Sep-2014 23:54:13.867 using default UDP/IPv4 port range: [1024, 65535]
+22-Sep-2014 23:54:13.868 using default UDP/IPv6 port range: [1024, 65535]
+22-Sep-2014 23:54:13.868 listening on IPv6 interfaces, port 53
+22-Sep-2014 23:54:13.870 listening on IPv4 interface lo, 127.0.0.1#53
+22-Sep-2014 23:54:13.870 listening on IPv4 interface em1, 145.100.104.62#53
+22-Sep-2014 23:54:13.872 generating session key for dynamic DNS
+22-Sep-2014 23:54:13.872 sizing zone task pool based on 2 zones
+22-Sep-2014 23:54:13.872 decrement_reference: delete from rbt: 0x7f6e4cac8078 .
+22-Sep-2014 23:54:13.873 zone_settimer: zone 0.0.127.in-addr.arpa/IN: enter
+22-Sep-2014 23:54:13.875 set up managed keys zone for view _default, file 'managed-keys.bind'
+22-Sep-2014 23:54:13.875 automatic empty zone: 10.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.875 automatic empty zone: 16.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.875 automatic empty zone: 17.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.875 automatic empty zone: 18.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.875 automatic empty zone: 19.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.875 automatic empty zone: 20.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.876 automatic empty zone: 21.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.876 automatic empty zone: 22.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.876 automatic empty zone: 23.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.876 automatic empty zone: 24.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.876 automatic empty zone: 25.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.876 automatic empty zone: 26.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.876 automatic empty zone: 27.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.876 automatic empty zone: 28.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.876 automatic empty zone: 29.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.876 automatic empty zone: 30.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.876 automatic empty zone: 31.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.876 automatic empty zone: 168.192.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.876 automatic empty zone: 64.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.876 automatic empty zone: 65.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.876 automatic empty zone: 66.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.876 automatic empty zone: 67.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.876 automatic empty zone: 68.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.876 automatic empty zone: 69.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.876 automatic empty zone: 70.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.876 automatic empty zone: 71.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.876 automatic empty zone: 72.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.876 automatic empty zone: 73.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.876 automatic empty zone: 74.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.876 automatic empty zone: 75.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.876 automatic empty zone: 76.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.876 automatic empty zone: 77.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.877 automatic empty zone: 78.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.877 automatic empty zone: 79.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.877 automatic empty zone: 80.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.877 automatic empty zone: 81.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.877 automatic empty zone: 82.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.877 automatic empty zone: 83.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.877 automatic empty zone: 84.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.877 automatic empty zone: 85.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.877 automatic empty zone: 86.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.877 automatic empty zone: 87.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.877 automatic empty zone: 88.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.877 automatic empty zone: 89.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.877 automatic empty zone: 90.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.877 automatic empty zone: 91.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.877 automatic empty zone: 92.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.877 automatic empty zone: 93.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.877 automatic empty zone: 94.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.877 automatic empty zone: 95.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.877 automatic empty zone: 96.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.877 automatic empty zone: 97.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.877 automatic empty zone: 98.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.877 automatic empty zone: 99.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.877 automatic empty zone: 100.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.877 automatic empty zone: 101.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.877 automatic empty zone: 102.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.877 automatic empty zone: 103.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.878 automatic empty zone: 104.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.878 automatic empty zone: 105.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.878 automatic empty zone: 106.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.878 automatic empty zone: 107.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.878 automatic empty zone: 108.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.878 automatic empty zone: 109.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.878 automatic empty zone: 110.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.878 automatic empty zone: 111.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.878 automatic empty zone: 112.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.878 automatic empty zone: 113.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.878 automatic empty zone: 114.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.878 automatic empty zone: 115.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.878 automatic empty zone: 116.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.878 automatic empty zone: 117.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.878 automatic empty zone: 118.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.878 automatic empty zone: 119.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.878 automatic empty zone: 120.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.878 automatic empty zone: 121.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.878 automatic empty zone: 122.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.878 automatic empty zone: 123.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.878 automatic empty zone: 124.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.878 automatic empty zone: 125.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.878 automatic empty zone: 126.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.878 automatic empty zone: 127.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.878 automatic empty zone: 0.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.879 automatic empty zone: 127.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.879 automatic empty zone: 254.169.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.879 automatic empty zone: 2.0.192.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.879 automatic empty zone: 100.51.198.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.879 automatic empty zone: 113.0.203.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.879 automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+22-Sep-2014 23:54:13.879 automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+22-Sep-2014 23:54:13.879 automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+22-Sep-2014 23:54:13.879 automatic empty zone: D.F.IP6.ARPA
+22-Sep-2014 23:54:13.879 automatic empty zone: 8.E.F.IP6.ARPA
+22-Sep-2014 23:54:13.879 automatic empty zone: 9.E.F.IP6.ARPA
+22-Sep-2014 23:54:13.879 automatic empty zone: A.E.F.IP6.ARPA
+22-Sep-2014 23:54:13.879 automatic empty zone: B.E.F.IP6.ARPA
+22-Sep-2014 23:54:13.879 automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+22-Sep-2014 23:54:13.879 zone_settimer: zone version.bind/CH: enter
+22-Sep-2014 23:54:13.879 zone_settimer: zone hostname.bind/CH: enter
+22-Sep-2014 23:54:13.879 zone_settimer: zone authors.bind/CH: enter
+22-Sep-2014 23:54:13.879 zone_settimer: zone id.server/CH: enter
+22-Sep-2014 23:54:13.882 command channel listening on 127.0.0.1#953
+22-Sep-2014 23:54:42.149 starting BIND 9.10.0-P2 -d 2
+22-Sep-2014 23:54:42.149 built with '--prefix=/usr/local' '--sysconfdir=/usr/local/etc/bind' '--with-openssl' '--localstatedir=/var/run'
+22-Sep-2014 23:54:42.149 ----------------------------------------------------
+22-Sep-2014 23:54:42.149 BIND 9 is maintained by Internet Systems Consortium,
+22-Sep-2014 23:54:42.149 Inc. (ISC), a non-profit 501(c)(3) public-benefit 
+22-Sep-2014 23:54:42.149 corporation.  Support and training for BIND 9 are 
+22-Sep-2014 23:54:42.149 available at https://www.isc.org/support
+22-Sep-2014 23:54:42.149 ----------------------------------------------------
+22-Sep-2014 23:54:42.149 adjusted limit on open files from 4096 to 1048576
+22-Sep-2014 23:54:42.149 found 8 CPUs, using 8 worker threads
+22-Sep-2014 23:54:42.149 using 4 UDP listeners per interface
+22-Sep-2014 23:54:42.149 using up to 4096 sockets
+22-Sep-2014 23:54:42.149 Registering DLZ_dlopen driver
+22-Sep-2014 23:54:42.149 Registering SDLZ driver 'dlopen'
+22-Sep-2014 23:54:42.149 Registering DLZ driver 'dlopen'
+22-Sep-2014 23:54:42.154 decrement_reference: delete from rbt: 0x7f58d622b148 .
+22-Sep-2014 23:54:42.156 loading configuration from '/usr/local/etc/bind/named.conf'
+22-Sep-2014 23:54:42.156 reading built-in trusted keys from file '/usr/local/etc/bind/bind.keys'
+22-Sep-2014 23:54:42.157 using default UDP/IPv4 port range: [1024, 65535]
+22-Sep-2014 23:54:42.157 using default UDP/IPv6 port range: [1024, 65535]
+22-Sep-2014 23:54:42.158 listening on IPv6 interfaces, port 53
+22-Sep-2014 23:54:42.159 binding TCP socket: address in use
+22-Sep-2014 23:54:42.159 listening on IPv4 interface lo, 127.0.0.1#53
+22-Sep-2014 23:54:42.160 binding TCP socket: address in use
+22-Sep-2014 23:54:42.160 listening on IPv4 interface em1, 145.100.104.62#53
+22-Sep-2014 23:54:42.160 binding TCP socket: address in use
+22-Sep-2014 23:54:42.161 generating session key for dynamic DNS
+22-Sep-2014 23:54:42.161 sizing zone task pool based on 2 zones
+22-Sep-2014 23:54:42.161 decrement_reference: delete from rbt: 0x7f58d016c078 .
+22-Sep-2014 23:54:42.162 zone_settimer: zone 0.0.127.in-addr.arpa/IN: enter
+22-Sep-2014 23:54:42.164 set up managed keys zone for view _default, file 'managed-keys.bind'
+22-Sep-2014 23:54:42.164 automatic empty zone: 10.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.164 automatic empty zone: 16.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.164 automatic empty zone: 17.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.164 automatic empty zone: 18.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.164 automatic empty zone: 19.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.165 automatic empty zone: 20.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.165 automatic empty zone: 21.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.165 automatic empty zone: 22.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.165 automatic empty zone: 23.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.165 automatic empty zone: 24.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.165 automatic empty zone: 25.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.165 automatic empty zone: 26.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.165 automatic empty zone: 27.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.165 automatic empty zone: 28.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.165 automatic empty zone: 29.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.165 automatic empty zone: 30.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.165 automatic empty zone: 31.172.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.165 automatic empty zone: 168.192.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.165 automatic empty zone: 64.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.165 automatic empty zone: 65.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.165 automatic empty zone: 66.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.165 automatic empty zone: 67.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.165 automatic empty zone: 68.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.166 automatic empty zone: 69.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.166 automatic empty zone: 70.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.166 automatic empty zone: 71.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.166 automatic empty zone: 72.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.166 automatic empty zone: 73.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.166 automatic empty zone: 74.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.166 automatic empty zone: 75.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.166 automatic empty zone: 76.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.166 automatic empty zone: 77.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.166 automatic empty zone: 78.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.166 automatic empty zone: 79.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.166 automatic empty zone: 80.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.166 automatic empty zone: 81.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.166 automatic empty zone: 82.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.166 automatic empty zone: 83.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.166 automatic empty zone: 84.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.166 automatic empty zone: 85.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.167 automatic empty zone: 86.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.167 automatic empty zone: 87.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.167 automatic empty zone: 88.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.167 automatic empty zone: 89.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.167 automatic empty zone: 90.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.167 automatic empty zone: 91.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.167 automatic empty zone: 92.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.167 automatic empty zone: 93.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.167 automatic empty zone: 94.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.167 automatic empty zone: 95.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.167 automatic empty zone: 96.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.167 automatic empty zone: 97.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.167 automatic empty zone: 98.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.167 automatic empty zone: 99.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.167 automatic empty zone: 100.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.167 automatic empty zone: 101.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.168 automatic empty zone: 102.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.168 automatic empty zone: 103.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.168 automatic empty zone: 104.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.168 automatic empty zone: 105.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.168 automatic empty zone: 106.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.168 automatic empty zone: 107.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.168 automatic empty zone: 108.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.168 automatic empty zone: 109.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.168 automatic empty zone: 110.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.168 automatic empty zone: 111.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.168 automatic empty zone: 112.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.168 automatic empty zone: 113.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.168 automatic empty zone: 114.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.168 automatic empty zone: 115.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.168 automatic empty zone: 116.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.168 automatic empty zone: 117.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.169 automatic empty zone: 118.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.169 automatic empty zone: 119.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.169 automatic empty zone: 120.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.169 automatic empty zone: 121.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.169 automatic empty zone: 122.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.169 automatic empty zone: 123.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.169 automatic empty zone: 124.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.169 automatic empty zone: 125.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.169 automatic empty zone: 126.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.169 automatic empty zone: 127.100.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.169 automatic empty zone: 0.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.169 automatic empty zone: 127.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.169 automatic empty zone: 254.169.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.169 automatic empty zone: 2.0.192.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.169 automatic empty zone: 100.51.198.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.169 automatic empty zone: 113.0.203.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.169 automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+22-Sep-2014 23:54:42.170 automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+22-Sep-2014 23:54:42.170 automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+22-Sep-2014 23:54:42.170 automatic empty zone: D.F.IP6.ARPA
+22-Sep-2014 23:54:42.170 automatic empty zone: 8.E.F.IP6.ARPA
+22-Sep-2014 23:54:42.170 automatic empty zone: 9.E.F.IP6.ARPA
+22-Sep-2014 23:54:42.170 automatic empty zone: A.E.F.IP6.ARPA
+22-Sep-2014 23:54:42.170 automatic empty zone: B.E.F.IP6.ARPA
+22-Sep-2014 23:54:42.170 automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+22-Sep-2014 23:54:42.170 zone_settimer: zone version.bind/CH: enter
+22-Sep-2014 23:54:42.170 zone_settimer: zone hostname.bind/CH: enter
+22-Sep-2014 23:54:42.170 zone_settimer: zone authors.bind/CH: enter
+22-Sep-2014 23:54:42.170 zone_settimer: zone id.server/CH: enter
+22-Sep-2014 23:54:42.173 /usr/local/etc/bind/named.conf:4: couldn't add command channel 127.0.0.1#953: address in use
+22-Sep-2014 23:55:07.565 starting BIND 9.10.0-P2 -d 2
+22-Sep-2014 23:55:07.565 built with '--prefix=/usr/local' '--sysconfdir=/usr/local/etc/bind' '--with-openssl' '--localstatedir=/var/run'
+22-Sep-2014 23:55:07.565 ----------------------------------------------------
+22-Sep-2014 23:55:07.565 BIND 9 is maintained by Internet Systems Consortium,
+22-Sep-2014 23:55:07.565 Inc. (ISC), a non-profit 501(c)(3) public-benefit 
+22-Sep-2014 23:55:07.565 corporation.  Support and training for BIND 9 are 
+22-Sep-2014 23:55:07.565 available at https://www.isc.org/support
+22-Sep-2014 23:55:07.565 ----------------------------------------------------
+22-Sep-2014 23:55:07.565 adjusted limit on open files from 4096 to 1048576
+22-Sep-2014 23:55:07.565 found 8 CPUs, using 8 worker threads
+22-Sep-2014 23:55:07.565 using 4 UDP listeners per interface
+22-Sep-2014 23:55:07.565 using up to 4096 sockets
+22-Sep-2014 23:55:07.565 Registering DLZ_dlopen driver
+22-Sep-2014 23:55:07.566 Registering SDLZ driver 'dlopen'
+22-Sep-2014 23:55:07.566 Registering DLZ driver 'dlopen'
+22-Sep-2014 23:55:07.570 decrement_reference: delete from rbt: 0x7fcb87090148 .
+22-Sep-2014 23:55:07.572 loading configuration from '/usr/local/etc/bind/named.conf'
+22-Sep-2014 23:55:07.573 reading built-in trusted keys from file '/usr/local/etc/bind/bind.keys'
+22-Sep-2014 23:55:07.573 using default UDP/IPv4 port range: [1024, 65535]
+22-Sep-2014 23:55:07.573 using default UDP/IPv6 port range: [1024, 65535]
+22-Sep-2014 23:55:07.574 listening on IPv6 interfaces, port 53
+22-Sep-2014 23:55:07.575 listening on IPv4 interface lo, 127.0.0.1#53
+22-Sep-2014 23:55:07.576 listening on IPv4 interface em1, 145.100.104.62#53
+22-Sep-2014 23:55:07.577 generating session key for dynamic DNS
+22-Sep-2014 23:55:07.577 sizing zone task pool based on 2 zones
+22-Sep-2014 23:55:07.578 decrement_reference: delete from rbt: 0x7fcb80f4f078 .
+22-Sep-2014 23:55:07.578 zone_settimer: zone 0.0.127.in-addr.arpa/IN: enter
+22-Sep-2014 23:55:07.580 set up managed keys zone for view _default, file 'managed-keys.bind'
+22-Sep-2014 23:55:07.581 automatic empty zone: 10.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.581 automatic empty zone: 16.172.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.581 automatic empty zone: 17.172.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.581 automatic empty zone: 18.172.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.581 automatic empty zone: 19.172.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.581 automatic empty zone: 20.172.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.581 automatic empty zone: 21.172.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.581 automatic empty zone: 22.172.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.581 automatic empty zone: 23.172.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.581 automatic empty zone: 24.172.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.581 automatic empty zone: 25.172.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.581 automatic empty zone: 26.172.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.581 automatic empty zone: 27.172.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.581 automatic empty zone: 28.172.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.581 automatic empty zone: 29.172.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.581 automatic empty zone: 30.172.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.581 automatic empty zone: 31.172.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.581 automatic empty zone: 168.192.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.581 automatic empty zone: 64.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.581 automatic empty zone: 65.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.581 automatic empty zone: 66.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.581 automatic empty zone: 67.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.581 automatic empty zone: 68.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.581 automatic empty zone: 69.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.582 automatic empty zone: 70.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.582 automatic empty zone: 71.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.582 automatic empty zone: 72.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.582 automatic empty zone: 73.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.582 automatic empty zone: 74.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.582 automatic empty zone: 75.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.582 automatic empty zone: 76.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.582 automatic empty zone: 77.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.582 automatic empty zone: 78.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.582 automatic empty zone: 79.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.582 automatic empty zone: 80.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.582 automatic empty zone: 81.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.582 automatic empty zone: 82.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.582 automatic empty zone: 83.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.582 automatic empty zone: 84.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.582 automatic empty zone: 85.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.582 automatic empty zone: 86.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.582 automatic empty zone: 87.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.582 automatic empty zone: 88.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.582 automatic empty zone: 89.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.582 automatic empty zone: 90.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.582 automatic empty zone: 91.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.582 automatic empty zone: 92.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.582 automatic empty zone: 93.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.582 automatic empty zone: 94.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.582 automatic empty zone: 95.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.583 automatic empty zone: 96.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.583 automatic empty zone: 97.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.583 automatic empty zone: 98.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.583 automatic empty zone: 99.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.583 automatic empty zone: 100.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.583 automatic empty zone: 101.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.583 automatic empty zone: 102.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.583 automatic empty zone: 103.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.583 automatic empty zone: 104.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.583 automatic empty zone: 105.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.583 automatic empty zone: 106.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.583 automatic empty zone: 107.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.583 automatic empty zone: 108.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.583 automatic empty zone: 109.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.583 automatic empty zone: 110.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.583 automatic empty zone: 111.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.583 automatic empty zone: 112.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.583 automatic empty zone: 113.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.583 automatic empty zone: 114.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.583 automatic empty zone: 115.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.583 automatic empty zone: 116.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.583 automatic empty zone: 117.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.583 automatic empty zone: 118.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.583 automatic empty zone: 119.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.583 automatic empty zone: 120.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.583 automatic empty zone: 121.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.584 automatic empty zone: 122.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.584 automatic empty zone: 123.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.584 automatic empty zone: 124.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.584 automatic empty zone: 125.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.584 automatic empty zone: 126.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.584 automatic empty zone: 127.100.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.584 automatic empty zone: 0.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.584 automatic empty zone: 127.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.584 automatic empty zone: 254.169.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.584 automatic empty zone: 2.0.192.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.584 automatic empty zone: 100.51.198.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.584 automatic empty zone: 113.0.203.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.584 automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+22-Sep-2014 23:55:07.584 automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+22-Sep-2014 23:55:07.584 automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+22-Sep-2014 23:55:07.584 automatic empty zone: D.F.IP6.ARPA
+22-Sep-2014 23:55:07.584 automatic empty zone: 8.E.F.IP6.ARPA
+22-Sep-2014 23:55:07.584 automatic empty zone: 9.E.F.IP6.ARPA
+22-Sep-2014 23:55:07.584 automatic empty zone: A.E.F.IP6.ARPA
+22-Sep-2014 23:55:07.584 automatic empty zone: B.E.F.IP6.ARPA
+22-Sep-2014 23:55:07.584 automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+22-Sep-2014 23:55:07.584 zone_settimer: zone version.bind/CH: enter
+22-Sep-2014 23:55:07.584 zone_settimer: zone hostname.bind/CH: enter
+22-Sep-2014 23:55:07.585 zone_settimer: zone authors.bind/CH: enter
+22-Sep-2014 23:55:07.585 zone_settimer: zone id.server/CH: enter
+22-Sep-2014 23:55:07.587 command channel listening on 127.0.0.1#953
+23-Sep-2014 14:47:45.160 starting BIND 9.10.0-P2 -d 2
+23-Sep-2014 14:47:45.160 built with '--prefix=/usr/local' '--sysconfdir=/usr/local/etc/bind' '--with-openssl' '--localstatedir=/var/run'
+23-Sep-2014 14:47:45.160 ----------------------------------------------------
+23-Sep-2014 14:47:45.160 BIND 9 is maintained by Internet Systems Consortium,
+23-Sep-2014 14:47:45.160 Inc. (ISC), a non-profit 501(c)(3) public-benefit 
+23-Sep-2014 14:47:45.160 corporation.  Support and training for BIND 9 are 
+23-Sep-2014 14:47:45.160 available at https://www.isc.org/support
+23-Sep-2014 14:47:45.160 ----------------------------------------------------
+23-Sep-2014 14:47:45.160 adjusted limit on open files from 4096 to 1048576
+23-Sep-2014 14:47:45.160 found 8 CPUs, using 8 worker threads
+23-Sep-2014 14:47:45.160 using 4 UDP listeners per interface
+23-Sep-2014 14:47:45.161 using up to 4096 sockets
+23-Sep-2014 14:47:45.161 Registering DLZ_dlopen driver
+23-Sep-2014 14:47:45.161 Registering SDLZ driver 'dlopen'
+23-Sep-2014 14:47:45.161 Registering DLZ driver 'dlopen'
+23-Sep-2014 14:47:45.165 decrement_reference: delete from rbt: 0x7f6fa74b5148 .
+23-Sep-2014 14:47:45.167 loading configuration from '/usr/local/etc/bind/named.conf'
+23-Sep-2014 14:47:45.168 reading built-in trusted keys from file '/usr/local/etc/bind/bind.keys'
+23-Sep-2014 14:47:45.168 using default UDP/IPv4 port range: [1024, 65535]
+23-Sep-2014 14:47:45.168 using default UDP/IPv6 port range: [1024, 65535]
+23-Sep-2014 14:47:45.169 listening on IPv6 interfaces, port 53
+23-Sep-2014 14:47:45.170 listening on IPv4 interface lo, 127.0.0.1#53
+23-Sep-2014 14:47:45.171 listening on IPv4 interface em1, 145.100.104.62#53
+23-Sep-2014 14:47:45.172 generating session key for dynamic DNS
+23-Sep-2014 14:47:45.172 sizing zone task pool based on 2 zones
+23-Sep-2014 14:47:45.173 decrement_reference: delete from rbt: 0x7f6fa1374078 .
+23-Sep-2014 14:47:45.173 zone_settimer: zone 0.0.127.in-addr.arpa/IN: enter
+23-Sep-2014 14:47:45.176 set up managed keys zone for view _default, file 'managed-keys.bind'
+23-Sep-2014 14:47:45.176 automatic empty zone: 10.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.176 automatic empty zone: 16.172.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.176 automatic empty zone: 17.172.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.176 automatic empty zone: 18.172.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.176 automatic empty zone: 19.172.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.176 automatic empty zone: 20.172.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.176 automatic empty zone: 21.172.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.176 automatic empty zone: 22.172.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.176 automatic empty zone: 23.172.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.176 automatic empty zone: 24.172.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.176 automatic empty zone: 25.172.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.176 automatic empty zone: 26.172.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.176 automatic empty zone: 27.172.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.176 automatic empty zone: 28.172.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.176 automatic empty zone: 29.172.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.176 automatic empty zone: 30.172.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.176 automatic empty zone: 31.172.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.176 automatic empty zone: 168.192.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.176 automatic empty zone: 64.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.177 automatic empty zone: 65.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.177 automatic empty zone: 66.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.177 automatic empty zone: 67.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.177 automatic empty zone: 68.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.177 automatic empty zone: 69.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.177 automatic empty zone: 70.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.177 automatic empty zone: 71.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.177 automatic empty zone: 72.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.177 automatic empty zone: 73.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.177 automatic empty zone: 74.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.177 automatic empty zone: 75.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.177 automatic empty zone: 76.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.177 automatic empty zone: 77.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.177 automatic empty zone: 78.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.177 automatic empty zone: 79.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.177 automatic empty zone: 80.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.177 automatic empty zone: 81.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.177 automatic empty zone: 82.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.177 automatic empty zone: 83.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.177 automatic empty zone: 84.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.177 automatic empty zone: 85.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.177 automatic empty zone: 86.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.177 automatic empty zone: 87.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.177 automatic empty zone: 88.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.177 automatic empty zone: 89.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.177 automatic empty zone: 90.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.178 automatic empty zone: 91.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.178 automatic empty zone: 92.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.178 automatic empty zone: 93.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.178 automatic empty zone: 94.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.178 automatic empty zone: 95.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.178 automatic empty zone: 96.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.178 automatic empty zone: 97.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.178 automatic empty zone: 98.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.178 automatic empty zone: 99.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.178 automatic empty zone: 100.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.178 automatic empty zone: 101.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.178 automatic empty zone: 102.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.178 automatic empty zone: 103.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.178 automatic empty zone: 104.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.178 automatic empty zone: 105.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.178 automatic empty zone: 106.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.178 automatic empty zone: 107.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.178 automatic empty zone: 108.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.178 automatic empty zone: 109.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.178 automatic empty zone: 110.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.178 automatic empty zone: 111.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.178 automatic empty zone: 112.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.178 automatic empty zone: 113.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.178 automatic empty zone: 114.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.178 automatic empty zone: 115.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.178 automatic empty zone: 116.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.179 automatic empty zone: 117.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.179 automatic empty zone: 118.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.179 automatic empty zone: 119.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.179 automatic empty zone: 120.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.179 automatic empty zone: 121.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.179 automatic empty zone: 122.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.179 automatic empty zone: 123.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.179 automatic empty zone: 124.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.179 automatic empty zone: 125.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.179 automatic empty zone: 126.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.179 automatic empty zone: 127.100.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.179 automatic empty zone: 0.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.179 automatic empty zone: 127.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.179 automatic empty zone: 254.169.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.179 automatic empty zone: 2.0.192.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.179 automatic empty zone: 100.51.198.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.179 automatic empty zone: 113.0.203.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.179 automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+23-Sep-2014 14:47:45.179 automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+23-Sep-2014 14:47:45.179 automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+23-Sep-2014 14:47:45.179 automatic empty zone: D.F.IP6.ARPA
+23-Sep-2014 14:47:45.179 automatic empty zone: 8.E.F.IP6.ARPA
+23-Sep-2014 14:47:45.179 automatic empty zone: 9.E.F.IP6.ARPA
+23-Sep-2014 14:47:45.179 automatic empty zone: A.E.F.IP6.ARPA
+23-Sep-2014 14:47:45.180 automatic empty zone: B.E.F.IP6.ARPA
+23-Sep-2014 14:47:45.180 automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+23-Sep-2014 14:47:45.180 zone_settimer: zone version.bind/CH: enter
+23-Sep-2014 14:47:45.180 zone_settimer: zone hostname.bind/CH: enter
+23-Sep-2014 14:47:45.180 zone_settimer: zone authors.bind/CH: enter
+23-Sep-2014 14:47:45.180 zone_settimer: zone id.server/CH: enter
+23-Sep-2014 14:47:45.182 command channel listening on 127.0.0.1#953

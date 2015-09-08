@@ -1,0 +1,4 @@
+dig +dnssec DNSKEY paris.derby.practicum.os3.nl @dns1.serv.os3.nl
+dig +dnssec DNSKEY paris.derby.practicum.os3.nl @ns1.warsaw.practicum.os3.nl
+snmpwalk -v 2c -c public -M+. 145.100.106.130:5555 ARPA2-Experimental-DNSSEC-MIBv1::arpa2experimentaldnssecMIBv1 -On
+

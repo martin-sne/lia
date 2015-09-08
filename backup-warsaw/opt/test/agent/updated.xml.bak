@@ -1,0 +1,160 @@
+<ZoneList>
+  <Zone id="1" name="warsaw.practicum.os3.nl">
+    <table name="dnssecZoneGlobalTable">
+      <item>
+        <data id="2" name="dnssecZoneGlobalOrigin" type="OctetString"> </data>
+      </item>
+      <item>
+        <data id="3" name="dnssecZoneGlobalRecordCount" type="Unsigned32"> </data>
+      </item>
+      <item>
+        <data id="4" name="dnssecZoneGlobalRecordSetCount" type="Unsigned32"> </data>
+      </item>
+      <item>
+        <data id="5" name="dnssecZoneGlobalDelegationCount" type="Unsigned32"> </data>
+      </item>
+      <item>
+        <data id="6" name="dnssecZoneGlobalDNSKEYSignatureVerification" type="Integer32"> </data>
+      </item>
+      <item>
+        <data id="7" name="dnssecZoneGlobalDSMatchesDNSKEY" type="Integer32"> </data>
+      </item>
+      <item>
+        <data id="8" name="dnssecZoneGlobalAuthNSCount" type="Unsigned32"> </data>
+      </item>
+      <item>
+        <data id="9" name="dnssecZoneGlobalMinimumTTL" type="Integer32"> </data>
+      </item>
+      <item>
+        <data id="10" name="dnssecZoneGlobalSOATTL" type="Integer32"> </data>
+      </item>
+      <item>
+        <data id="11" name="dnssecZoneGlobalSOA" type="DisplayString"> </data>
+      </item>
+    </table>
+    <table name="dnssecZoneAuthNSTable">
+      <item>
+        <data id="2" name="dnssecZoneAuthNSName" type="OctetString"> </data>
+      </item>
+    </table>
+    <table name="dnssecZoneSigTable">
+      <item>
+        <data id="2" name="dnssecZoneSigOldestSignatureTime" type="DisplayString">"20150105155745"</data>
+      </item>
+      <item>
+        <data id="3" name="dnssecZoneSigSOASignatureExpirationTime" type="DisplayString">"20161212121212"</data>
+      </item>
+      <item>
+        <data id="4" name="dnssecZoneSigNSSignatureExpirationTime" type="DisplayString">"20161212121212"</data>
+      </item>
+      <item>
+        <data id="5" name="dnssecZoneSigDNSKEYSignatureExpirationTime" type="DisplayString">"20161212121212"</data>
+      </item>
+      <item>
+        <data id="6" name="dnssecZoneSigSignaturesTotal" type="Unsigned32">8</data>
+      </item>
+      <item>
+        <data id="7" name="dnssecZoneSigValidationErrors" type="Unsigned32"> </data>
+      </item>
+      <item>
+        <data id="8" name="dnssecZoneSigVerifiedSignatures" type="Unsigned32"> </data>
+      </item>
+    </table>
+    <table name="dnssecZoneDiffTable">
+      <item>
+        <data id="2" name="dnssecZoneDiffSerial" type="Integer32"> </data>
+      </item>
+      <item>
+        <data id="3" name="dnssecZoneDiffKSK" type="Integer32"> </data>
+      </item>
+      <item>
+        <data id="4" name="dnssecZoneDiffZSK" type="Integer32"> </data>
+      </item>
+      <item>
+        <data id="5" name="dnssecZoneDiffRRSIG" type="Integer32"> </data>
+      </item>
+      <item>
+        <data id="6" name="dnssecZoneDiffDS" type="Integer32"> </data>
+      </item>
+    </table>
+  </Zone>
+  <Zone id="2" name="derby.practicum.os3.nl">
+    <table name="dnssecZoneGlobalTable">
+      <item>
+        <data id="2" name="dnssecZoneGlobalOrigin" type="OctetString"> </data>
+      </item>
+      <item>
+        <data id="3" name="dnssecZoneGlobalRecordCount" type="Unsigned32"> </data>
+      </item>
+      <item>
+        <data id="4" name="dnssecZoneGlobalRecordSetCount" type="Unsigned32"> </data>
+      </item>
+      <item>
+        <data id="5" name="dnssecZoneGlobalDelegationCount" type="Unsigned32"> </data>
+      </item>
+      <item>
+        <data id="6" name="dnssecZoneGlobalDNSKEYSignatureVerification" type="Integer32"> </data>
+      </item>
+      <item>
+        <data id="7" name="dnssecZoneGlobalDSMatchesDNSKEY" type="Integer32"> </data>
+      </item>
+      <item>
+        <data id="8" name="dnssecZoneGlobalAuthNSCount" type="Unsigned32"> </data>
+      </item>
+      <item>
+        <data id="9" name="dnssecZoneGlobalMinimumTTL" type="Integer32"> </data>
+      </item>
+      <item>
+        <data id="10" name="dnssecZoneGlobalSOATTL" type="Integer32"> </data>
+      </item>
+      <item>
+        <data id="11" name="dnssecZoneGlobalSOA" type="DisplayString"> </data>
+      </item>
+    </table>
+    <table name="dnssecZoneAuthNSTable">
+      <item>
+        <data id="2" name="dnssecZoneAuthNSName" type="OctetString"> </data>
+      </item>
+    </table>
+    <table name="dnssecZoneSigTable">
+      <item>
+        <data id="2" name="dnssecZoneSigOldestSignatureTime" type="DisplayString">"20150126105808"</data>
+      </item>
+      <item>
+        <data id="3" name="dnssecZoneSigSOASignatureExpirationTime" type="DisplayString">"20150225105808"</data>
+      </item>
+      <item>
+        <data id="4" name="dnssecZoneSigNSSignatureExpirationTime" type="DisplayString">"20150225105808"</data>
+      </item>
+      <item>
+        <data id="5" name="dnssecZoneSigDNSKEYSignatureExpirationTime" type="DisplayString">"20150225105808"</data>
+      </item>
+      <item>
+        <data id="6" name="dnssecZoneSigSignaturesTotal" type="Unsigned32">9</data>
+      </item>
+      <item>
+        <data id="7" name="dnssecZoneSigValidationErrors" type="Unsigned32"> </data>
+      </item>
+      <item>
+        <data id="8" name="dnssecZoneSigVerifiedSignatures" type="Unsigned32"> </data>
+      </item>
+    </table>
+    <table name="dnssecZoneDiffTable">
+      <item>
+        <data id="2" name="dnssecZoneDiffSerial" type="Integer32"> </data>
+      </item>
+      <item>
+        <data id="3" name="dnssecZoneDiffKSK" type="Integer32"> </data>
+      </item>
+      <item>
+        <data id="4" name="dnssecZoneDiffZSK" type="Integer32"> </data>
+      </item>
+      <item>
+        <data id="5" name="dnssecZoneDiffRRSIG" type="Integer32"> </data>
+      </item>
+      <item>
+        <data id="6" name="dnssecZoneDiffDS" type="Integer32"> </data>
+      </item>
+    </table>
+  </Zone>
+</ZoneList>
